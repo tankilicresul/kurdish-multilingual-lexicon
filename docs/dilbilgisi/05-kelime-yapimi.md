@@ -83,6 +83,38 @@ Bazı ettirgenler ayrı kökten gelir: *ketin* (düşmek) → *xistin* (düşür
 - **Sıfat + isim (bahuvrihi):** *dilxweş* (mutlu, "kalbi hoş"), *serbilind* (onurlu, "başı yüksek").
 - **İsim + şimdiki gövde:** *nivîskar* (yazar), *xwendekar* (öğrenci) < *xwend-* + *-ekar*; *ziman-zan* (dilbilimci, "dil bilen").
 
+## Glosslu örnekler
+Gösterim ve kısaltmalar: [0.4–0.5](00-giris-ve-yontem.md#04-örneklerin-gösterimi-leipzig-glossing-kuralları).
+
+
+```
+(18) Ez       ve-di-k-im.
+     1SG.DIR  PV-IPFV-do.PRS-1SG
+     'Açıyorum.'
+```
+*di-* ön fiil ile gövde arasına girer (§5.2). *vekirin* 'açmak' sözcükleşmiş bir birimdir; gövde burada etimolojik anlamıyla (*kirin* 'yapmak') glosslandı.
+
+```
+(19) Ez       ji    te       hez   di-k-im.
+     1SG.DIR  from  2SG.OBL  love  IPFV-do.PRS-1SG
+     'Seni seviyorum.'
+```
+Hafif fiil yapısı (light verb construction): isim + *kirin* (§5.3).
+
+```
+(20) Min      ji    te       hez   kir.
+     1SG.OBL  from  2SG.OBL  love  do.PST(3SG)
+     'Seni sevdim.'
+```
+*kirin* geçişli olduğu için geçmişte ergatif yapı.
+
+```
+(21) Nan    hat            xwar-in.
+     bread  come.PST(3SG)  eat.PST-INF
+     'Ekmek yendi.'
+```
+Edilgen: *hatin* + mastar (§5.4).
+
 ## Depodaki ilgili veri
 - Ekler ve hangi kelimelerde geçtikleri: [`affixes.tsv`](../../data/kmr/db/affixes.tsv)
 - Fiil kökleri ve ön fiilli türevleri: [`verb-roots.tsv`](../../data/kmr/db/verb-roots.tsv)

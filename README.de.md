@@ -5,7 +5,7 @@ Kurmandschi · Sorani · Südkurdisch · Zazaki (+ Gorani/Hewrami)
 
 [Türkçe](README.md) · [English](README.en.md) · **Deutsch** · [Kurmancî](README.ku.md)
 
-> ⚠️ **STATUS: ENTWURF (v0.3), noch nicht von Muttersprachlern geprüft.**
+> ⚠️ **STATUS: ENTWURF (v0.4), noch nicht von Muttersprachlern geprüft.**
 > Alle Daten wurden automatisch aus offenen Quellen (Wiktionary, Wikipedia) zusammengestellt. Jede Zeile trägt `review_status = unverified`.
 
 Ein offen lizenzierter Wortschatz mit Quellenangabe in jeder Zeile sowie Werkzeuge für alle, die Spiele, Apps, Lehrmaterial oder Sprachtechnologie auf Kurdisch entwickeln.
@@ -22,7 +22,8 @@ Ein offen lizenzierter Wortschatz mit Quellenangabe in jeder Zeile sowie Werkzeu
 | Die zuverlässigsten Paare (von zwei unabhängigen Wiktionary-Ausgaben bestätigt) | `data/core/` |
 | Worthäufigkeit aus kurdischen Wikipedias | `data/frequency/` |
 | Alphabete und Bildschirmtastaturen (JSON) | `data/alphabets/` |
-| **Kurmancî-Grammatik** (auf Türkisch; 8 Kapitel, Tabellen, Test mit Lösungen) | `docs/dilbilgisi/` |
+| **Akademische Standards:** CLDF-Dictionary-Export, UD- und UniMorph-Merkmale, ISO 639-3 + Glottocodes, Grammatik mit Leipzig-Glossierung, Evaluation gegen UniMorph und UD-Kurmanji-Baumbank, Datasheet | `cldf/`, `docs/standartlar.md`, `DATASHEET.md` |
+| **Deskriptive Referenzgrammatik des Kurmancî** (auf Türkisch; Leipzig-glossierte Beispiele, WALS-Profil) | `docs/dilbilgisi/` |
 | **Ist ein Wort ererbt oder entlehnt?** Herkunftsklasse, Quellsprache, Weg, Beleg, Konfidenz (156.000 Einträge) | `data/kmr/db/etymology-class.tsv` · `docs/etimoloji.md` |
 | Vollständige Verbkonjugation für 3.982 Verben | `data/kmr/db/verb-paradigms.jsonl.gz` |
 | **Linguistische Datenbank:** Wortart, Genus, Definitionen, Beispiele, Etymologie, Morphemzerlegung, IPA, Silbentrennung | `data/kmr/db/lemmas.tsv` (158.000 Lemmata) |

@@ -29,6 +29,11 @@ python3 scripts/derive.py data               # multilingual, learner, themes, ga
 python3 scripts/build_db.py raw data         # dilbilimsel veritabanı (data/*/db/)
 python3 scripts/etymology_classify.py        # köken sınıfları (data/kmr/db/etymology-class.tsv)
 python3 scripts/paradigms.py                 # fiil gövdeleri, çekimler, docs/dilbilgisi/paradigmalar.md
+pip install pycldf                            # CLDF için
+python3 scripts/standards.py                 # UD/UniMorph sütunları, data/*/unimorph/, cldf/
+cldf validate cldf/Dictionary-metadata.json
+# değerlendirme (dış kaynaklar ext/ klasörüne indirilir): bkz. docs/degerlendirme.md
+python3 scripts/evaluate.py ext
 
 # 4) Kontrol
 python3 scripts/validate.py data

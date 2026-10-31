@@ -78,5 +78,28 @@ Soru kelimesi cümlede sorduğu ögenin yerinde kalır. Türkçede de durum ayn�
 | *Spas / Gelek spas.* | Teşekkürler / Çok teşekkürler. |
 | *Ji kerema xwe.* | Lütfen. |
 
+## Glosslu örnekler
+Gösterim ve kısaltmalar: [0.4–0.5](00-giris-ve-yontem.md#04-örneklerin-gösterimi-leipzig-glossing-kuralları).
+
+
+```
+(22) Pirtûk-a   ku    min      xwend          baş   bû.
+     book-EZ.F  REL   1SG.OBL  read.PST(3SG)  good  be.PST(3SG)
+     'Okuduğum kitap iyiydi.'
+```
+İlgi cümlesi izafetle ana isme bağlanır (§6.4).
+
+```
+(23) Ez       di-zan-im          ku    tu       rast  di-bêj-î.
+     1SG.DIR  IPFV-know.PRS-1SG  COMP  2SG.DIR  true  IPFV-say.PRS-2SG
+     'Doğru söylediğini biliyorum.'
+```
+
+```
+(24) Ez       jî   di-ç-im.
+     1SG.DIR  ADD  IPFV-go.PRS-1SG
+     'Ben de gidiyorum.'
+```
+
 ## Depodaki ilgili veri
 - 21 binden fazla atasözü ve deyim (gerçek cümle örneği olarak): [`proverbs-idioms.tsv`](../../data/kmr/db/proverbs-idioms.tsv)

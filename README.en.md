@@ -5,7 +5,7 @@ Kurmanji · Sorani · Southern Kurdish · Zazaki (+ Gorani/Hewrami)
 
 [Türkçe](README.md) · **English** · [Deutsch](README.de.md) · [Kurmancî](README.ku.md)
 
-> ⚠️ **STATUS: DRAFT (v0.3), not yet reviewed by native speakers.**
+> ⚠️ **STATUS: DRAFT (v0.4), not yet reviewed by native speakers.**
 > All data was compiled automatically from open sources (Wiktionary, Wikipedia). Every row carries `review_status = unverified`. See [KONTROL.md](KONTROL.md) (review process, Turkish) and [CONTRIBUTING.md](CONTRIBUTING.md).
 
 An openly licensed, source-traceable lexicon and toolkit for anyone building games, apps, teaching material or language technology in Kurdish.
@@ -23,7 +23,8 @@ An openly licensed, source-traceable lexicon and toolkit for anyone building gam
 | Word frequency from Kurdish Wikipedias | `data/frequency/` (Kurmanji, Sorani, Zazaki; 50k each) |
 | Alphabets, letter tables, on-screen keyboard layouts (JSON) | `data/alphabets/` |
 | Code: correct Kurdish casing, Hawar alphabet sorting, typing fixes | `tools/python/kurdi.py`, `tools/js/kurdi.js` |
-| **Kurmanji grammar book** (in Turkish; 8 chapters, tables, 30-question test with answer key) | `docs/dilbilgisi/` |
+| **Academic standards:** CLDF Dictionary export (validated), UD and UniMorph feature columns, ISO 639-3 + Glottocodes, Leipzig-glossed reference grammar, evaluation against UniMorph and the UD Kurmanji treebank, datasheet | `cldf/`, `docs/standartlar.md`, `docs/degerlendirme-sonuclari.md`, `DATASHEET.md` |
+| **Descriptive reference grammar of Kurmanji** (in Turkish; Leipzig-glossed examples, WALS typological profile, TR/KU/EN terminology); exercises in `docs/ogretim/` | `docs/dilbilgisi/` |
 | **Is a word native Kurdish or borrowed?** Etymology class (inherited / internal / borrowed / Iranian loan / onomatopoeic), source language, path, evidence, confidence for 156k entries | `data/kmr/db/etymology-class.tsv` · `docs/etimoloji.md` |
 | Full verb conjugation (9 tenses × 6 persons, negatives, imperative) for 3,982 verbs | `data/kmr/db/verb-paradigms.jsonl.gz`, `verb-stems.tsv` |
 | **Linguistic database:** part of speech, gender, definitions, examples, etymology, morpheme segmentation, IPA, hyphenation, synonyms for every lemma | `data/kmr/db/lemmas.tsv` (158k Kurmanji lemmas; also Sorani 7.2k, Zazaki 3.3k, Southern 819, Gorani 167) · `docs/veritabani.md` |

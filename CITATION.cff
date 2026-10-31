@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below and credit the Wiktionary contributors (CC BY-SA 4.0)."
-title: "Ferhenga Pirzimanî – Kurdish Multilingual Lexicon (Kurmanji, Sorani, Southern Kurdish, Zazaki ↔ Turkish, English, German)"
-version: 0.3.0
+title: "Ferhenga Pirzimanî – Kurdish Multilingual Lexicon: dictionary, reference grammar and etymology (Kurmanji, Sorani, Southern Kurdish, Zazaki, Gorani ↔ Turkish, English, German)"
+abstract: "Open lexical database of Kurdish varieties derived from Wiktionary, with UPOS, gender, UD and UniMorph morphological features, inflected forms, rule-generated verb paradigms, etymology classes, translations into Turkish, English and German, a CLDF Dictionary export, and a descriptive reference grammar of Kurmanji (in Turkish) with Leipzig-glossed examples. Evaluated against UniMorph and the UD Kurmanji treebank. Not yet expert-reviewed."
+version: 0.4.0
 date-released: 2026-10-31
 type: dataset
 authors:
@@ -21,6 +22,11 @@ keywords:
   - Turkish
   - German
   - English
+  - CLDF
+  - UniMorph
+  - Universal Dependencies
+  - etymology
+  - reference grammar
 references:
   - type: data
     title: "Wiktionary (ku, en, tr, de editions)"
@@ -32,3 +38,16 @@ references:
     authors:
       - family-names: "Ylonen"
         given-names: "Tatu"
+  - type: data
+    title: "UniMorph kmr (used for evaluation only)"
+    authors:
+      - name: "UniMorph contributors"
+    url: "https://github.com/unimorph/kmr"
+  - type: data
+    title: "UD Northern Kurdish Kurmanji treebank (used for evaluation only)"
+    authors:
+      - family-names: "Gökırmak"
+        given-names: "Memduh"
+      - family-names: "Tyers"
+        given-names: "Francis M."
+    url: "https://github.com/UniversalDependencies/UD_Northern_Kurdish-Kurmanji"

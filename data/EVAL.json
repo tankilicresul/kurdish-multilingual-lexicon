@@ -1,0 +1,85 @@
+{
+ "paradigms_vs_unimorph": {
+  "verbs": 147,
+  "cells": 3872,
+  "match": 2998,
+  "acc": 0.7742768595041323,
+  "by_slot": {
+   "present": {
+    "match": 467,
+    "mismatch": 114
+   },
+   "present_negative": {
+    "match": 532,
+    "mismatch": 56
+   },
+   "subjunctive": {
+    "match": 270,
+    "mismatch": 24
+   },
+   "subjunctive_negative": {
+    "match": 197,
+    "mismatch": 90
+   },
+   "past": {
+    "match": 156,
+    "mismatch": 207
+   },
+   "past_negative": {
+    "match": 145,
+    "mismatch": 218
+   },
+   "past_progressive": {
+    "match": 349,
+    "mismatch": 165
+   },
+   "present_perfect": {
+    "match": 294
+   },
+   "past_perfect": {
+    "match": 588
+   }
+  },
+  "mismatches_by_stem_source": {
+   "data": 150,
+   "curated": 245,
+   "rule-andin": 88,
+   "rule-în": 391
+  },
+  "mismatches_by_category": {
+   "um-final-i": 182,
+   "other": 60,
+   "um-i-orthography": 356,
+   "um-yi-after-consonant": 132,
+   "um-preverb-order": 144
+  },
+  "acc_excluding_unimorph_artifacts": 0.984504132231405
+ },
+ "attested_vs_unimorph": {
+  "ours": 254895,
+  "unimorph": 216370,
+  "overlap": 42110
+ },
+ "ud_kurmanji_mg": {
+  "tokens": 10259,
+  "content_tokens": 8729,
+  "coverage": 0.8271279642570741,
+  "lemma_eval_n": 2975,
+  "lemma_acc": 0.5915966386554622,
+  "pos_eval_n": 8315,
+  "pos_acc": 0.8899579073962718,
+  "pos_single_n": 3991,
+  "pos_single_acc": 0.8922575795539965,
+  "pos_majority_baseline": 0.30727600721587495,
+  "pos_confusions": [
+   "SCONJ → ADV/CCONJ/PRON: 147",
+   "DET → PRON: 134",
+   "ADP → PART/PRON/X: 101",
+   "PART → ADV/NOUN: 95",
+   "VERB → NOUN: 83",
+   "DET → ADV/PRON: 46",
+   "SCONJ → ADV: 35",
+   "ADJ → NOUN: 30"
+  ]
+ }
+}

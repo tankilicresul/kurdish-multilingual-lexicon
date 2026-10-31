@@ -99,6 +99,9 @@ for line in gzip.open('data/kmr/db/lemmas.jsonl.gz', 'rt', encoding='utf-8'):
 
 > Etimoloji tartışmalı bir alandır. Bu metinler Vikisözlük katkıcılarının yazdıklarıdır; akademik kaynakla doğrulanmadan kesin bilgi olarak sunulmamalıdır.
 
+### Standart etiketler
+`forms.tsv.gz` dosyasında Wîkîferheng etiketlerinin (`tags`) yanında **UD** (`ud_feats`, ör. `Case=Acc|Definite=Def|Gender=Fem|Number=Sing`) ve **UniMorph** (`unimorph`, ör. `N;ACC;SG;DEF;FEM`) karşılıkları vardır. Eşleme tablosu: [standartlar.md](standartlar.md#hâl-etiketlerinin-eşlemesi).
+
 ### 4a. Köken sınıfı: `etymology-class.tsv`
 Her madde için tek satırlık özet: miras mı (`inherited`), Kürtçe içinde mi türetilmiş (`internal`), hangi dilden alınmış (`borrowed`, `borrowed-iranian`), yansıma mı (`onomatopoeic`). Ayrıca kaynak dil, dil ailesi, köken yolu (`ar > kmr`), kanıt türü ve güven düzeyi. Yöntem ve sınırlar: [etimoloji.md](etimoloji.md).
 

@@ -1,5 +1,14 @@
 # Değişiklik Günlüğü / Changelog
 
+## v0.4.0 · 31.10.2026 · Akademik standartlar ve değerlendirme (kontrol edilmedi)
+- **CLDF Dictionary** dışa aktarımı (`cldf/`): 169.925 madde, 190.232 anlam, 14.416 örnek; ISO 639-3 ve Glottolog kodlarıyla; `cldf validate` ile doğrulandı
+- `forms.tsv.gz` dosyasına **UD** (`ud_feats`) ve **UniMorph** (`unimorph`) sütunları; `data/<v>/unimorph/` dosyaları (veride geçen 293.013 + kuralla üretilen 143.352 satır)
+- **Nicel değerlendirme** (`scripts/evaluate.py`, `docs/degerlendirme*.md`, `data/EVAL.json`): UniMorph kmr ve UD Kurmanji ağaç bankasına karşı; uyuşmazlık listesi `data/kmr/review/`
+- Dil bilgisi **betimleyici başvuru dil bilgisine** dönüştürüldü: giriş ve yöntem bölümü, WALS tipolojik profili, Leipzig glossing ile 24 numaralı örnek, kısaltma listesi, terim karşılıkları (TR/KU/EN)
+- Alıştırmalar öğretim ekine taşındı (`docs/ogretim/`)
+- `DATASHEET.md` (Datasheets for Datasets / Data Statements), `docs/standartlar.md`, `docs/kaynakca.bib` (BibTeX), `.zenodo.json`, CITATION.cff özeti
+- Düzeltme: *anîn* fiilinin düzensiz şimdiki zaman ve dilek kipi biçimleri (*tînim*, *bînim*)
+
 ## v0.3.0 · 31.10.2026 · Dil bilgisi kitabı ve etimoloji (kontrol edilmedi)
 - `docs/dilbilgisi/`: Türkçe yazılmış Kurmancî dil bilgisi kitabı. 8 bölüm: ses ve yazım, isim/izafet/zamir, sıfat/sayı/edat, fiil (tüm zamanlar, ergatiflik), kelime yapımı, cümle ve soru, lehçe karşılaştırması, 30 soruluk YKS tarzı test ve cevap anahtarı. Örnekler Rastnivîs (mazdek) yazım denetiminden geçirildi.
 - `docs/dilbilgisi/paradigmalar.md`: isim ve fiil çekim tabloları (otomatik)

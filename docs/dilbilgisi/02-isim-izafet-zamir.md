@@ -112,6 +112,50 @@ Kurmancî'de iki temel hâl vardır:
 | *hemû* | hepsi, bütün |
 | *hev* | birbiri: *Em hev dibînin.* (Birbirimizi görüyoruz.) |
 
+## Glosslu örnekler
+Gösterim ve kısaltmalar: [0.4–0.5](00-giris-ve-yontem.md#04-örneklerin-gösterimi-leipzig-glossing-kuralları).
+
+
+```
+(1) mal-a       min
+    house-EZ.F  1SG.OBL
+    'evim'
+```
+İzafet eki ana ismin cinsiyetini taşır (§2.5). Kaynak: BL 1970; Th 2006.
+
+```
+(2) bav-ê        min
+    father-EZ.M  1SG.OBL
+    'babam'
+```
+
+```
+(3) heval-ên      me
+    friend-EZ.PL  1PL.OBL
+    'arkadaşlarımız'
+```
+
+```
+(4) bajar-ek-î      mezin
+    city-INDF-EZ.M  big
+    'büyük bir şehir'
+```
+Belirsizlik eki izafetten önce gelir.
+
+```
+(5) Ez       li  mal-ê        me.
+    1SG.DIR  in  house-OBL.F  COP.1SG
+    'Evdeyim.'
+```
+Ön edattan sonra bükümlü hâl (§2.3).
+
+```
+(6) Ez       di-ç-im          mal-a       xwe.
+    1SG.DIR  IPFV-go.PRS-1SG  house-EZ.F  REFL
+    'Kendi evime gidiyorum.'
+```
+Özneyle aynı kişiye gönderme yapan iyelikte *xwe* (§2.8); hedef fiilden sonra (§6.1).
+
 ## Depodaki ilgili veri
 - İsimlerin bütün çekimli biçimleri (yalın/bükümlü, belirli/belirsiz, izafet, seslenme): [`data/kmr/db/forms.tsv.gz`](../../data/kmr/db/). Örnek: *baran* için 12 biçim.
 - Cinsiyet bilgisi: `lemmas.tsv`, `gender` sütunu.

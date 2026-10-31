@@ -47,7 +47,9 @@ Bu depodaki veri **otomatik** derlendi. Kullanıma açılmadan önce anadil konu
 | data/kmr/db/lemmas.tsv (sözcük türü, cinsiyet) | — | Başlanmadı |
 | data/kmr/db/etymology.tsv | — | Başlanmadı (etimoloji uzmanı gerekir) |
 | data/kmr/db/etymology-class.tsv (önce en sık 5.000 kelime) | — | Başlanmadı (etimoloji uzmanı gerekir; `borrowed-iranian` satırlarına öncelik) |
-| docs/dilbilgisi/*.md (dil bilgisi kitabı) | — | Başlanmadı (Kurmancî öğretmeni ya da dilbilimci) |
+| docs/dilbilgisi/*.md (betimleyici dil bilgisi, glosslu örnekler) | — | Başlanmadı (dilbilimci) |
+| docs/dilbilgisi/terimler.md (Kurmancî terimler) | — | Başlanmadı |
+| data/kmr/review/paradigms-vs-unimorph.tsv (`decision` sütunu: `ours` / `unimorph` / `both` / `neither`) | — | Başlanmadı |
 | docs/dilbilgisi/07-lehce-karsilastirma.md (Soranî/Zazakî örnekleri) | — | Başlanmadı (Soranî ve Zazakî anadil konuşucusu) |
 | data/kmr/db/verb-stems.tsv (şimdiki gövdeler, `rule-*` satırları) | — | Başlanmadı |
 | data/kmr/db/proverbs-idioms.tsv | — | Başlanmadı |

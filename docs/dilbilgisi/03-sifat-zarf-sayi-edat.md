@@ -89,6 +89,24 @@ Edat ile 3. kişi zamiri birleşebilir: *bi* + *wî* → *pê*, *ji* + *wî* →
 ## 3.6 Ünlemler (baneşan)
 *Erê* (evet), *na* (hayır), *belê* (evet, efendim), *wey* (vay), *ax* (ah), *de* (haydi), *aferîn* (aferin), *spas* (teşekkürler), *silav* (selam).
 
+## Glosslu örnekler
+Gösterim ve kısaltmalar: [0.4–0.5](00-giris-ve-yontem.md#04-örneklerin-gösterimi-leipzig-glossing-kuralları).
+
+
+```
+(7) Wan  ji    Mêrdîn-ê      mezin-tir  e.
+    Van  from  Mardin-OBL.F  big-CMPR   COP.3SG
+    'Van, Mardin'den daha büyüktür.'
+```
+Karşılaştırılan öge *ji* ile (§3.1).
+
+```
+(8) Ez       ji    te       re  di-nivîs-im.
+    1SG.DIR  from  2SG.OBL  to  IPFV-write.PRS-1SG
+    'Sana yazıyorum.'
+```
+Çevre edat *ji … re* (§3.4).
+
 ## Depodaki ilgili veri
 - Edatlar, bağlaçlar, ünlemler: `lemmas.tsv`, `upos` sütunu (`ADP`, `CCONJ`, `INTJ`)
 - Sıfatların karşılaştırma ve üstünlük biçimleri: `forms.tsv.gz` (`comparative`, `superlative` etiketleri)

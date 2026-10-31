@@ -1,15 +1,34 @@
 # Ferhenga Pirzimanî · Kurdish Multilingual Lexicon
 
-**Sözlük + Dil Bilgisi + Etimoloji** · Kürtçe ↔ Türkçe · Kürtçe ↔ İngilizce · Kürtçe ↔ Almanca
+**Sözlük veritabanı · Betimleyici dil bilgisi · Etimoloji** · Kürtçe ↔ Türkçe · İngilizce · Almanca
 Kurmancî · Soranî · Güney Kürtçesi · Zazakî (+ Goranî/Hewramî)
 
 [English](README.en.md) · [Deutsch](README.de.md) · [Kurmancî](README.ku.md) · **Türkçe**
 
-> ⚠️ **DURUM: TASLAK (v0.3). İnsan kontrolünden geçmedi.**
+> ⚠️ **DURUM: TASLAK (v0.4). İnsan kontrolünden geçmedi.**
 > Verinin tamamı açık kaynaklardan (Vikisözlük, Vikipedi) otomatik derlendi. Her satırda `review_status = unverified` yazar.
 > Anadil konuşucularının katkısıyla kontrol edilecek: bkz. [KONTROL.md](KONTROL.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Kürtçe ile proje yapmak isteyen geliştiriciler, öğretmenler, çevirmenler ve araştırmacılar için **açık lisanslı, kaynağı her satırda izlenebilen**, dört dilli bir sözlük verisi, Türkçe yazılmış kapsamlı bir **Kurmancî dil bilgisi kitabı**, kelime kökeni (etimoloji) tablosu ve araç seti. Amaç Kürtçe oyun, uygulama, eğitim materyali ve dil teknolojisi üretmeyi kolaylaştırmak.
+Kürtçe ile çalışan araştırmacılar, geliştiriciler, öğretmenler ve çevirmenler için açık lisanslı bir kaynak. Kaynağı her satırda izlenebilir. Uluslararası standartlara bağlıdır:
+- **Sözlük veritabanı:** 5 Kürtçe çeşidi; Türkçe, İngilizce ve Almanca karşılıklar.
+- **CLDF Dictionary** biçiminde dışa aktarım.
+- **UD ve UniMorph** biçimbilim etiketleri.
+- **Betimleyici Kurmancî dil bilgisi:** Türkçe, Leipzig glosslu örneklerle.
+- **Köken sınıflandırması.**
+- **Nicel değerlendirme:** UniMorph ve UD Kurmanji ağaç bankasına karşı.
+
+| Standart | Kullanım | Ayrıntı |
+|---|---|---|
+| ISO 639-3 · Glottolog | dil kimlikleri | [standartlar.md](docs/standartlar.md#dil-kodları) |
+| UD UPOS + özellikler · UniMorph | sözcük türü ve çekim etiketleri | [standartlar.md](docs/standartlar.md) |
+| CLDF Dictionary | sözlüğün makine okunur, doğrulanmış dışa aktarımı | [`cldf/`](cldf/) |
+| Leipzig Glossing Rules · WALS | dil bilgisi örnekleri ve tipolojik profil | [dil bilgisi §0](docs/dilbilgisi/00-giris-ve-yontem.md) |
+| Datasheets for Datasets · FAIR · CFF | veri belgesi, atıf, arşivleme | [DATASHEET.md](DATASHEET.md) · [CITATION.cff](CITATION.cff) |
+
+**Otomatik ölçümler** (insan doğrulaması yok; [yöntem ve sınırlılıklar](docs/degerlendirme.md) · [sonuçlar](docs/degerlendirme-sonuclari.md)):
+- UD Kurmanji ağaç bankası (n = 8.729 sözcük birimi): kelimelerin **%82,7**'si sözlükte bulunuyor.
+- Sözcük türü uyumu: sözlükte tek sözcük türü olan lemmalarda **%89,2** (n = 3.991). En sık etiket taban çizgisi %30,7.
+- Kural tabanlı fiil çekimi, UniMorph kmr ile ham **%77,4** eşleşiyor (147 fiil, 3.872 hücre). Uyuşmazlıkların çoğu ön incelemede UniMorph yazımından kaynaklanıyor görünüyor; bu sınıflandırma uzman kararını bekliyor.
 
 ---
 
@@ -17,7 +36,10 @@ Kürtçe ile proje yapmak isteyen geliştiriciler, öğretmenler, çevirmenler v
 
 | İhtiyacın | Dosya |
 |---|---|
-| **Kurmancî'yi öğrenmek: dil bilgisi kitabı** (YKS tarzı, Türkçe, tablolar, 30 soruluk test ve cevap anahtarı) | [`docs/dilbilgisi/`](docs/dilbilgisi/README.md) |
+| **Betimleyici Kurmancî dil bilgisi** (Türkçe; kaynaklı, Leipzig glosslu örnekler, tipolojik profil, terim karşılıkları) | [`docs/dilbilgisi/`](docs/dilbilgisi/README.md) |
+| Öğretim materyali (alıştırmalar ve cevap anahtarı) | [`docs/ogretim/`](docs/ogretim/README.md) |
+| **Sözlüğü CLDF olarak** (pycldf, R, CLLD uygulamaları) | [`cldf/`](cldf/) |
+| Çekim verisini **UniMorph** biçiminde (biçimbilim modelleri için) | [`data/kmr/unimorph/`](data/kmr/unimorph/) |
 | **Bir kelime Kürtçe mi, nereden gelmiş?** Miras / iç türetme / alıntı (hangi dilden, hangi yoldan) / yansıma | [`data/kmr/db/etymology-class.tsv`](data/kmr/db/etymology-class.tsv) · [etimoloji rehberi](docs/etimoloji.md) |
 | Fiil çekimleri (9 zaman × 6 kişi, olumsuz, emir) | [`verb-paradigms.jsonl.gz`](data/kmr/db/verb-paradigms.jsonl.gz) (3.982 fiil) · [`verb-stems.tsv`](data/kmr/db/verb-stems.tsv) · [örnek tablolar](docs/dilbilgisi/paradigmalar.md) |
 | Kurmancî kelimenin Türkçe, İngilizce ve Almanca karşılığını tek satırda görmek | [`data/multilingual/kmr-tr-en-de.tsv`](data/multilingual/) (32 bin kelime, sıklık sırasıyla) |
@@ -113,11 +135,15 @@ data/
   alphabets/                               alfabe ve klavye JSON'ları
   lexicon.jsonl.gz                         tüm doğrudan çiftler tek dosyada
   kmr/db/ ckb/db/ zza/db/ sdh/db/ hac/db/  dilbilimsel veritabanı (madde, çekim, etimoloji, ek, kök, atasözü, ses)
-  DB-STATS.json
-docs/dilbilgisi/ Kurmancî dil bilgisi kitabı (8 bölüm + paradigmalar + test)
-docs/            etimoloji · tarih · lehçeler · alfabeler · veritabanı · oyun geliştirici rehberi · sıklık yöntemi
+  kmr/unimorph/                            UniMorph biçiminde çekimler (veride geçen + kuralla üretilen)
+  kmr/review/                              insan kararı bekleyen karşılaştırma listeleri
+  DB-STATS.json · EVAL.json
+cldf/            CLDF Dictionary (entries, senses, examples, languages, sources.bib)
+docs/dilbilgisi/ betimleyici Kurmancî dil bilgisi (§0–7 + terimler + paradigmalar)
+docs/ogretim/    alıştırmalar
+docs/            standartlar · değerlendirme · etimoloji · kaynakca.bib · tarih · lehçeler · alfabeler · veritabanı · oyun geliştirici rehberi · sıklık yöntemi
 tools/           python/kurdi.py · js/kurdi.js · tests/
-scripts/         build · build_db · etymology_classify · paradigms · core · frequency · derive · validate · to_sqlite · filter_de
+scripts/         build · build_db · etymology_classify · paradigms · standards · evaluate · core · frequency · derive · validate · to_sqlite · filter_de
 ```
 
 ## Yeniden üretme
@@ -130,13 +156,14 @@ Bütün veri betiklerle baştan üretilebilir: [`docs/yeniden-uretim.md`](docs/y
 - Sıklık listeleri ansiklopedi metninden çıkarıldı: günlük konuşma kelimeleri olduğundan daha nadir görünür.
 - Köken sınıflandırması otomatiktir: maddelerin %57'sinde kaynakta köken bilgisi yok (`unknown`). Bazı ortak İrani kelimeler yanlışlıkla Farsça alıntı görünür ([ayrıntı](docs/etimoloji.md#6-bilinen-sorunlar)).
 - Fiil çekimleri kuralla üretildi. Yalnızca kalın gösterilen biçimler veride de geçer. Düzensiz fiillerde hata olabilir.
-- Dil bilgisi kitabı standart yazı dilini anlatır. Ağız farkları yalnızca notlarla belirtildi.
+- Dil bilgisi standart yazı dilini anlatır. Ağız farkları yalnızca notlarla belirtildi. Bölümler ikincil bir derlemedir, yeni bir dilbilimsel iddia içermez.
+- Zazakî verisi `zza` makro kodu altındadır. Kirmancki (`kiu`) ve Dimilî (`diq`) ayrımı kaynakta yapılmadığı için korunamadı.
 - Hiçbir satır henüz anadil konuşucusu tarafından kontrol edilmedi.
 
 ## Lisans
 - **Veri ve belgeler** (`data/`, `docs/`): **CC BY-SA 4.0**. Vikisözlük ve Vikipedi'den türetilmiştir. Kullanırken kaynak gösterin, türetilmiş veriyi aynı lisansla paylaşın: [DATA-LICENSE.md](DATA-LICENSE.md)
 - **Kod** (`scripts/`, `tools/`): **MIT**: [LICENSE](LICENSE)
-- Atıf: [CITATION.cff](CITATION.cff)
+- Atıf: [CITATION.cff](CITATION.cff) (GitHub'da "Cite this repository" düğmesi). Kaynakça: [docs/kaynakca.bib](docs/kaynakca.bib)
 
 ## Katkı
 Kürtçenin herhangi bir kolunun anadil konuşucusuysanız en değerli katkı **kontroldür**. Bkz. [CONTRIBUTING.md](CONTRIBUTING.md). Hata bildirmek için *Issues → Düzeltme* şablonunu kullanın.

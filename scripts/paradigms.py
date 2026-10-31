@@ -122,6 +122,14 @@ def conjugate(inf, pres, past):
         out["imperative"] = [imp_sg, imp_pl]
         out["imperative_negative"] = [pv + "me" + pres_core + ("" if pres_core[-1] in VOWELS else "e"),
                                       pv + "me" + pres_core + ("n" if pres_core[-1] in VOWELS else "in")]
+    if inf == "anîn":  # düzensiz: şimdiki zamanda t-, dilek kipinde b- (Thackston 2006)
+        sfx = ["im", "î", "e", "in", "in", "in"]
+        out["present"] = ["tîn" + x for x in sfx]
+        out["present_negative"] = ["nayîn" + x for x in sfx]
+        out["subjunctive"] = ["bîn" + x for x in sfx]
+        out["subjunctive_negative"] = ["neyîn" + x for x in sfx]
+        out["imperative"] = ["bîne", "bînin"]
+        out["imperative_negative"] = ["neyîne", "neyînin"]
     out["future"] = [f"{p} ê {f}" if p != "tu" else f"{p} yê {f}"
                      for p, f in zip(["ez", "tu", "ew", "em", "hûn", "ew"], out["subjunctive"])]
     # geçmiş zamanlar (geçişsiz fiil kişi ekleri; geçişli fiilde ek NESNEYE uyar)

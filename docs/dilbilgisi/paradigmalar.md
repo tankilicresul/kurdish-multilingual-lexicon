@@ -5,7 +5,7 @@
 > Fiil tabloları [4. bölümdeki](04-fiil.md) kurallarla üretilir. **Kalın** biçimler veride de geçer (attested), diğerleri kural çıktısıdır ve kontrol edilmelidir.
 > Geçişli fiillerde geçmiş zaman kişi ekleri **nesneye** uyar (bkz. [ergatiflik](04-fiil.md#47-ergatiflik)); tabloda kişi sütunu bu durumda nesnenin kişisidir.
 
-Toplam: 3,982 fiil için tam çekim, 254,848 biçim; bunların 9,335 tanesi veride de var.
+Toplam: 3,982 fiil için tam çekim, 254,848 biçim; bunların 9,341 tanesi veride de var.
 
 ## İsimler
 

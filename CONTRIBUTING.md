@@ -25,3 +25,6 @@ Dies ist ein Entwurf. Am wertvollsten ist die **Prüfung durch Muttersprachler**
 
 ## Kurmancî (kurt)
 Ev depo reşnivîs e. Alîkariya herî bi qîmet **kontrolkirina** peyvan ji aliyê axêverên zikmakî ve ye. Şaşiyan bi şablona *Düzeltme* ragihîne.
+
+## Kişisel veri ve kaldırma isteği
+`data/*/db/audio.tsv` dosyasında Wikimedia Commons ses kayıtlarının bağlantıları, konuşucunun Commons kullanıcı adı ve beyan ettiği bölge bulunur. Kendi kaydınıza ait bu bilgilerin bu depodan çıkarılmasını istiyorsanız GitHub'da bir *Issue* açın ya da depo sahibine yazın. Satır bir sonraki sürümde kaldırılır. Commons'taki asıl kayıt için Wikimedia'nın kendi süreçleri geçerlidir.

@@ -11,6 +11,8 @@ jobs:
         with: { node-version: '20' }
       - name: Validate data files
         run: python3 scripts/validate.py data
+      - name: Validate CLDF dataset
+        run: pip install pycldf && cldf validate cldf/Dictionary-metadata.json
       - name: Python helper tests
         run: python3 -m unittest tools/tests/test_kurdi.py
       - name: JS helper tests

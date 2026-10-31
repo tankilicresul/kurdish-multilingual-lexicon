@@ -1,6 +1,6 @@
-# 8. Testler (YKS tarzı)
+# Alıştırmalar: Çoktan seçmeli sorular
 
-Her bölümden sorular. Cevap anahtarı en altta.
+> Öğretim eki. [Başvuru dil bilgisinin](../dilbilgisi/README.md) bölümlerine göre düzenlenmiş 30 soru; cevap anahtarı ve ilgili bölüme bağlantı en altta. Sınav hazırlık kitaplarındaki soru biçimi örnek alındı; ölçme-değerlendirme açısından geçerlik çalışması yapılmadı.
 
 ## Ses ve yazım
 **1.** Aşağıdakilerden hangisi Kurmancî alfabesinde **bulunmaz**?
@@ -104,33 +104,33 @@ A) İzafet  B) Ergatiflik  C) Dilbilgisel cinsiyet  D) Olumsuzluk eki  E) Şimdi
 ## Cevap anahtarı
 | Soru | Cevap | Açıklama |
 |---|---|---|
-| 1 | C | ğ Kurmancî'de yoktur. ([1.1](01-ses-ve-yazim.md)) |
-| 2 | B | *i*'nin büyüğü I'dır. ([1.7](01-ses-ve-yazim.md)) |
-| 3 | B | î ([1.2](01-ses-ve-yazim.md)) |
-| 4 | C | *dê* dişil, ünlüyle biter: *-ya*. ([2.5](02-isim-izafet-zamir.md)) |
-| 5 | B | *li*'den sonra dişil bükümlü *-ê*. ([2.3](02-isim-izafet-zamir.md)) |
+| 1 | C | ğ Kurmancî'de yoktur. ([1.1](../dilbilgisi/01-ses-ve-yazim.md)) |
+| 2 | B | *i*'nin büyüğü I'dır. ([1.7](../dilbilgisi/01-ses-ve-yazim.md)) |
+| 3 | B | î ([1.2](../dilbilgisi/01-ses-ve-yazim.md)) |
+| 4 | C | *dê* dişil, ünlüyle biter: *-ya*. ([2.5](../dilbilgisi/02-isim-izafet-zamir.md)) |
+| 5 | B | *li*'den sonra dişil bükümlü *-ê*. ([2.3](../dilbilgisi/02-isim-izafet-zamir.md)) |
 | 6 | C | Çoğul izafet *-ên*. |
-| 7 | C | Dönüşlülük: *xwe*. ([2.8](02-isim-izafet-zamir.md)) |
+| 7 | C | Dönüşlülük: *xwe*. ([2.8](../dilbilgisi/02-isim-izafet-zamir.md)) |
 | 8 | E | *we* = *hûn*'un bükümlü hâli. |
 | 9 | A | Eril belirsiz izafet *-ekî*. |
-| 10 | B | *-tirîn* üstünlük. ([3.1](03-sifat-zarf-sayi-edat.md)) |
-| 11 | A | Onlar önce, *û* ile bağlanır. ([3.3](03-sifat-zarf-sayi-edat.md)) |
-| 12 | B | *ji ... re* ([3.4](03-sifat-zarf-sayi-edat.md)) |
-| 13 | C | *ji ... hez kirin* ([5.3](05-kelime-yapimi.md)) |
-| 14 | B | *dibînim* ([4.2](04-fiil.md)) |
-| 15 | B | Şimdiki zamanda *na-*. ([4.6](04-fiil.md)) |
-| 16 | C | *dê/ê* + dilek; *hatin*'in dilek biçimi *werim*. ([4.5](04-fiil.md)) |
-| 17 | B | Özne bükümlü (*min*), nesne yalın (*tu*), fiil nesneye uyar (*-î*). ([4.7](04-fiil.md#47-ergatiflik)) |
+| 10 | B | *-tirîn* üstünlük. ([3.1](../dilbilgisi/03-sifat-zarf-sayi-edat.md)) |
+| 11 | A | Onlar önce, *û* ile bağlanır. ([3.3](../dilbilgisi/03-sifat-zarf-sayi-edat.md)) |
+| 12 | B | *ji ... re* ([3.4](../dilbilgisi/03-sifat-zarf-sayi-edat.md)) |
+| 13 | C | *ji ... hez kirin* ([5.3](../dilbilgisi/05-kelime-yapimi.md)) |
+| 14 | B | *dibînim* ([4.2](../dilbilgisi/04-fiil.md)) |
+| 15 | B | Şimdiki zamanda *na-*. ([4.6](../dilbilgisi/04-fiil.md)) |
+| 16 | C | *dê/ê* + dilek; *hatin*'in dilek biçimi *werim*. ([4.5](../dilbilgisi/04-fiil.md)) |
+| 17 | B | Özne bükümlü (*min*), nesne yalın (*tu*), fiil nesneye uyar (*-î*). ([4.7](../dilbilgisi/04-fiil.md#47-ergatiflik)) |
 | 18 | C | *çûn* geçişsizdir. |
 | 19 | B | Olumsuz emir *me-*. |
 | 20 | C | *zanîn* ve *karîn* olumsuzda *ni-* alır. |
 | 21 | C | Miş'li geçmişin hikâyesi *-ibû*. |
-| 22 | B | *divê*'den sonra dilek kipi. ([4.8](04-fiil.md)) |
-| 23 | B | *hatin* + mastar; geçmiş zaman. ([5.4](05-kelime-yapimi.md)) |
-| 24 | B | *-andin* ([5.5](05-kelime-yapimi.md)) |
-| 25 | B | *di-* ön fiilden sonra girer. ([5.2](05-kelime-yapimi.md)) |
+| 22 | B | *divê*'den sonra dilek kipi. ([4.8](../dilbilgisi/04-fiil.md)) |
+| 23 | B | *hatin* + mastar; geçmiş zaman. ([5.4](../dilbilgisi/05-kelime-yapimi.md)) |
+| 24 | B | *-andin* ([5.5](../dilbilgisi/05-kelime-yapimi.md)) |
+| 25 | B | *di-* ön fiilden sonra girer. ([5.2](../dilbilgisi/05-kelime-yapimi.md)) |
 | 26 | B | *bê-* + *kar*. |
-| 27 | C | *li ku* ([6.3](06-cumle-ve-soru.md)) |
-| 28 | A | İzafet + *ku*. ([6.4](06-cumle-ve-soru.md)) |
-| 29 | B | Hedef fiilden sonra. ([6.1](06-cumle-ve-soru.md)) |
-| 30 | C | Soranî'de cinsiyet yoktur. Ergatiflik iki lehçede de vardır. ([7](07-lehce-karsilastirma.md)) |
+| 27 | C | *li ku* ([6.3](../dilbilgisi/06-cumle-ve-soru.md)) |
+| 28 | A | İzafet + *ku*. ([6.4](../dilbilgisi/06-cumle-ve-soru.md)) |
+| 29 | B | Hedef fiilden sonra. ([6.1](../dilbilgisi/06-cumle-ve-soru.md)) |
+| 30 | C | Soranî'de cinsiyet yoktur. Ergatiflik iki lehçede de vardır. ([7](../dilbilgisi/07-lehce-karsilastirma.md)) |

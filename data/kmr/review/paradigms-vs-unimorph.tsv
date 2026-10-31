@@ -1,0 +1,875 @@
+verb	slot	person	ours	unimorph	stem_source	category	decision
+afirandin	past	3sg	afirand	afirandi	data	um-final-i	
+afirandin	past_negative	3sg	neafirand	neafirandi	data	um-final-i	
+afirandin	past_progressive	3sg	diafirand	diafirandi	data	um-final-i	
+ajotin	past	3sg	ajot	ajoti	data	um-final-i	
+ajotin	past_negative	3sg	neajot	neajoti	data	um-final-i	
+ajotin	past_progressive	3sg	diajot	diajoti	data	um-final-i	
+alandin	past	3sg	aland	alandi	data	um-final-i	
+alandin	past_negative	3sg	nealand	nealandi	data	um-final-i	
+alandin	past_progressive	3sg	dialand	dialandi	data	um-final-i	
+anîn	past	2sg	aniyî	anîyî	curated	um-i-orthography	
+anîn	past	pl	anîn	anîin	curated	um-i-orthography	
+anîn	past_negative	2sg	neaniyî	neanîyî	curated	um-i-orthography	
+anîn	past_negative	pl	neanîn	neanîin	curated	um-i-orthography	
+anîn	past_progressive	2sg	dianiyî	dianîyî / dianîî	curated	um-i-orthography	
+anîn	present	1sg	tînim	dianim / dianm	curated	other	
+anîn	present	2sg	tînî	dianyî	curated	other	
+anîn	present	3sg	tîne	dian / diane	curated	other	
+anîn	present	pl	tînin	dianin / diann	curated	other	
+anîn	present_negative	1sg	nayînim	naanim / naanm	curated	other	
+anîn	present_negative	2sg	nayînî	naanyî / naanî	curated	other	
+anîn	present_negative	3sg	nayîne	naan / naane	curated	other	
+anîn	present_negative	pl	nayînin	naanin / naann	curated	other	
+anîn	subjunctive	1sg	bînim	bianim / bianm	curated	other	
+anîn	subjunctive	2sg	bînî	bianyî / bianî	curated	other	
+anîn	subjunctive_negative	1sg	neyînim	neanim / neanm	curated	other	
+anîn	subjunctive_negative	2sg	neyînî	neanyî	curated	other	
+avêtin	past	3sg	avêt	avêti	curated	um-final-i	
+avêtin	past_negative	3sg	neavêt	neavêti	curated	um-final-i	
+avêtin	past_progressive	3sg	diavêt	diavêti	curated	um-final-i	
+barandin	past	3sg	barand	barandi	rule-andin	um-final-i	
+barandin	past_negative	3sg	nebarand	nebarandi	rule-andin	um-final-i	
+barandin	past_progressive	3sg	dibarand	dibarandi	rule-andin	um-final-i	
+beriqîn	past	2sg	beriqiyî	beriqîyî	rule-în	um-i-orthography	
+beriqîn	past	pl	beriqîn	beriqîin	rule-în	um-i-orthography	
+beriqîn	past_negative	2sg	neberiqiyî	neberiqîyî	rule-în	um-i-orthography	
+beriqîn	past_negative	pl	neberiqîn	neberiqîin	rule-în	um-i-orthography	
+beriqîn	past_progressive	2sg	diberiqiyî	diberiqîyî / diberiqîî	rule-în	um-i-orthography	
+beriqîn	present	2sg	diberiqî	diberiqyî	rule-în	um-yi-after-consonant	
+beriqîn	subjunctive_negative	2sg	neberiqî	neberiqyî	rule-în	um-yi-after-consonant	
+bezîn	past	2sg	beziyî	bezîyî	rule-în	um-i-orthography	
+bezîn	past_negative	2sg	nebeziyî	nebezîyî	rule-în	um-i-orthography	
+bezîn	past_progressive	2sg	dibeziyî	dibezîyî	rule-în	um-i-orthography	
+bihorîn	past	2sg	bihoriyî	bihorîyî	rule-în	um-i-orthography	
+bihorîn	past	pl	bihorîn	bihorîin	rule-în	um-i-orthography	
+bihorîn	past_negative	2sg	nebihoriyî	nebihorîyî	rule-în	um-i-orthography	
+bihorîn	past_negative	pl	nebihorîn	nebihorîin	rule-în	um-i-orthography	
+bihorîn	past_progressive	2sg	dibihoriyî	dibihorîyî / dibihorîî	rule-în	um-i-orthography	
+bihorîn	present	2sg	dibihorî	dibihoryî	rule-în	um-yi-after-consonant	
+bihorîn	subjunctive_negative	2sg	nebihorî	nebihoryî	rule-în	um-yi-after-consonant	
+bijiqandin	past	3sg	bijiqand	bijiqandi	rule-andin	um-final-i	
+bijiqandin	past_negative	3sg	nebijiqand	nebijiqandi	rule-andin	um-final-i	
+bijiqandin	past_progressive	3sg	dibijiqand	dibijiqandi	rule-andin	um-final-i	
+birin	past	3sg	bir	biri	curated	um-final-i	
+birin	past_negative	3sg	nebir	nebiri	curated	um-final-i	
+birin	past_progressive	3sg	dibir	dibiri	curated	um-final-i	
+birisqîn	past	2sg	birisqiyî	birisqîyî	rule-în	um-i-orthography	
+birisqîn	past	pl	birisqîn	birisqîin	rule-în	um-i-orthography	
+birisqîn	past_negative	2sg	nebirisqiyî	nebirisqîyî	rule-în	um-i-orthography	
+birisqîn	past_negative	pl	nebirisqîn	nebirisqîin	rule-în	um-i-orthography	
+birisqîn	past_progressive	2sg	dibirisqiyî	dibirisqîyî / dibirisqîî	rule-în	um-i-orthography	
+birisqîn	present	2sg	dibirisqî	dibirisqyî	rule-în	um-yi-after-consonant	
+birisqîn	subjunctive_negative	2sg	nebirisqî	nebirisqyî	rule-în	um-yi-after-consonant	
+birrîn	past	2sg	birriyî	birrîyî	rule-în	um-i-orthography	
+birrîn	past	pl	birrîn	birrîin	rule-în	um-i-orthography	
+birrîn	past_negative	2sg	nebirriyî	nebirrîyî	rule-în	um-i-orthography	
+birrîn	past_negative	pl	nebirrîn	nebirrîin	rule-în	um-i-orthography	
+birrîn	past_progressive	2sg	dibirriyî	dibirrîyî / dibirrîî	rule-în	um-i-orthography	
+birrîn	present	2sg	dibirrî	dibirryî	rule-în	um-yi-after-consonant	
+birrîn	subjunctive_negative	2sg	nebirrî	nebirryî	rule-în	um-yi-after-consonant	
+bizivîn	past	2sg	biziviyî	bizivîyî	rule-în	um-i-orthography	
+bizivîn	past	pl	bizivîn	bizivîin	rule-în	um-i-orthography	
+bizivîn	past_negative	2sg	nebiziviyî	nebizivîyî	rule-în	um-i-orthography	
+bizivîn	past_negative	pl	nebizivîn	nebizivîin	rule-în	um-i-orthography	
+bizivîn	past_progressive	2sg	dibiziviyî	dibizivîyî / dibizivîî	rule-în	um-i-orthography	
+bizivîn	present	2sg	dibizivî	dibizivyî	rule-în	um-yi-after-consonant	
+bizivîn	subjunctive_negative	2sg	nebizivî	nebizivyî	rule-în	um-yi-after-consonant	
+borandin	past	3sg	borand	borandi	data	um-final-i	
+borandin	past_negative	3sg	neborand	neborandi	data	um-final-i	
+borandin	past_progressive	3sg	diborand	diborandi	data	um-final-i	
+borîn	past	2sg	boriyî	borîyî	rule-în	um-i-orthography	
+borîn	past	pl	borîn	borîin	rule-în	um-i-orthography	
+borîn	past_negative	2sg	neboriyî	neborîyî	rule-în	um-i-orthography	
+borîn	past_negative	pl	neborîn	neborîin	rule-în	um-i-orthography	
+borîn	past_progressive	2sg	diboriyî	diborîyî / diborîî	rule-în	um-i-orthography	
+borîn	present	2sg	diborî	diboryî	rule-în	um-yi-after-consonant	
+borîn	subjunctive_negative	2sg	neborî	neboryî	rule-în	um-yi-after-consonant	
+buhirîn	past	2sg	buhiriyî	buhirîyî	rule-în	um-i-orthography	
+buhirîn	past	pl	buhirîn	buhirîin	rule-în	um-i-orthography	
+buhirîn	past_negative	2sg	nebuhiriyî	nebuhirîyî	rule-în	um-i-orthography	
+buhirîn	past_negative	pl	nebuhirîn	nebuhirîin	rule-în	um-i-orthography	
+buhirîn	past_progressive	2sg	dibuhiriyî	dibuhirîyî / dibuhirîî	rule-în	um-i-orthography	
+buhirîn	present	2sg	dibuhirî	dibuhiryî	rule-în	um-yi-after-consonant	
+buhirîn	subjunctive_negative	2sg	nebuhirî	nebuhiryî	rule-în	um-yi-after-consonant	
+ceribandin	past	3sg	ceriband	ceribandi	data	um-final-i	
+ceribandin	past_negative	3sg	neceriband	neceribandi	data	um-final-i	
+ceribandin	past_progressive	3sg	diceriband	diceribandi	data	um-final-i	
+civandin	past	3sg	civand	civandi	rule-andin	um-final-i	
+civandin	past_negative	3sg	necivand	necivandi	rule-andin	um-final-i	
+civandin	past_progressive	3sg	dicivand	dicivandi	rule-andin	um-final-i	
+civîn	past	2sg	civiyî	civîyî	data	um-i-orthography	
+civîn	past	pl	civîn	civîin	data	um-i-orthography	
+civîn	past_negative	2sg	neciviyî	necivîyî	data	um-i-orthography	
+civîn	past_negative	pl	necivîn	necivîin	data	um-i-orthography	
+civîn	past_progressive	2sg	diciviyî	dicivîyî / dicivîî	data	um-i-orthography	
+civîn	present	2sg	dicivî	dicivyî	data	um-yi-after-consonant	
+civîn	subjunctive_negative	2sg	necivî	necivyî	data	um-yi-after-consonant	
+dan	past	pl	dan	dain	curated	other	
+dan	past_negative	pl	nedan	nedain	curated	other	
+dexisîn	past	2sg	dexisiyî	dexisîyî	rule-în	um-i-orthography	
+dexisîn	past	pl	dexisîn	dexisîin	rule-în	um-i-orthography	
+dexisîn	past_negative	2sg	nedexisiyî	nedexisîyî	rule-în	um-i-orthography	
+dexisîn	past_negative	pl	nedexisîn	nedexisîin	rule-în	um-i-orthography	
+dexisîn	past_progressive	2sg	didexisiyî	didexisîyî / didexisîî	rule-în	um-i-orthography	
+dexisîn	present	2sg	didexisî	didexisyî	rule-în	um-yi-after-consonant	
+dexisîn	subjunctive_negative	2sg	nedexisî	nedexisyî	rule-în	um-yi-after-consonant	
+dizîn	past	2sg	diziyî	dizîyî	curated	um-i-orthography	
+dizîn	past_negative	2sg	nediziyî	nedizîyî	curated	um-i-orthography	
+dizîn	past_progressive	2sg	didiziyî	didizîyî	curated	um-i-orthography	
+dîtin	past	3sg	dît	dîti	curated	um-final-i	
+dîtin	past_negative	3sg	nedît	nedîti	curated	um-final-i	
+dîtin	past_progressive	3sg	didît	didîti	curated	um-final-i	
+edilandin	past	3sg	ediland	edilandi	data	um-final-i	
+edilandin	past_negative	3sg	neediland	needilandi	data	um-final-i	
+edilandin	past_progressive	3sg	diediland	diedilandi	data	um-final-i	
+ewtîn	past	2sg	ewtiyî	ewtîyî	rule-în	um-i-orthography	
+ewtîn	past	pl	ewtîn	ewtîin	rule-în	um-i-orthography	
+ewtîn	past_negative	2sg	neewtiyî	neewtîyî	rule-în	um-i-orthography	
+ewtîn	past_negative	pl	neewtîn	neewtîin	rule-în	um-i-orthography	
+ewtîn	past_progressive	2sg	diewtiyî	diewtîyî / diewtîî	rule-în	um-i-orthography	
+ewtîn	present	2sg	diewtî	diewtyî	rule-în	um-yi-after-consonant	
+ewtîn	subjunctive_negative	2sg	neewtî	neewtyî	rule-în	um-yi-after-consonant	
+fikirîn	past	2sg	fikiriyî	fikirîyî	rule-în	um-i-orthography	
+fikirîn	past	pl	fikirîn	fikirîin	rule-în	um-i-orthography	
+fikirîn	past_negative	2sg	nefikiriyî	nefikirîyî	rule-în	um-i-orthography	
+fikirîn	past_negative	pl	nefikirîn	nefikirîin	rule-în	um-i-orthography	
+fikirîn	past_progressive	2sg	difikiriyî	difikirîyî / difikirîî	rule-în	um-i-orthography	
+fikirîn	present	2sg	difikirî	difikiryî	rule-în	um-yi-after-consonant	
+fikirîn	subjunctive_negative	2sg	nefikirî	nefikiryî	rule-în	um-yi-after-consonant	
+firotin	past	3sg	firot	firoti	curated	um-final-i	
+firotin	past_negative	3sg	nefirot	nefiroti	curated	um-final-i	
+firotin	past_progressive	3sg	difirot	difiroti	curated	um-final-i	
+firotin	present	1sg	difiroşim	difirosim	curated	other	
+firotin	present	2sg	difiroşî	difirosî	curated	other	
+firotin	present	3sg	difiroşe	difirose	curated	other	
+firotin	present	pl	difiroşin	difirosin	curated	other	
+firotin	present_negative	1sg	nafiroşim	nafirosim	curated	other	
+firotin	present_negative	2sg	nafiroşî	nafirosî	curated	other	
+firotin	present_negative	3sg	nafiroşe	nafirose	curated	other	
+firotin	present_negative	pl	nafiroşin	nafirosin	curated	other	
+firotin	subjunctive	1sg	bifiroşim	bifirosim	curated	other	
+firotin	subjunctive	2sg	bifiroşî	bifirosî	curated	other	
+firotin	subjunctive_negative	1sg	nefiroşim	nefirosim	curated	other	
+firotin	subjunctive_negative	2sg	nefiroşî	nefirosî	curated	other	
+fûrîn	past	2sg	fûriyî	fûrîyî	rule-în	um-i-orthography	
+fûrîn	past	pl	fûrîn	fûrîin	rule-în	um-i-orthography	
+fûrîn	past_negative	2sg	nefûriyî	nefûrîyî	rule-în	um-i-orthography	
+fûrîn	past_negative	pl	nefûrîn	nefûrîin	rule-în	um-i-orthography	
+fûrîn	past_progressive	2sg	difûriyî	difûrîyî / difûrîî	rule-în	um-i-orthography	
+fûrîn	present	2sg	difûrî	difûryî	rule-în	um-yi-after-consonant	
+fûrîn	subjunctive_negative	2sg	nefûrî	nefûryî	rule-în	um-yi-after-consonant	
+gevizandin	past	3sg	gevizand	gevizandi	data	um-final-i	
+gevizandin	past_negative	3sg	negevizand	negevizandi	data	um-final-i	
+gevizandin	past_progressive	3sg	digevizand	digevizandi	data	um-final-i	
+gevizîn	past	2sg	geviziyî	gevizîyî	rule-în	um-i-orthography	
+gevizîn	past	pl	gevizîn	gevizîin	rule-în	um-i-orthography	
+gevizîn	past_negative	2sg	negeviziyî	negevizîyî	rule-în	um-i-orthography	
+gevizîn	past_negative	pl	negevizîn	negevizîin	rule-în	um-i-orthography	
+gevizîn	past_progressive	2sg	digeviziyî	digevizîyî / digevizîî	rule-în	um-i-orthography	
+gevizîn	present	2sg	digevizî	digevizyî	rule-în	um-yi-after-consonant	
+gevizîn	subjunctive_negative	2sg	negevizî	negevizyî	rule-în	um-yi-after-consonant	
+gijgijîn	past	2sg	gijgijiyî	gijgijîyî	rule-în	um-i-orthography	
+gijgijîn	past	pl	gijgijîn	gijgijîin	rule-în	um-i-orthography	
+gijgijîn	past_negative	2sg	negijgijiyî	negijgijîyî	rule-în	um-i-orthography	
+gijgijîn	past_negative	pl	negijgijîn	negijgijîin	rule-în	um-i-orthography	
+gijgijîn	past_progressive	2sg	digijgijiyî	digijgijîyî / digijgijîî	rule-în	um-i-orthography	
+gijgijîn	present	2sg	digijgijî	digijgijyî	rule-în	um-yi-after-consonant	
+gijgijîn	subjunctive_negative	2sg	negijgijî	negijgijyî	rule-în	um-yi-after-consonant	
+girtin	past	3sg	girt	girti	curated	um-final-i	
+girtin	past_negative	3sg	negirt	negirti	curated	um-final-i	
+girtin	past_progressive	3sg	digirt	digirti	curated	um-final-i	
+girîn	past	2sg	giriyî	girîyî	rule-în	um-i-orthography	
+girîn	past	pl	girîn	girîin	rule-în	um-i-orthography	
+girîn	past_negative	2sg	negiriyî	negirîyî	rule-în	um-i-orthography	
+girîn	past_negative	pl	negirîn	negirîin	rule-în	um-i-orthography	
+girîn	past_progressive	2sg	digiriyî	digirîyî / digirîî	rule-în	um-i-orthography	
+girîn	present	2sg	digirî	digiryî	rule-în	um-yi-after-consonant	
+girîn	subjunctive_negative	2sg	negirî	negiryî	rule-în	um-yi-after-consonant	
+givîn	past	2sg	giviyî	givîyî	rule-în	um-i-orthography	
+givîn	past	pl	givîn	givîin	rule-în	um-i-orthography	
+givîn	past_negative	2sg	negiviyî	negivîyî	rule-în	um-i-orthography	
+givîn	past_negative	pl	negivîn	negivîin	rule-în	um-i-orthography	
+givîn	past_progressive	2sg	digiviyî	digivîyî / digivîî	rule-în	um-i-orthography	
+givîn	present	2sg	digivî	digivyî	rule-în	um-yi-after-consonant	
+givîn	subjunctive_negative	2sg	negivî	negivyî	rule-în	um-yi-after-consonant	
+guharîn	past	2sg	guhariyî	guharîyî	rule-în	um-i-orthography	
+guharîn	past	pl	guharîn	guharîin	rule-în	um-i-orthography	
+guharîn	past_negative	2sg	neguhariyî	neguharîyî	rule-în	um-i-orthography	
+guharîn	past_negative	pl	neguharîn	neguharîin	rule-în	um-i-orthography	
+guharîn	past_progressive	2sg	diguhariyî	diguharîyî / diguharîî	rule-în	um-i-orthography	
+guharîn	present	2sg	diguharî	diguharyî	rule-în	um-yi-after-consonant	
+guharîn	subjunctive_negative	2sg	neguharî	neguharyî	rule-în	um-yi-after-consonant	
+hatin	past	3sg	hat	hati	curated	um-final-i	
+hatin	past_negative	3sg	nehat	nehati	curated	um-final-i	
+hatin	past_progressive	3sg	dihat	dihati	curated	um-final-i	
+hatin	present	1sg	têm	dihaim / diham	curated	other	
+hatin	present	2sg	têyî	dihayî / dihaî	curated	other	
+hatin	present	3sg	tê	diha / dihae	curated	other	
+hatin	present	pl	tên	dihain / dihan	curated	other	
+hatin	present_negative	1sg	nayêm	nahaim / naham	curated	other	
+hatin	present_negative	2sg	nayî	nahayî / nahaî	curated	other	
+hatin	present_negative	3sg	nayê	naha / nahae	curated	other	
+hatin	present_negative	pl	nayên	nahain / nahan	curated	other	
+hatin	subjunctive	1sg	werim	bihaim / biham	curated	other	
+hatin	subjunctive	2sg	werî	bihayî / bihaî	curated	other	
+hatin	subjunctive_negative	1sg	neyêm	nehaim / neham	curated	other	
+hatin	subjunctive_negative	2sg	neyî	nehayî / nehaî	curated	other	
+hebandin	past	3sg	heband	hebandi	rule-andin	um-final-i	
+hebandin	past_negative	3sg	neheband	nehebandi	rule-andin	um-final-i	
+hebandin	past_progressive	3sg	diheband	dihebandi	rule-andin	um-final-i	
+hejandin	past	3sg	hejand	hejandi	rule-andin	um-final-i	
+hejandin	past_negative	3sg	nehejand	nehejandi	rule-andin	um-final-i	
+hejandin	past_progressive	3sg	dihejand	dihejandi	rule-andin	um-final-i	
+herikîn	past	2sg	herikiyî	herikîyî	rule-în	um-i-orthography	
+herikîn	past	pl	herikîn	herikîin	rule-în	um-i-orthography	
+herikîn	past_negative	2sg	neherikiyî	neherikîyî	rule-în	um-i-orthography	
+herikîn	past_negative	pl	neherikîn	neherikîin	rule-în	um-i-orthography	
+herikîn	past_progressive	2sg	diherikiyî	diherikîyî / diherikîî	rule-în	um-i-orthography	
+herikîn	present	2sg	diherikî	diherikyî	rule-în	um-yi-after-consonant	
+herikîn	subjunctive_negative	2sg	neherikî	neherikyî	rule-în	um-yi-after-consonant	
+herimandin	past	3sg	herimand	herimandi	rule-andin	um-final-i	
+herimandin	past_negative	3sg	neherimand	neherimandi	rule-andin	um-final-i	
+herimandin	past_progressive	3sg	diherimand	diherimandi	rule-andin	um-final-i	
+hesibandin	past	3sg	hesiband	hesibandi	rule-andin	um-final-i	
+hesibandin	past_negative	3sg	nehesiband	nehesibandi	rule-andin	um-final-i	
+hesibandin	past_progressive	3sg	dihesiband	dihesibandi	rule-andin	um-final-i	
+heyîn	past	2sg	heyiyî	heyîyî	rule-în	um-i-orthography	
+heyîn	past	pl	heyîn	heyîin	rule-în	um-i-orthography	
+heyîn	past_negative	2sg	neheyiyî	neheyîyî	rule-în	um-i-orthography	
+heyîn	past_negative	pl	neheyîn	neheyîin	rule-în	um-i-orthography	
+heyîn	past_progressive	2sg	diheyiyî	diheyîyî / diheyîî	rule-în	um-i-orthography	
+heyîn	present	2sg	diheyî	diheyyî	rule-în	um-yi-after-consonant	
+heyîn	subjunctive_negative	2sg	neheyî	neheyyî	rule-în	um-yi-after-consonant	
+hildan	past_negative	1sg	hilnedam	nehildam	data	um-preverb-order	
+hildan	past_negative	3sg	hilneda	nehilda	data	um-preverb-order	
+hildan	past_progressive	1sg	hildidam	dihildam	data	um-preverb-order	
+hildan	past_progressive	2sg	hildidayî	dihildayî	data	um-preverb-order	
+hildan	past_progressive	3sg	hildida	dihilda	data	um-preverb-order	
+hildan	past_progressive	pl	hildidan	dihildan	data	um-preverb-order	
+hildan	present	1sg	hildidim	dihildim	data	um-preverb-order	
+hildan	present	2sg	hildidî	dihildî	data	um-preverb-order	
+hildan	present	3sg	hildide	dihilde	data	um-preverb-order	
+hildan	present	pl	hildidin	dihildin	data	um-preverb-order	
+hildan	present_negative	1sg	hilnadim	nahildim	data	um-preverb-order	
+hildan	present_negative	2sg	hilnadî	nahildî	data	um-preverb-order	
+hildan	present_negative	3sg	hilnade	nahilde	data	um-preverb-order	
+hildan	present_negative	pl	hilnadin	nahildin	data	um-preverb-order	
+hildan	subjunctive	1sg	hildim	bihildim	data	um-preverb-order	
+hildan	subjunctive	2sg	hildî	bihildî	data	um-preverb-order	
+hildan	subjunctive_negative	1sg	hilnedim	nehildim	data	um-preverb-order	
+hildan	subjunctive_negative	2sg	hilnedî	nehildî	data	um-preverb-order	
+hilgirtin	past	3sg	hilgirt	hilgirti	curated	um-final-i	
+hilgirtin	past_negative	1sg	hilnegirtim	nehilgirtim	curated	um-preverb-order	
+hilgirtin	past_negative	3sg	hilnegirt	nehilgirti	curated	um-preverb-order	
+hilgirtin	past_progressive	1sg	hildigirtim	dihilgirtim	curated	um-preverb-order	
+hilgirtin	past_progressive	2sg	hildigirtî	dihilgirtî	curated	um-preverb-order	
+hilgirtin	past_progressive	3sg	hildigirt	dihilgirti	curated	um-preverb-order	
+hilgirtin	past_progressive	pl	hildigirtin	dihilgirtin	curated	um-preverb-order	
+hilgirtin	present	1sg	hildigirim	dihilgirim	curated	um-preverb-order	
+hilgirtin	present	2sg	hildigirî	dihilgirî	curated	um-preverb-order	
+hilgirtin	present	3sg	hildigire	dihilgire	curated	um-preverb-order	
+hilgirtin	present	pl	hildigirin	dihilgirin	curated	um-preverb-order	
+hilgirtin	present_negative	1sg	hilnagirim	nahilgirim	curated	um-preverb-order	
+hilgirtin	present_negative	2sg	hilnagirî	nahilgirî	curated	um-preverb-order	
+hilgirtin	present_negative	3sg	hilnagire	nahilgire	curated	um-preverb-order	
+hilgirtin	present_negative	pl	hilnagirin	nahilgirin	curated	um-preverb-order	
+hilgirtin	subjunctive	1sg	hilgirim	bihilgirim	curated	um-preverb-order	
+hilgirtin	subjunctive	2sg	hilgirî	bihilgirî	curated	um-preverb-order	
+hilgirtin	subjunctive_negative	1sg	hilnegirim	nehilgirim	curated	um-preverb-order	
+hilgirtin	subjunctive_negative	2sg	hilnegirî	nehilgirî	curated	um-preverb-order	
+hêlan	past	pl	hêlan	hêlain	data	other	
+hêlan	past_negative	pl	nehêlan	nehêlain	data	other	
+karîn	past	2sg	kariyî	karîyî	curated	um-i-orthography	
+karîn	past	pl	karîn	karîin	curated	um-i-orthography	
+karîn	past_negative	2sg	nekariyî	nekarîyî	curated	um-i-orthography	
+karîn	past_negative	pl	nekarîn	nekarîin	curated	um-i-orthography	
+karîn	past_progressive	2sg	dikariyî	dikarîyî / dikarîî	curated	um-i-orthography	
+karîn	present	2sg	dikarî	dikaryî	curated	um-yi-after-consonant	
+karîn	present_negative	1sg	nikarim	nakarim / nakarm	curated	other	
+karîn	present_negative	2sg	nikarî	nakaryî / nakarî	curated	other	
+karîn	present_negative	3sg	nikare	nakar / nakare	curated	other	
+karîn	present_negative	pl	nikarin	nakarin / nakarn	curated	other	
+karîn	subjunctive_negative	2sg	nekarî	nekaryî	curated	um-yi-after-consonant	
+kenîn	past	2sg	keniyî	kenîyî	curated	um-i-orthography	
+kenîn	past	pl	kenîn	kenîin	curated	um-i-orthography	
+kenîn	past_negative	2sg	nekeniyî	nekenîyî	curated	um-i-orthography	
+kenîn	past_negative	pl	nekenîn	nekenîin	curated	um-i-orthography	
+kenîn	past_progressive	2sg	dikeniyî	dikenîyî / dikenîî	curated	um-i-orthography	
+kenîn	present	2sg	dikenî	dikenyî	curated	um-yi-after-consonant	
+kenîn	subjunctive_negative	2sg	nekenî	nekenyî	curated	um-yi-after-consonant	
+ketin	past	3sg	ket	keti	curated	um-final-i	
+ketin	past_negative	3sg	neket	neketi	curated	um-final-i	
+ketin	past_progressive	3sg	diket	diketi	curated	um-final-i	
+kirin	past	3sg	kir	kiri	curated	um-final-i	
+kirin	past_negative	3sg	nekir	nekiri	curated	um-final-i	
+kirin	past_progressive	3sg	dikir	dikiri	curated	um-final-i	
+kirîn	past	2sg	kiriyî	kirîyî	curated	um-i-orthography	
+kirîn	past_negative	2sg	nekiriyî	nekirîyî	curated	um-i-orthography	
+kirîn	past_progressive	2sg	dikiriyî	dikirîyî	curated	um-i-orthography	
+kurdandin	past	3sg	kurdand	kurdandi	rule-andin	um-final-i	
+kurdandin	past_negative	3sg	nekurdand	nekurdandi	rule-andin	um-final-i	
+kurdandin	past_progressive	3sg	dikurdand	dikurdandi	rule-andin	um-final-i	
+kuskusandin	past	3sg	kuskusand	kuskusandi	rule-andin	um-final-i	
+kuskusandin	past_negative	3sg	nekuskusand	nekuskusandi	rule-andin	um-final-i	
+kuskusandin	past_progressive	3sg	dikuskusand	dikuskusandi	rule-andin	um-final-i	
+kuxîn	past	2sg	kuxiyî	kuxîyî	data	um-i-orthography	
+kuxîn	past	pl	kuxîn	kuxîin	data	um-i-orthography	
+kuxîn	past_negative	2sg	nekuxiyî	nekuxîyî	data	um-i-orthography	
+kuxîn	past_negative	pl	nekuxîn	nekuxîin	data	um-i-orthography	
+kuxîn	past_progressive	2sg	dikuxiyî	dikuxîyî / dikuxîî	data	um-i-orthography	
+kuxîn	present	2sg	dikuxî	dikuxyî	data	um-yi-after-consonant	
+kuxîn	subjunctive_negative	2sg	nekuxî	nekuxyî	data	um-yi-after-consonant	
+lebitîn	past	2sg	lebitiyî	lebitîyî	rule-în	um-i-orthography	
+lebitîn	past	pl	lebitîn	lebitîin	rule-în	um-i-orthography	
+lebitîn	past_negative	2sg	nelebitiyî	nelebitîyî	rule-în	um-i-orthography	
+lebitîn	past_negative	pl	nelebitîn	nelebitîin	rule-în	um-i-orthography	
+lebitîn	past_progressive	2sg	dilebitiyî	dilebitîyî / dilebitîî	rule-în	um-i-orthography	
+lebitîn	present	2sg	dilebitî	dilebityî	rule-în	um-yi-after-consonant	
+lebitîn	subjunctive_negative	2sg	nelebitî	nelebityî	rule-în	um-yi-after-consonant	
+lerzîn	past	2sg	lerziyî	lerzîyî	rule-în	um-i-orthography	
+lerzîn	past	pl	lerzîn	lerzîin	rule-în	um-i-orthography	
+lerzîn	past_negative	2sg	nelerziyî	nelerzîyî	rule-în	um-i-orthography	
+lerzîn	past_negative	pl	nelerzîn	nelerzîin	rule-în	um-i-orthography	
+lerzîn	past_progressive	2sg	dilerziyî	dilerzîyî / dilerzîî	rule-în	um-i-orthography	
+lerzîn	present	2sg	dilerzî	dilerzyî	rule-în	um-yi-after-consonant	
+lerzîn	subjunctive_negative	2sg	nelerzî	nelerzyî	rule-în	um-yi-after-consonant	
+likumîn	past	2sg	likumiyî	likumîyî	rule-în	um-i-orthography	
+likumîn	past	pl	likumîn	likumîin	rule-în	um-i-orthography	
+likumîn	past_negative	2sg	nelikumiyî	nelikumîyî	rule-în	um-i-orthography	
+likumîn	past_negative	pl	nelikumîn	nelikumîin	rule-în	um-i-orthography	
+likumîn	past_progressive	2sg	dilikumiyî	dilikumîyî / dilikumîî	rule-în	um-i-orthography	
+likumîn	present	2sg	dilikumî	dilikumyî	rule-în	um-yi-after-consonant	
+likumîn	subjunctive_negative	2sg	nelikumî	nelikumyî	rule-în	um-yi-after-consonant	
+liqandin	past	3sg	liqand	liqandi	rule-andin	um-final-i	
+liqandin	past_negative	3sg	neliqand	neliqandi	rule-andin	um-final-i	
+liqandin	past_progressive	3sg	diliqand	diliqandi	rule-andin	um-final-i	
+livîn	past	2sg	liviyî	livîyî	rule-în	um-i-orthography	
+livîn	past	pl	livîn	livîin	rule-în	um-i-orthography	
+livîn	past_negative	2sg	neliviyî	nelivîyî	rule-în	um-i-orthography	
+livîn	past_negative	pl	nelivîn	nelivîin	rule-în	um-i-orthography	
+livîn	past_progressive	2sg	diliviyî	dilivîyî / dilivîî	rule-în	um-i-orthography	
+livîn	present	2sg	dilivî	dilivyî	rule-în	um-yi-after-consonant	
+livîn	subjunctive_negative	2sg	nelivî	nelivyî	rule-în	um-yi-after-consonant	
+lîlandin	past	3sg	lîland	lîlandi	rule-andin	um-final-i	
+lîlandin	past_negative	3sg	nelîland	nelîlandi	rule-andin	um-final-i	
+lîlandin	past_progressive	3sg	dilîland	dilîlandi	rule-andin	um-final-i	
+lûrîn	past	2sg	lûriyî	lûrîyî	rule-în	um-i-orthography	
+lûrîn	past	pl	lûrîn	lûrîin	rule-în	um-i-orthography	
+lûrîn	past_negative	2sg	nelûriyî	nelûrîyî	rule-în	um-i-orthography	
+lûrîn	past_negative	pl	nelûrîn	nelûrîin	rule-în	um-i-orthography	
+lûrîn	past_progressive	2sg	dilûriyî	dilûrîyî / dilûrîî	rule-în	um-i-orthography	
+lûrîn	present	2sg	dilûrî	dilûryî	rule-în	um-yi-after-consonant	
+lûrîn	subjunctive_negative	2sg	nelûrî	nelûryî	rule-în	um-yi-after-consonant	
+lûsîn	past	2sg	lûsiyî	lûsîyî	rule-în	um-i-orthography	
+lûsîn	past	pl	lûsîn	lûsîin	rule-în	um-i-orthography	
+lûsîn	past_negative	2sg	nelûsiyî	nelûsîyî	rule-în	um-i-orthography	
+lûsîn	past_negative	pl	nelûsîn	nelûsîin	rule-în	um-i-orthography	
+lûsîn	past_progressive	2sg	dilûsiyî	dilûsîyî / dilûsîî	rule-în	um-i-orthography	
+lûsîn	present	2sg	dilûsî	dilûsyî	rule-în	um-yi-after-consonant	
+lûsîn	subjunctive_negative	2sg	nelûsî	nelûsyî	rule-în	um-yi-after-consonant	
+meyîn	past	2sg	meyiyî	meyîyî	rule-în	um-i-orthography	
+meyîn	past	pl	meyîn	meyîin	rule-în	um-i-orthography	
+meyîn	past_negative	2sg	nemeyiyî	nemeyîyî	rule-în	um-i-orthography	
+meyîn	past_negative	pl	nemeyîn	nemeyîin	rule-în	um-i-orthography	
+meyîn	past_progressive	2sg	dimeyiyî	dimeyîyî / dimeyîî	rule-în	um-i-orthography	
+meyîn	present	2sg	dimeyî	dimeyyî	rule-în	um-yi-after-consonant	
+meyîn	subjunctive_negative	2sg	nemeyî	nemeyyî	rule-în	um-yi-after-consonant	
+mirin	past	3sg	mir	miri	curated	um-final-i	
+mirin	past_negative	3sg	nemir	nemiri	curated	um-final-i	
+mirin	past_progressive	3sg	dimir	dimiri	curated	um-final-i	
+mirin	present	1sg	dimirim	dimim	curated	other	
+mirin	present	2sg	dimirî	dimî	curated	other	
+mirin	present	3sg	dimire	dime	curated	other	
+mirin	present	pl	dimirin	dimin	curated	other	
+mirin	present_negative	1sg	namirim	namim	curated	other	
+mirin	present_negative	2sg	namirî	namî	curated	other	
+mirin	present_negative	3sg	namire	name	curated	other	
+mirin	present_negative	pl	namirin	namin	curated	other	
+mirin	subjunctive	1sg	bimirim	bimim	curated	other	
+mirin	subjunctive	2sg	bimirî	bimî	curated	other	
+mirin	subjunctive_negative	1sg	nemirim	nemim	curated	other	
+mirin	subjunctive_negative	2sg	nemirî	nemî	curated	other	
+mêjîn	past	2sg	mêjiyî	mêjîyî	rule-în	um-i-orthography	
+mêjîn	past	pl	mêjîn	mêjîin	rule-în	um-i-orthography	
+mêjîn	past_negative	2sg	nemêjiyî	nemêjîyî	rule-în	um-i-orthography	
+mêjîn	past_negative	pl	nemêjîn	nemêjîin	rule-în	um-i-orthography	
+mêjîn	past_progressive	2sg	dimêjiyî	dimêjîyî / dimêjîî	rule-în	um-i-orthography	
+mêjîn	present	2sg	dimêjî	dimêjyî	rule-în	um-yi-after-consonant	
+mêjîn	subjunctive_negative	2sg	nemêjî	nemêjyî	rule-în	um-yi-after-consonant	
+nalîn	past	2sg	naliyî	nalîyî	rule-în	um-i-orthography	
+nalîn	past	pl	nalîn	nalîin	rule-în	um-i-orthography	
+nalîn	past_negative	2sg	nenaliyî	nenalîyî	rule-în	um-i-orthography	
+nalîn	past_negative	pl	nenalîn	nenalîin	rule-în	um-i-orthography	
+nalîn	past_progressive	2sg	dinaliyî	dinalîyî / dinalîî	rule-în	um-i-orthography	
+nalîn	present	2sg	dinalî	dinalyî	rule-în	um-yi-after-consonant	
+nalîn	subjunctive_negative	2sg	nenalî	nenalyî	rule-în	um-yi-after-consonant	
+nasandin	past	3sg	nasand	nasandi	data	um-final-i	
+nasandin	past_negative	3sg	nenasand	nenasandi	data	um-final-i	
+nasandin	past_progressive	3sg	dinasand	dinasandi	data	um-final-i	
+navandin	past	3sg	navand	navandi	rule-andin	um-final-i	
+navandin	past_negative	3sg	nenavand	nenavandi	rule-andin	um-final-i	
+navandin	past_progressive	3sg	dinavand	dinavandi	rule-andin	um-final-i	
+nepixîn	past	2sg	nepixiyî	nepixîyî	rule-în	um-i-orthography	
+nepixîn	past	pl	nepixîn	nepixîin	rule-în	um-i-orthography	
+nepixîn	past_negative	2sg	nenepixiyî	nenepixîyî	rule-în	um-i-orthography	
+nepixîn	past_negative	pl	nenepixîn	nenepixîin	rule-în	um-i-orthography	
+nepixîn	past_progressive	2sg	dinepixiyî	dinepixîyî / dinepixîî	rule-în	um-i-orthography	
+nepixîn	present	2sg	dinepixî	dinepixyî	rule-în	um-yi-after-consonant	
+nepixîn	subjunctive_negative	2sg	nenepixî	nenepixyî	rule-în	um-yi-after-consonant	
+neqandin	past	3sg	neqand	neqandi	data	um-final-i	
+neqandin	past_negative	3sg	neneqand	neneqandi	data	um-final-i	
+neqandin	past_progressive	3sg	dineqand	dineqandi	data	um-final-i	
+niqutîn	past	2sg	niqutiyî	niqutîyî	rule-în	um-i-orthography	
+niqutîn	past	pl	niqutîn	niqutîin	rule-în	um-i-orthography	
+niqutîn	past_negative	2sg	neniqutiyî	neniqutîyî	rule-în	um-i-orthography	
+niqutîn	past_negative	pl	neniqutîn	neniqutîin	rule-în	um-i-orthography	
+niqutîn	past_progressive	2sg	diniqutiyî	diniqutîyî / diniqutîî	rule-în	um-i-orthography	
+niqutîn	present	2sg	diniqutî	diniqutyî	rule-în	um-yi-after-consonant	
+niqutîn	subjunctive_negative	2sg	neniqutî	neniqutyî	rule-în	um-yi-after-consonant	
+nivîsandin	past	3sg	nivîsand	nivîsandi	data	um-final-i	
+nivîsandin	past_negative	3sg	nenivîsand	nenivîsandi	data	um-final-i	
+nivîsandin	past_progressive	3sg	dinivîsand	dinivîsandi	data	um-final-i	
+nivîsîn	past	2sg	nivîsiyî	nivîsîyî	curated	um-i-orthography	
+nivîsîn	past	pl	nivîsîn	nivîsîin	curated	um-i-orthography	
+nivîsîn	past_negative	2sg	nenivîsiyî	nenivîsîyî	curated	um-i-orthography	
+nivîsîn	past_negative	pl	nenivîsîn	nenivîsîin	curated	um-i-orthography	
+nivîsîn	past_progressive	2sg	dinivîsiyî	dinivîsîyî / dinivîsîî	curated	um-i-orthography	
+nivîsîn	present	2sg	dinivîsî	dinivîsyî	curated	um-yi-after-consonant	
+nivîsîn	subjunctive_negative	2sg	nenivîsî	nenivîsyî	curated	um-yi-after-consonant	
+nuxumandin	past	3sg	nuxumand	nuxumandi	rule-andin	um-final-i	
+nuxumandin	past_negative	3sg	nenuxumand	nenuxumandi	rule-andin	um-final-i	
+nuxumandin	past_progressive	3sg	dinuxumand	dinuxumandi	rule-andin	um-final-i	
+nêrîn	past	2sg	nêriyî	nêrîyî	curated	um-i-orthography	
+nêrîn	past	pl	nêrîn	nêrîin	curated	um-i-orthography	
+nêrîn	past_negative	2sg	nenêriyî	nenêrîyî	curated	um-i-orthography	
+nêrîn	past_negative	pl	nenêrîn	nenêrîin	curated	um-i-orthography	
+nêrîn	past_progressive	2sg	dinêriyî	dinêrîyî / dinêrîî	curated	um-i-orthography	
+nêrîn	present	2sg	dinêrî	dinêryî	curated	um-yi-after-consonant	
+nêrîn	subjunctive_negative	2sg	nenêrî	nenêryî	curated	um-yi-after-consonant	
+pejirandin	past	3sg	pejirand	pejirandi	rule-andin	um-final-i	
+pejirandin	past_negative	3sg	nepejirand	nepejirandi	rule-andin	um-final-i	
+pejirandin	past_progressive	3sg	dipejirand	dipejirandi	rule-andin	um-final-i	
+pengizîn	past	2sg	pengiziyî	pengizîyî	data	um-i-orthography	
+pengizîn	past	pl	pengizîn	pengizîin	data	um-i-orthography	
+pengizîn	past_negative	2sg	nepengiziyî	nepengizîyî	data	um-i-orthography	
+pengizîn	past_negative	pl	nepengizîn	nepengizîin	data	um-i-orthography	
+pengizîn	past_progressive	2sg	dipengiziyî	dipengizîyî / dipengizîî	data	um-i-orthography	
+pengizîn	present	2sg	dipengizî	dipengizyî	data	um-yi-after-consonant	
+pengizîn	subjunctive_negative	2sg	nepengizî	nepengizyî	data	um-yi-after-consonant	
+perpitîn	past	2sg	perpitiyî	perpitîyî	rule-în	um-i-orthography	
+perpitîn	past	pl	perpitîn	perpitîin	rule-în	um-i-orthography	
+perpitîn	past_negative	2sg	neperpitiyî	neperpitîyî	rule-în	um-i-orthography	
+perpitîn	past_negative	pl	neperpitîn	neperpitîin	rule-în	um-i-orthography	
+perpitîn	past_progressive	2sg	diperpitiyî	diperpitîyî / diperpitîî	rule-în	um-i-orthography	
+perpitîn	present	2sg	diperpitî	diperpityî	rule-în	um-yi-after-consonant	
+perpitîn	subjunctive_negative	2sg	neperpitî	neperpityî	rule-în	um-yi-after-consonant	
+pesinandin	past	3sg	pesinand	pesinandi	data	um-final-i	
+pesinandin	past_negative	3sg	nepesinand	nepesinandi	data	um-final-i	
+pesinandin	past_progressive	3sg	dipesinand	dipesinandi	data	um-final-i	
+peyitandin	past	3sg	peyitand	peyitandi	data	um-final-i	
+peyitandin	past_negative	3sg	nepeyitand	nepeyitandi	data	um-final-i	
+peyitandin	past_progressive	3sg	dipeyitand	dipeyitandi	data	um-final-i	
+peyivîn	past	2sg	peyiviyî	peyivîyî	data	um-i-orthography	
+peyivîn	past	pl	peyivîn	peyivîin	data	um-i-orthography	
+peyivîn	past_negative	2sg	nepeyiviyî	nepeyivîyî	data	um-i-orthography	
+peyivîn	past_negative	pl	nepeyivîn	nepeyivîin	data	um-i-orthography	
+peyivîn	past_progressive	2sg	dipeyiviyî	dipeyivîyî / dipeyivîî	data	um-i-orthography	
+peyivîn	present	2sg	dipeyivî	dipeyivyî	data	um-yi-after-consonant	
+peyivîn	subjunctive_negative	2sg	nepeyivî	nepeyivyî	data	um-yi-after-consonant	
+pijiqandin	past	3sg	pijiqand	pijiqandi	rule-andin	um-final-i	
+pijiqandin	past_negative	3sg	nepijiqand	nepijiqandi	rule-andin	um-final-i	
+pijiqandin	past_progressive	3sg	dipijiqand	dipijiqandi	rule-andin	um-final-i	
+pijiqîn	past	2sg	pijiqiyî	pijiqîyî	rule-în	um-i-orthography	
+pijiqîn	past	pl	pijiqîn	pijiqîin	rule-în	um-i-orthography	
+pijiqîn	past_negative	2sg	nepijiqiyî	nepijiqîyî	rule-în	um-i-orthography	
+pijiqîn	past_negative	pl	nepijiqîn	nepijiqîin	rule-în	um-i-orthography	
+pijiqîn	past_progressive	2sg	dipijiqiyî	dipijiqîyî / dipijiqîî	rule-în	um-i-orthography	
+pijiqîn	present	2sg	dipijiqî	dipijiqyî	rule-în	um-yi-after-consonant	
+pijiqîn	subjunctive_negative	2sg	nepijiqî	nepijiqyî	rule-în	um-yi-after-consonant	
+pijîn	past	2sg	pijiyî	pijîyî	rule-în	um-i-orthography	
+pijîn	past	pl	pijîn	pijîin	rule-în	um-i-orthography	
+pijîn	past_negative	2sg	nepijiyî	nepijîyî	rule-în	um-i-orthography	
+pijîn	past_negative	pl	nepijîn	nepijîin	rule-în	um-i-orthography	
+pijîn	past_progressive	2sg	dipijiyî	dipijîyî / dipijîî	rule-în	um-i-orthography	
+pijîn	present	2sg	dipijî	dipijyî	rule-în	um-yi-after-consonant	
+pijîn	subjunctive_negative	2sg	nepijî	nepijyî	rule-în	um-yi-after-consonant	
+pirsîn	past	2sg	pirsiyî	pirsîyî	curated	um-i-orthography	
+pirsîn	past_negative	2sg	nepirsiyî	nepirsîyî	curated	um-i-orthography	
+pirsîn	past_progressive	2sg	dipirsiyî	dipirsîyî	curated	um-i-orthography	
+ponijîn	past	2sg	ponijiyî	ponijîyî	rule-în	um-i-orthography	
+ponijîn	past	pl	ponijîn	ponijîin	rule-în	um-i-orthography	
+ponijîn	past_negative	2sg	neponijiyî	neponijîyî	rule-în	um-i-orthography	
+ponijîn	past_negative	pl	neponijîn	neponijîin	rule-în	um-i-orthography	
+ponijîn	past_progressive	2sg	diponijiyî	diponijîyî / diponijîî	rule-în	um-i-orthography	
+ponijîn	present	2sg	diponijî	diponijyî	rule-în	um-yi-after-consonant	
+ponijîn	subjunctive_negative	2sg	neponijî	neponijyî	rule-în	um-yi-after-consonant	
+qedandin	past	3sg	qedand	qedandi	data	um-final-i	
+qedandin	past_negative	3sg	neqedand	neqedandi	data	um-final-i	
+qedandin	past_progressive	3sg	diqedand	diqedandi	data	um-final-i	
+qefilandin	past	3sg	qefiland	qefilandi	rule-andin	um-final-i	
+qefilandin	past_negative	3sg	neqefiland	neqefilandi	rule-andin	um-final-i	
+qefilandin	past_progressive	3sg	diqefiland	diqefilandi	rule-andin	um-final-i	
+qefilîn	past	2sg	qefiliyî	qefilîyî	rule-în	um-i-orthography	
+qefilîn	past	pl	qefilîn	qefilîin	rule-în	um-i-orthography	
+qefilîn	past_negative	2sg	neqefiliyî	neqefilîyî	rule-în	um-i-orthography	
+qefilîn	past_negative	pl	neqefilîn	neqefilîin	rule-în	um-i-orthography	
+qefilîn	past_progressive	2sg	diqefiliyî	diqefilîyî / diqefilîî	rule-în	um-i-orthography	
+qefilîn	present	2sg	diqefilî	diqefilyî	rule-în	um-yi-after-consonant	
+qefilîn	subjunctive_negative	2sg	neqefilî	neqefilyî	rule-în	um-yi-after-consonant	
+qehirîn	past	2sg	qehiriyî	qehirîyî	rule-în	um-i-orthography	
+qehirîn	past	pl	qehirîn	qehirîin	rule-în	um-i-orthography	
+qehirîn	past_negative	2sg	neqehiriyî	neqehirîyî	rule-în	um-i-orthography	
+qehirîn	past_negative	pl	neqehirîn	neqehirîin	rule-în	um-i-orthography	
+qehirîn	past_progressive	2sg	diqehiriyî	diqehirîyî / diqehirîî	rule-în	um-i-orthography	
+qehirîn	present	2sg	diqehirî	diqehiryî	rule-în	um-yi-after-consonant	
+qehirîn	subjunctive_negative	2sg	neqehirî	neqehiryî	rule-în	um-yi-after-consonant	
+qerisîn	past	2sg	qerisiyî	qerisîyî	data	um-i-orthography	
+qerisîn	past	pl	qerisîn	qerisîin	data	um-i-orthography	
+qerisîn	past_negative	2sg	neqerisiyî	neqerisîyî	data	um-i-orthography	
+qerisîn	past_negative	pl	neqerisîn	neqerisîin	data	um-i-orthography	
+qerisîn	past_progressive	2sg	diqerisiyî	diqerisîyî / diqerisîî	data	um-i-orthography	
+qerisîn	present	2sg	diqerisî	diqerisyî	data	um-yi-after-consonant	
+qerisîn	subjunctive_negative	2sg	neqerisî	neqerisyî	data	um-yi-after-consonant	
+qewimîn	past	2sg	qewimiyî	qewimîyî	rule-în	um-i-orthography	
+qewimîn	past	pl	qewimîn	qewimîin	rule-în	um-i-orthography	
+qewimîn	past_negative	2sg	neqewimiyî	neqewimîyî	rule-în	um-i-orthography	
+qewimîn	past_negative	pl	neqewimîn	neqewimîin	rule-în	um-i-orthography	
+qewimîn	past_progressive	2sg	diqewimiyî	diqewimîyî / diqewimîî	rule-în	um-i-orthography	
+qewimîn	present	2sg	diqewimî	diqewimyî	rule-în	um-yi-after-consonant	
+qewimîn	subjunctive_negative	2sg	neqewimî	neqewimyî	rule-în	um-yi-after-consonant	
+qewirandin	past	3sg	qewirand	qewirandi	rule-andin	um-final-i	
+qewirandin	past_negative	3sg	neqewirand	neqewirandi	rule-andin	um-final-i	
+qewirandin	past_progressive	3sg	diqewirand	diqewirandi	rule-andin	um-final-i	
+qulibîn	past	2sg	qulibiyî	qulibîyî	rule-în	um-i-orthography	
+qulibîn	past	pl	qulibîn	qulibîin	rule-în	um-i-orthography	
+qulibîn	past_negative	2sg	nequlibiyî	nequlibîyî	rule-în	um-i-orthography	
+qulibîn	past_negative	pl	nequlibîn	nequlibîin	rule-în	um-i-orthography	
+qulibîn	past_progressive	2sg	diqulibiyî	diqulibîyî / diqulibîî	rule-în	um-i-orthography	
+qulibîn	present	2sg	diqulibî	diqulibyî	rule-în	um-yi-after-consonant	
+qulibîn	subjunctive_negative	2sg	nequlibî	nequlibyî	rule-în	um-yi-after-consonant	
+qêrîn	past	2sg	qêriyî	qêrîyî	rule-în	um-i-orthography	
+qêrîn	past	pl	qêrîn	qêrîin	rule-în	um-i-orthography	
+qêrîn	past_negative	2sg	neqêriyî	neqêrîyî	rule-în	um-i-orthography	
+qêrîn	past_negative	pl	neqêrîn	neqêrîin	rule-în	um-i-orthography	
+qêrîn	past_progressive	2sg	diqêriyî	diqêrîyî / diqêrîî	rule-în	um-i-orthography	
+qêrîn	present	2sg	diqêrî	diqêryî	rule-în	um-yi-after-consonant	
+qêrîn	subjunctive_negative	2sg	neqêrî	neqêryî	rule-în	um-yi-after-consonant	
+qîrîn	past	2sg	qîriyî	qîrîyî	rule-în	um-i-orthography	
+qîrîn	past	pl	qîrîn	qîrîin	rule-în	um-i-orthography	
+qîrîn	past_negative	2sg	neqîriyî	neqîrîyî	rule-în	um-i-orthography	
+qîrîn	past_negative	pl	neqîrîn	neqîrîin	rule-în	um-i-orthography	
+qîrîn	past_progressive	2sg	diqîriyî	diqîrîyî / diqîrîî	rule-în	um-i-orthography	
+qîrîn	present	2sg	diqîrî	diqîryî	rule-în	um-yi-after-consonant	
+qîrîn	subjunctive_negative	2sg	neqîrî	neqîryî	rule-în	um-yi-after-consonant	
+rabûn	past_negative	1sg	ranebûm	nerabûm	curated	um-preverb-order	
+rabûn	past_negative	3sg	ranebû	nerabû	curated	um-preverb-order	
+rabûn	past_progressive	1sg	radibûm	dirabûm	curated	um-preverb-order	
+rabûn	past_progressive	2sg	radibûyî	dirabûyî	curated	um-preverb-order	
+rabûn	past_progressive	3sg	radibû	dirabû	curated	um-preverb-order	
+rabûn	past_progressive	pl	radibûn	dirabûn	curated	um-preverb-order	
+rabûn	present	1sg	radibim	dirabim	curated	um-preverb-order	
+rabûn	present	2sg	radibî	dirabî	curated	um-preverb-order	
+rabûn	present	3sg	radibe	dirabe	curated	um-preverb-order	
+rabûn	present	pl	radibin	dirabin	curated	um-preverb-order	
+rabûn	present_negative	1sg	ranabim	narabim	curated	um-preverb-order	
+rabûn	present_negative	2sg	ranabî	narabî	curated	um-preverb-order	
+rabûn	present_negative	3sg	ranabe	narabe	curated	um-preverb-order	
+rabûn	present_negative	pl	ranabin	narabin	curated	um-preverb-order	
+rabûn	subjunctive	1sg	rabim	birabim	curated	um-preverb-order	
+rabûn	subjunctive	2sg	rabî	birabî	curated	um-preverb-order	
+rabûn	subjunctive_negative	1sg	ranebim	nerabim	curated	um-preverb-order	
+rabûn	subjunctive_negative	2sg	ranebî	nerabî	curated	um-preverb-order	
+rakirin	past	3sg	rakir	rakiri	data	um-final-i	
+rakirin	past_negative	1sg	ranekirim	nerakirim	data	um-preverb-order	
+rakirin	past_negative	3sg	ranekir	nerakiri	data	um-preverb-order	
+rakirin	past_progressive	1sg	radikirim	dirakirim	data	um-preverb-order	
+rakirin	past_progressive	2sg	radikirî	dirakirî	data	um-preverb-order	
+rakirin	past_progressive	3sg	radikir	dirakiri	data	um-preverb-order	
+rakirin	past_progressive	pl	radikirin	dirakirin	data	um-preverb-order	
+rakirin	present	1sg	radikim	dirakim	data	um-preverb-order	
+rakirin	present	2sg	radikî	dirakî	data	um-preverb-order	
+rakirin	present	3sg	radike	dirake	data	um-preverb-order	
+rakirin	present	pl	radikin	dirakin	data	um-preverb-order	
+rakirin	present_negative	1sg	ranakim	narakim	data	um-preverb-order	
+rakirin	present_negative	2sg	ranakî	narakî	data	um-preverb-order	
+rakirin	present_negative	3sg	ranake	narake	data	um-preverb-order	
+rakirin	present_negative	pl	ranakin	narakin	data	um-preverb-order	
+rakirin	subjunctive	1sg	rakim	birakim	data	um-preverb-order	
+rakirin	subjunctive	2sg	rakî	birakî	data	um-preverb-order	
+rakirin	subjunctive_negative	1sg	ranekim	nerakim	data	um-preverb-order	
+rakirin	subjunctive_negative	2sg	ranekî	nerakî	data	um-preverb-order	
+razan	past_negative	1sg	ranezam	nerazam	curated	um-preverb-order	
+razan	past_negative	3sg	raneza	neraza	curated	um-preverb-order	
+razan	past_progressive	1sg	radizam	dirazam	curated	um-preverb-order	
+razan	past_progressive	2sg	radizayî	dirazayî	curated	um-preverb-order	
+razan	past_progressive	3sg	radiza	diraza	curated	um-preverb-order	
+razan	past_progressive	pl	radizan	dirazan	curated	um-preverb-order	
+razan	present	1sg	radizim	dirazim	curated	um-preverb-order	
+razan	present	2sg	radizî	dirazî	curated	um-preverb-order	
+razan	present	3sg	radize	diraze	curated	um-preverb-order	
+razan	present	pl	radizin	dirazin	curated	um-preverb-order	
+razan	present_negative	1sg	ranazim	narazim	curated	um-preverb-order	
+razan	present_negative	2sg	ranazî	narazî	curated	um-preverb-order	
+razan	present_negative	3sg	ranaze	naraze	curated	um-preverb-order	
+razan	present_negative	pl	ranazin	narazin	curated	um-preverb-order	
+razan	subjunctive	1sg	razim	birazim	curated	um-preverb-order	
+razan	subjunctive	2sg	razî	birazî	curated	um-preverb-order	
+razan	subjunctive_negative	1sg	ranezim	nerazim	curated	um-preverb-order	
+razan	subjunctive_negative	2sg	ranezî	nerazî	curated	um-preverb-order	
+reqisîn	past	2sg	reqisiyî	reqisîyî	rule-în	um-i-orthography	
+reqisîn	past	pl	reqisîn	reqisîin	rule-în	um-i-orthography	
+reqisîn	past_negative	2sg	nereqisiyî	nereqisîyî	rule-în	um-i-orthography	
+reqisîn	past_negative	pl	nereqisîn	nereqisîin	rule-în	um-i-orthography	
+reqisîn	past_progressive	2sg	direqisiyî	direqisîyî / direqisîî	rule-în	um-i-orthography	
+reqisîn	present	2sg	direqisî	direqisyî	rule-în	um-yi-after-consonant	
+reqisîn	subjunctive_negative	2sg	nereqisî	nereqisyî	rule-în	um-yi-after-consonant	
+revandin	past	3sg	revand	revandi	data	um-final-i	
+revandin	past_negative	3sg	nerevand	nerevandi	data	um-final-i	
+revandin	past_progressive	3sg	direvand	direvandi	data	um-final-i	
+revîn	past	2sg	reviyî	revîyî	rule-în	um-i-orthography	
+revîn	past_negative	2sg	nereviyî	nerevîyî	rule-în	um-i-orthography	
+revîn	past_progressive	2sg	direviyî	direvîyî	rule-în	um-i-orthography	
+ricifîn	past	2sg	ricifiyî	ricifîyî	rule-în	um-i-orthography	
+ricifîn	past	pl	ricifîn	ricifîin	rule-în	um-i-orthography	
+ricifîn	past_negative	2sg	nericifiyî	nericifîyî	rule-în	um-i-orthography	
+ricifîn	past_negative	pl	nericifîn	nericifîin	rule-în	um-i-orthography	
+ricifîn	past_progressive	2sg	diricifiyî	diricifîyî / diricifîî	rule-în	um-i-orthography	
+ricifîn	present	2sg	diricifî	diricifyî	rule-în	um-yi-after-consonant	
+ricifîn	subjunctive_negative	2sg	nericifî	nericifyî	rule-în	um-yi-after-consonant	
+rikrikîn	past	2sg	rikrikiyî	rikrikîyî	rule-în	um-i-orthography	
+rikrikîn	past	pl	rikrikîn	rikrikîin	rule-în	um-i-orthography	
+rikrikîn	past_negative	2sg	nerikrikiyî	nerikrikîyî	rule-în	um-i-orthography	
+rikrikîn	past_negative	pl	nerikrikîn	nerikrikîin	rule-în	um-i-orthography	
+rikrikîn	past_progressive	2sg	dirikrikiyî	dirikrikîyî / dirikrikîî	rule-în	um-i-orthography	
+rikrikîn	present	2sg	dirikrikî	dirikrikyî	rule-în	um-yi-after-consonant	
+rikrikîn	subjunctive_negative	2sg	nerikrikî	nerikrikyî	rule-în	um-yi-after-consonant	
+rizandin	past	3sg	rizand	rizandi	data	um-final-i	
+rizandin	past_negative	3sg	nerizand	nerizandi	data	um-final-i	
+rizandin	past_progressive	3sg	dirizand	dirizandi	data	um-final-i	
+rêtin	past	3sg	rêt	rêti	curated	um-final-i	
+rêtin	past_negative	3sg	nerêt	nerêti	curated	um-final-i	
+rêtin	past_progressive	3sg	dirêt	dirêti	curated	um-final-i	
+rûxandin	past	3sg	rûxand	rûxandi	rule-andin	um-final-i	
+rûxandin	past_negative	3sg	nerûxand	nerûxandi	rule-andin	um-final-i	
+rûxandin	past_progressive	3sg	dirûxand	dirûxandi	rule-andin	um-final-i	
+sandin	past	3sg	sand	sandi	rule-andin	um-final-i	
+sandin	past_negative	3sg	nesand	nesandi	rule-andin	um-final-i	
+sandin	past_progressive	3sg	disand	disandi	rule-andin	um-final-i	
+tefîn	past	2sg	tefiyî	tefîyî	rule-în	um-i-orthography	
+tefîn	past	pl	tefîn	tefîin	rule-în	um-i-orthography	
+tefîn	past_negative	2sg	netefiyî	netefîyî	rule-în	um-i-orthography	
+tefîn	past_negative	pl	netefîn	netefîin	rule-în	um-i-orthography	
+tefîn	past_progressive	2sg	ditefiyî	ditefîyî / ditefîî	rule-în	um-i-orthography	
+tefîn	present	2sg	ditefî	ditefyî	rule-în	um-yi-after-consonant	
+tefîn	subjunctive_negative	2sg	netefî	netefyî	rule-în	um-yi-after-consonant	
+temirîn	past	2sg	temiriyî	temirîyî	rule-în	um-i-orthography	
+temirîn	past	pl	temirîn	temirîin	rule-în	um-i-orthography	
+temirîn	past_negative	2sg	netemiriyî	netemirîyî	rule-în	um-i-orthography	
+temirîn	past_negative	pl	netemirîn	netemirîin	rule-în	um-i-orthography	
+temirîn	past_progressive	2sg	ditemiriyî	ditemirîyî / ditemirîî	rule-în	um-i-orthography	
+temirîn	present	2sg	ditemirî	ditemiryî	rule-în	um-yi-after-consonant	
+temirîn	subjunctive_negative	2sg	netemirî	netemiryî	rule-în	um-yi-after-consonant	
+tepandin	past	3sg	tepand	tepandi	data	um-final-i	
+tepandin	past_negative	3sg	netepand	netepandi	data	um-final-i	
+tepandin	past_progressive	3sg	ditepand	ditepandi	data	um-final-i	
+teqîn	past	2sg	teqiyî	teqîyî	rule-în	um-i-orthography	
+teqîn	past	pl	teqîn	teqîin	rule-în	um-i-orthography	
+teqîn	past_negative	2sg	neteqiyî	neteqîyî	rule-în	um-i-orthography	
+teqîn	past_negative	pl	neteqîn	neteqîin	rule-în	um-i-orthography	
+teqîn	past_progressive	2sg	diteqiyî	diteqîyî / diteqîî	rule-în	um-i-orthography	
+teqîn	present	2sg	diteqî	diteqyî	rule-în	um-yi-after-consonant	
+teqîn	subjunctive_negative	2sg	neteqî	neteqyî	rule-în	um-yi-after-consonant	
+terpilîn	past	2sg	terpiliyî	terpilîyî	rule-în	um-i-orthography	
+terpilîn	past	pl	terpilîn	terpilîin	rule-în	um-i-orthography	
+terpilîn	past_negative	2sg	neterpiliyî	neterpilîyî	rule-în	um-i-orthography	
+terpilîn	past_negative	pl	neterpilîn	neterpilîin	rule-în	um-i-orthography	
+terpilîn	past_progressive	2sg	diterpiliyî	diterpilîyî / diterpilîî	rule-în	um-i-orthography	
+terpilîn	present	2sg	diterpilî	diterpilyî	rule-în	um-yi-after-consonant	
+terpilîn	subjunctive_negative	2sg	neterpilî	neterpilyî	rule-în	um-yi-after-consonant	
+tirsandin	past	3sg	tirsand	tirsandi	rule-andin	um-final-i	
+tirsandin	past_negative	3sg	netirsand	netirsandi	rule-andin	um-final-i	
+tirsandin	past_progressive	3sg	ditirsand	ditirsandi	rule-andin	um-final-i	
+vekirin	past	3sg	vekir	vekiri	curated	um-final-i	
+vekirin	past_negative	1sg	venekirim	nevekirim	curated	um-preverb-order	
+vekirin	past_negative	3sg	venekir	nevekiri	curated	um-preverb-order	
+vekirin	past_progressive	1sg	vedikirim	divekirim	curated	um-preverb-order	
+vekirin	past_progressive	2sg	vedikirî	divekirî	curated	um-preverb-order	
+vekirin	past_progressive	3sg	vedikir	divekiri	curated	um-preverb-order	
+vekirin	past_progressive	pl	vedikirin	divekirin	curated	um-preverb-order	
+vekirin	present	1sg	vedikim	divekim	curated	um-preverb-order	
+vekirin	present	2sg	vedikî	divekî	curated	um-preverb-order	
+vekirin	present	3sg	vedike	diveke	curated	um-preverb-order	
+vekirin	present	pl	vedikin	divekin	curated	um-preverb-order	
+vekirin	present_negative	1sg	venakim	navekim	curated	um-preverb-order	
+vekirin	present_negative	2sg	venakî	navekî	curated	um-preverb-order	
+vekirin	present_negative	3sg	venake	naveke	curated	um-preverb-order	
+vekirin	present_negative	pl	venakin	navekin	curated	um-preverb-order	
+vekirin	subjunctive	1sg	vekim	bivekim	curated	um-preverb-order	
+vekirin	subjunctive	2sg	vekî	bivekî	curated	um-preverb-order	
+vekirin	subjunctive_negative	1sg	venekim	nevekim	curated	um-preverb-order	
+vekirin	subjunctive_negative	2sg	venekî	nevekî	curated	um-preverb-order	
+vemirandin	past	3sg	vemirand	vemirandi	rule-andin	um-final-i	
+vemirandin	past_negative	1sg	venemirandim	nevemirandim	rule-andin	um-preverb-order	
+vemirandin	past_negative	3sg	venemirand	nevemirandi	rule-andin	um-preverb-order	
+vemirandin	past_progressive	1sg	vedimirandim	divemirandim	rule-andin	um-preverb-order	
+vemirandin	past_progressive	2sg	vedimirandî	divemirandî	rule-andin	um-preverb-order	
+vemirandin	past_progressive	3sg	vedimirand	divemirandi	rule-andin	um-preverb-order	
+vemirandin	past_progressive	pl	vedimirandin	divemirandin	rule-andin	um-preverb-order	
+vemirandin	present	1sg	vedimirînim	divemirînim	rule-andin	um-preverb-order	
+vemirandin	present	2sg	vedimirînî	divemirînî	rule-andin	um-preverb-order	
+vemirandin	present	3sg	vedimirîne	divemirîne	rule-andin	um-preverb-order	
+vemirandin	present	pl	vedimirînin	divemirînin	rule-andin	um-preverb-order	
+vemirandin	present_negative	1sg	venamirînim	navemirînim	rule-andin	um-preverb-order	
+vemirandin	present_negative	2sg	venamirînî	navemirînî	rule-andin	um-preverb-order	
+vemirandin	present_negative	3sg	venamirîne	navemirîne	rule-andin	um-preverb-order	
+vemirandin	present_negative	pl	venamirînin	navemirînin	rule-andin	um-preverb-order	
+vemirandin	subjunctive	1sg	vemirînim	bivemirînim	rule-andin	um-preverb-order	
+vemirandin	subjunctive	2sg	vemirînî	bivemirînî	rule-andin	um-preverb-order	
+vemirandin	subjunctive_negative	1sg	venemirînim	nevemirînim	rule-andin	um-preverb-order	
+vemirandin	subjunctive_negative	2sg	venemirînî	nevemirînî	rule-andin	um-preverb-order	
+vexwarin	past	3sg	vexwar	vexwari	curated	um-final-i	
+vexwarin	past_negative	1sg	venexwarim	nevexwarim	curated	um-preverb-order	
+vexwarin	past_negative	3sg	venexwar	nevexwari	curated	um-preverb-order	
+vexwarin	past_progressive	1sg	vedixwarim	divexwarim	curated	um-preverb-order	
+vexwarin	past_progressive	2sg	vedixwarî	divexwarî	curated	um-preverb-order	
+vexwarin	past_progressive	3sg	vedixwar	divexwari	curated	um-preverb-order	
+vexwarin	past_progressive	pl	vedixwarin	divexwarin	curated	um-preverb-order	
+vexwarin	present	1sg	vedixwim	divexwim	curated	um-preverb-order	
+vexwarin	present	2sg	vedixwî	divexwî	curated	um-preverb-order	
+vexwarin	present	3sg	vedixwe	divexwe	curated	um-preverb-order	
+vexwarin	present	pl	vedixwin	divexwin	curated	um-preverb-order	
+vexwarin	present_negative	1sg	venaxwim	navexwim	curated	um-preverb-order	
+vexwarin	present_negative	2sg	venaxwî	navexwî	curated	um-preverb-order	
+vexwarin	present_negative	3sg	venaxwe	navexwe	curated	um-preverb-order	
+vexwarin	present_negative	pl	venaxwin	navexwin	curated	um-preverb-order	
+vexwarin	subjunctive	1sg	vexwim	bivexwim	curated	um-preverb-order	
+vexwarin	subjunctive	2sg	vexwî	bivexwî	curated	um-preverb-order	
+vexwarin	subjunctive_negative	1sg	venexwim	nevexwim	curated	um-preverb-order	
+vexwarin	subjunctive_negative	2sg	venexwî	nevexwî	curated	um-preverb-order	
+werimandin	past	3sg	werimand	werimandi	data	um-final-i	
+werimandin	past_negative	3sg	newerimand	newerimandi	data	um-final-i	
+werimandin	past_progressive	3sg	diwerimand	diwerimandi	data	um-final-i	
+werimîn	past	2sg	werimiyî	werimîyî	rule-în	um-i-orthography	
+werimîn	past	pl	werimîn	werimîin	rule-în	um-i-orthography	
+werimîn	past_negative	2sg	newerimiyî	newerimîyî	rule-în	um-i-orthography	
+werimîn	past_negative	pl	newerimîn	newerimîin	rule-în	um-i-orthography	
+werimîn	past_progressive	2sg	diwerimiyî	diwerimîyî / diwerimîî	rule-în	um-i-orthography	
+werimîn	present	2sg	diwerimî	diwerimyî	rule-în	um-yi-after-consonant	
+werimîn	subjunctive_negative	2sg	newerimî	newerimyî	rule-în	um-yi-after-consonant	
+wêrîn	past	2sg	wêriyî	wêrîyî	rule-în	um-i-orthography	
+wêrîn	past	pl	wêrîn	wêrîin	rule-în	um-i-orthography	
+wêrîn	past_negative	2sg	newêriyî	newêrîyî	rule-în	um-i-orthography	
+wêrîn	past_negative	pl	newêrîn	newêrîin	rule-în	um-i-orthography	
+wêrîn	past_progressive	2sg	diwêriyî	diwêrîyî / diwêrîî	rule-în	um-i-orthography	
+wêrîn	present	2sg	diwêrî	diwêryî	rule-în	um-yi-after-consonant	
+wêrîn	subjunctive_negative	2sg	newêrî	newêryî	rule-în	um-yi-after-consonant	
+xebitîn	past	2sg	xebitiyî	xebitîyî	data	um-i-orthography	
+xebitîn	past_negative	2sg	nexebitiyî	nexebitîyî	data	um-i-orthography	
+xebitîn	past_progressive	2sg	dixebitiyî	dixebitîyî	data	um-i-orthography	
+xemilandin	past	3sg	xemiland	xemilandi	data	um-final-i	
+xemilandin	past_negative	3sg	nexemiland	nexemilandi	data	um-final-i	
+xemilandin	past_progressive	3sg	dixemiland	dixemilandi	data	um-final-i	
+xistin	past	3sg	xist	xisti	curated	um-final-i	
+xistin	past_negative	3sg	nexist	nexisti	curated	um-final-i	
+xistin	past_progressive	3sg	dixist	dixisti	curated	um-final-i	
+xitimandin	past	3sg	xitimand	xitimandi	rule-andin	um-final-i	
+xitimandin	past_negative	3sg	nexitimand	nexitimandi	rule-andin	um-final-i	
+xitimandin	past_progressive	3sg	dixitimand	dixitimandi	rule-andin	um-final-i	
+xwarin	past	3sg	xwar	xwari	curated	um-final-i	
+xwarin	past_negative	3sg	nexwar	nexwari	curated	um-final-i	
+xwarin	past_progressive	3sg	dixwar	dixwari	curated	um-final-i	
+xwendin	past	3sg	xwend	xwendi	curated	um-final-i	
+xwendin	past_negative	3sg	nexwend	nexwendi	curated	um-final-i	
+xwendin	past_progressive	3sg	dixwend	dixwendi	curated	um-final-i	
+xwestin	past	3sg	xwest	xwesti	curated	um-final-i	
+xwestin	past_negative	3sg	nexwest	nexwesti	curated	um-final-i	
+xwestin	past_progressive	3sg	dixwest	dixwesti	curated	um-final-i	
+zanîn	past	2sg	zaniyî	zanîyî	curated	um-i-orthography	
+zanîn	past	pl	zanîn	zanîin	curated	um-i-orthography	
+zanîn	past_negative	2sg	nezaniyî	nezanîyî	curated	um-i-orthography	
+zanîn	past_negative	pl	nezanîn	nezanîin	curated	um-i-orthography	
+zanîn	past_progressive	2sg	dizaniyî	dizanîyî / dizanîî	curated	um-i-orthography	
+zanîn	present	2sg	dizanî	dizanyî	curated	um-yi-after-consonant	
+zanîn	present_negative	1sg	nizanim	nazanim / nazanm	curated	other	
+zanîn	present_negative	2sg	nizanî	nazanyî / nazanî	curated	other	
+zanîn	present_negative	3sg	nizane	nazan / nazane	curated	other	
+zanîn	present_negative	pl	nizanin	nazanin / nazann	curated	other	
+zanîn	subjunctive_negative	2sg	nezanî	nezanyî	curated	um-yi-after-consonant	
+zeliqandin	past	3sg	zeliqand	zeliqandi	data	um-final-i	
+zeliqandin	past_negative	3sg	nezeliqand	nezeliqandi	data	um-final-i	
+zeliqandin	past_progressive	3sg	dizeliqand	dizeliqandi	data	um-final-i	
+zeliqîn	past	2sg	zeliqiyî	zeliqîyî	data	um-i-orthography	
+zeliqîn	past	pl	zeliqîn	zeliqîin	data	um-i-orthography	
+zeliqîn	past_negative	2sg	nezeliqiyî	nezeliqîyî	data	um-i-orthography	
+zeliqîn	past_negative	pl	nezeliqîn	nezeliqîin	data	um-i-orthography	
+zeliqîn	past_progressive	2sg	dizeliqiyî	dizeliqîyî / dizeliqîî	data	um-i-orthography	
+zeliqîn	present	2sg	dizeliqî	dizeliqyî	data	um-yi-after-consonant	
+zeliqîn	subjunctive_negative	2sg	nezeliqî	nezeliqyî	data	um-yi-after-consonant	
+zivirîn	past	2sg	ziviriyî	zivirîyî	data	um-i-orthography	
+zivirîn	past_negative	2sg	neziviriyî	nezivirîyî	data	um-i-orthography	
+zivirîn	past_progressive	2sg	diziviriyî	dizivirîyî	data	um-i-orthography	
+zûrîn	past	2sg	zûriyî	zûrîyî	rule-în	um-i-orthography	
+zûrîn	past	pl	zûrîn	zûrîin	rule-în	um-i-orthography	
+zûrîn	past_negative	2sg	nezûriyî	nezûrîyî	rule-în	um-i-orthography	
+zûrîn	past_negative	pl	nezûrîn	nezûrîin	rule-în	um-i-orthography	
+zûrîn	past_progressive	2sg	dizûriyî	dizûrîyî / dizûrîî	rule-în	um-i-orthography	
+zûrîn	present	2sg	dizûrî	dizûryî	rule-în	um-yi-after-consonant	
+zûrîn	subjunctive_negative	2sg	nezûrî	nezûryî	rule-în	um-yi-after-consonant	
+çewsandin	past	3sg	çewsand	çewsandi	rule-andin	um-final-i	
+çewsandin	past_negative	3sg	neçewsand	neçewsandi	rule-andin	um-final-i	
+çewsandin	past_progressive	3sg	diçewsand	diçewsandi	rule-andin	um-final-i	
+çikandin	past	3sg	çikand	çikandi	data	um-final-i	
+çikandin	past_negative	3sg	neçikand	neçikandi	data	um-final-i	
+çikandin	past_progressive	3sg	diçikand	diçikandi	data	um-final-i	
+çikîn	past	2sg	çikiyî	çikîyî	rule-în	um-i-orthography	
+çikîn	past	pl	çikîn	çikîin	rule-în	um-i-orthography	
+çikîn	past_negative	2sg	neçikiyî	neçikîyî	rule-în	um-i-orthography	
+çikîn	past_negative	pl	neçikîn	neçikîin	rule-în	um-i-orthography	
+çikîn	past_progressive	2sg	diçikiyî	diçikîyî / diçikîî	rule-în	um-i-orthography	
+çikîn	present	2sg	diçikî	diçikyî	rule-în	um-yi-after-consonant	
+çikîn	subjunctive_negative	2sg	neçikî	neçikyî	rule-în	um-yi-after-consonant	
+çilmisandin	past	3sg	çilmisand	çilmisandi	rule-andin	um-final-i	
+çilmisandin	past_negative	3sg	neçilmisand	neçilmisandi	rule-andin	um-final-i	
+çilmisandin	past_progressive	3sg	diçilmisand	diçilmisandi	rule-andin	um-final-i	
+çilwilîn	past	2sg	çilwiliyî	çilwilîyî	rule-în	um-i-orthography	
+çilwilîn	past	pl	çilwilîn	çilwilîin	rule-în	um-i-orthography	
+çilwilîn	past_negative	2sg	neçilwiliyî	neçilwilîyî	rule-în	um-i-orthography	
+çilwilîn	past_negative	pl	neçilwilîn	neçilwilîin	rule-în	um-i-orthography	
+çilwilîn	past_progressive	2sg	diçilwiliyî	diçilwilîyî / diçilwilîî	rule-în	um-i-orthography	
+çilwilîn	present	2sg	diçilwilî	diçilwilyî	rule-în	um-yi-after-consonant	
+çilwilîn	subjunctive_negative	2sg	neçilwilî	neçilwilyî	rule-în	um-yi-after-consonant	
+çirûsîn	past	2sg	çirûsiyî	çirûsîyî	rule-în	um-i-orthography	
+çirûsîn	past	pl	çirûsîn	çirûsîin	rule-în	um-i-orthography	
+çirûsîn	past_negative	2sg	neçirûsiyî	neçirûsîyî	rule-în	um-i-orthography	
+çirûsîn	past_negative	pl	neçirûsîn	neçirûsîin	rule-în	um-i-orthography	
+çirûsîn	past_progressive	2sg	diçirûsiyî	diçirûsîyî / diçirûsîî	rule-în	um-i-orthography	
+çirûsîn	present	2sg	diçirûsî	diçirûsyî	rule-în	um-yi-after-consonant	
+çirûsîn	subjunctive_negative	2sg	neçirûsî	neçirûsyî	rule-în	um-yi-after-consonant	
+çêkirin	past	3sg	çêkir	çêkiri	curated	um-final-i	
+çêkirin	past_negative	3sg	neçêkir	neçêkiri	curated	um-final-i	
+çêkirin	past_progressive	3sg	diçêkir	diçêkiri	curated	um-final-i	
+çêrîn	past	2sg	çêriyî	çêrîyî	rule-în	um-i-orthography	
+çêrîn	past	pl	çêrîn	çêrîin	rule-în	um-i-orthography	
+çêrîn	past_negative	2sg	neçêriyî	neçêrîyî	rule-în	um-i-orthography	
+çêrîn	past_negative	pl	neçêrîn	neçêrîin	rule-în	um-i-orthography	
+çêrîn	past_progressive	2sg	diçêriyî	diçêrîyî / diçêrîî	rule-în	um-i-orthography	
+çêrîn	present	2sg	diçêrî	diçêryî	rule-în	um-yi-after-consonant	
+çêrîn	subjunctive_negative	2sg	neçêrî	neçêryî	rule-în	um-yi-after-consonant	
+çîrîn	past	2sg	çîriyî	çîrîyî	rule-în	um-i-orthography	
+çîrîn	past	pl	çîrîn	çîrîin	rule-în	um-i-orthography	
+çîrîn	past_negative	2sg	neçîriyî	neçîrîyî	rule-în	um-i-orthography	
+çîrîn	past_negative	pl	neçîrîn	neçîrîin	rule-în	um-i-orthography	
+çîrîn	past_progressive	2sg	diçîriyî	diçîrîyî / diçîrîî	rule-în	um-i-orthography	
+çîrîn	present	2sg	diçîrî	diçîryî	rule-în	um-yi-after-consonant	
+çîrîn	subjunctive_negative	2sg	neçîrî	neçîryî	rule-în	um-yi-after-consonant	
+çûyîn	past	2sg	çûyiyî	çûyîyî	rule-în	um-i-orthography	
+çûyîn	past	pl	çûyîn	çûyîin	rule-în	um-i-orthography	
+çûyîn	past_negative	2sg	neçûyiyî	neçûyîyî	rule-în	um-i-orthography	
+çûyîn	past_negative	pl	neçûyîn	neçûyîin	rule-în	um-i-orthography	
+çûyîn	past_progressive	2sg	diçûyiyî	diçûyîyî / diçûyîî	rule-în	um-i-orthography	
+çûyîn	present	2sg	diçûyî	diçûyyî	rule-în	um-yi-after-consonant	
+çûyîn	subjunctive_negative	2sg	neçûyî	neçûyyî	rule-în	um-yi-after-consonant	
+êxistin	past	3sg	êxist	êxisti	data	um-final-i	
+êxistin	past_negative	3sg	neêxist	neêxisti	data	um-final-i	
+êxistin	past_progressive	3sg	diêxist	diêxisti	data	um-final-i	

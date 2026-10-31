@@ -1,0 +1,36 @@
+{
+  "title": "Ferhenga Pirzimanî – Kurdish Multilingual Lexicon: dictionary, reference grammar and etymology",
+  "upload_type": "dataset",
+  "description": "Open lexical database of Kurdish varieties (Kurmanji, Sorani, Southern Kurdish, Zazaki, Gorani) derived from Wiktionary, with UPOS, UD/UniMorph features, inflected forms, verb paradigms, etymology classes, Turkish/English/German translations, a CLDF Dictionary export and a descriptive Kurmanji reference grammar with Leipzig-glossed examples. Not yet expert-reviewed.",
+  "creators": [
+    {
+      "name": "Tankılıç, Resul",
+      "affiliation": "GameVan Studio"
+    }
+  ],
+  "license": "cc-by-sa-4.0",
+  "keywords": [
+    "Kurdish",
+    "Kurmanji",
+    "Sorani",
+    "Zazaki",
+    "lexicon",
+    "CLDF",
+    "UniMorph",
+    "etymology",
+    "grammar"
+  ],
+  "language": "kmr",
+  "communities": [
+    {
+      "identifier": "cldf-datasets"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tankilicresul/kurdish-multilingual-lexicon",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

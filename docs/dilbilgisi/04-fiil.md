@@ -191,6 +191,70 @@ Ergatiflik bütün geçmiş zamanlarda geçerlidir:
 
 Hepsinden sonra **dilek kipi** (*bi-* + şimdiki gövde) gelir.
 
+## Glosslu örnekler
+Gösterim ve kısaltmalar: [0.4–0.5](00-giris-ve-yontem.md#04-örneklerin-gösterimi-leipzig-glossing-kuralları).
+
+
+```
+(9) Ez       nan    di-xw-im.
+    1SG.DIR  bread  IPFV-eat.PRS-1SG
+    'Ekmek yiyorum / yerim.'
+```
+Şimdiki zamanda özne yalın, fiil özneye uyar.
+
+```
+(10) Ez       na-k-im.
+     1SG.DIR  NEG.IPFV-do.PRS-1SG
+     'Yapmıyorum.'
+```
+*na-*, *di-* ile aynı yuvayı doldurur (§4.6).
+
+```
+(11) Ez       ê    bi-ç-im.
+     1SG.DIR  FUT  SBJV-go.PRS-1SG
+     'Gideceğim.'
+```
+
+```
+(12) Ez       çû-m.
+     1SG.DIR  go.PST-1SG
+     'Gittim.'
+```
+Geçişsiz fiil: geçmişte de özne yalın, fiil özneye uyar.
+
+```
+(13) Min      tu       dît-î.
+     1SG.OBL  2SG.DIR  see.PST-2SG
+     'Seni gördüm.'
+```
+Ergatif yapı: özne bükümlü, nesne yalın, fiil **nesneye** uyar (§4.7). Kaynak: Haig 2008; HÖ 2018.
+
+```
+(14) Te       ez       dît-im.
+     2SG.OBL  1SG.DIR  see.PST-1SG
+     'Beni gördün.'
+```
+
+```
+(15) Keç-ê       nan    xwar.
+     girl-OBL.F  bread  eat.PST(3SG)
+     'Kız ekmek yedi.'
+```
+
+```
+(16) Ez       hat-i-bû-m.
+     1SG.DIR  come.PST-PTCP-be.PST-1SG
+     'Gelmiştim.'
+```
+Miş'li geçmişin hikâyesi, ortaç *-i* ile *bûn* 'olmak' fiilinin geçmiş biçiminden kurulur.
+
+```
+(17) Divê  tu       bi-xwîn-î.
+     must  2SG.DIR  SBJV-read.PRS-2SG
+     'Okumalısın.'
+```
+Kip bildiren yapılardan sonra dilek kipi (§4.8).
+
 ## Depodaki ilgili veri
 - Fiiller ve çekimli biçimler: [`data/kmr/db/forms.tsv.gz`](../../data/kmr/db/), `upos = VERB`. Örnek: *kirin* fiilinin *dikim, dike, bike, neke...* biçimleri.
 - Fiil gövdeleri (şimdiki ve geçmiş): [`data/kmr/db/verb-roots.tsv`](../../data/kmr/db/verb-roots.tsv)
