@@ -9,6 +9,7 @@
 | Türkçe Vikisözlük, tr.wiktionary.org, kaikki.org üzerinden | Kürtçe/Zazaca maddelerin Türkçe anlamları; Türkçe maddelerin Kürtçe çevirileri | CC BY-SA 4.0 / GFDL |
 | Almanca Vikisözlük, de.wiktionary.org, kaikki.org üzerinden | Almanca maddelerin Kurmandschi/Sorani/Zazaki/Dimli çevirileri; Kürtçe maddelerin Almanca anlamları | CC BY-SA 4.0 / GFDL |
 | Vikipedi dökümleri: ku, ckb, diq (dumps.wikimedia.org, 1 Ekim 2026) | Kelime sıklığı (yalnızca sayımlar, metin dağıtılmaz) | CC BY-SA 4.0 |
+| Lingua Libre / Wikimedia Commons | Ses kayıtlarının bağlantıları (dosyalar depoda değil) | Her dosyanın kendi lisansı (çoğunlukla CC BY-SA 4.0) |
 | Wiktextract (Tatu Ylonen) | Vikisözlük dökümlerini yapılandırılmış veriye çeviren araç | Kod MIT; veri kaynağın lisansında |
 
 kaikki.org: https://kaikki.org/dictionary/rawdata.html
@@ -25,7 +26,7 @@ Wiktextract makalesi: Ylonen, T. (2022). *Wiktextract: Wiktionary as Machine-Rea
 | KurdishLexicography (Ontolex-Lemon): https://github.com/sinaahmadi/KurdishLexicography | Sözlük verisi | Lisansı kontrol edilmeli |
 | Freedict: https://freedict.org/downloads/ | Kurmancî/Soranî kelime listeleri | Lisansı kontrol edilmeli |
 | Apertium Kurmanji: https://github.com/apertium/apertium-kmr | Biçimbilim çözümleyici | GPL |
-| UniMorph Kurmanji: https://github.com/unimorph/kmr | Çekim verisi | |
+| UniMorph Kurmanji: https://github.com/unimorph/kmr | Çekim verisi; `forms.tsv.gz` ile karşılaştırma için | Lisansı kontrol edilmeli |
 | Bianet derlemi (OPUS): http://opus.nlpl.eu/Bianet.php | Türkçe-İngilizce-Kurmancî paralel metin | |
 | İstanbul Kürt Enstitüsü sözlükleri | Kurmancî-Türkçe başvuru | Basılı; telifli |
 

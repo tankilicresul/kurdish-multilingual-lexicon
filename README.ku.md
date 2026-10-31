@@ -18,6 +18,7 @@ Ev depo ji bo hemû kesên ku dixwazin bi kurdî lîstik, sepan, materyalên per
 | Peyv ji bo lîstikên peyvan (3–7 tîp) | `data/games/` |
 | Lîsteyên li gorî mijaran (reng, ajal, malbat, xwarin...) | `data/themes/` |
 | Peyvên hevwate di navbera zaravayan de | `data/cross-dialect.tsv` |
+| Danegeha zimannasî: cureyên peyvan, zayend, wate, etîmolojî, rehên lêkeran, gotinên pêşiyan, deng | `data/kmr/db/` |
 | Alfabe û klavye | `data/alphabets/` |
 
 ## Alîkarî

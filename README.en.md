@@ -23,6 +23,9 @@ An openly licensed, source-traceable lexicon and toolkit for anyone building gam
 | Word frequency from Kurdish Wikipedias | `data/frequency/` (Kurmanji, Sorani, Zazaki; 50k each) |
 | Alphabets, letter tables, on-screen keyboard layouts (JSON) | `data/alphabets/` |
 | Code: correct Kurdish casing, Hawar alphabet sorting, typing fixes | `tools/python/kurdi.py`, `tools/js/kurdi.js` |
+| **Linguistic database:** part of speech, gender, definitions, examples, etymology, morpheme segmentation, IPA, hyphenation, synonyms for every lemma | `data/kmr/db/lemmas.tsv` (158k Kurmanji lemmas; also Sorani 7.2k, Zazaki 3.3k, Southern 819, Gorani 167) · `docs/veritabani.md` |
+| Inflected forms → lemma + grammatical tags | `data/kmr/db/forms.tsv.gz` (330k forms) |
+| Etymology, affixes, verb stems, proverbs & idioms (21k), native-speaker audio links (3.1k) | `data/*/db/` |
 | Building a game or app | `docs/oyun-gelistirici-rehberi.md` (Turkish; key points below) |
 
 ## Coverage

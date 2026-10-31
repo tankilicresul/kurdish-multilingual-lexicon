@@ -22,6 +22,9 @@ Ein offen lizenzierter Wortschatz mit Quellenangabe in jeder Zeile sowie Werkzeu
 | Die zuverlässigsten Paare (von zwei unabhängigen Wiktionary-Ausgaben bestätigt) | `data/core/` |
 | Worthäufigkeit aus kurdischen Wikipedias | `data/frequency/` |
 | Alphabete und Bildschirmtastaturen (JSON) | `data/alphabets/` |
+| **Linguistische Datenbank:** Wortart, Genus, Definitionen, Beispiele, Etymologie, Morphemzerlegung, IPA, Silbentrennung | `data/kmr/db/lemmas.tsv` (158.000 Lemmata) |
+| Flexionsformen → Lemma + grammatische Merkmale | `data/kmr/db/forms.tsv.gz` (330.000 Formen) |
+| Etymologie, Affixe, Verbstämme, Sprichwörter (21.000), Audioaufnahmen (3.100) | `data/*/db/` |
 | Code für korrekte Groß-/Kleinschreibung und Sortierung | `tools/python/kurdi.py`, `tools/js/kurdi.js` |
 
 ## Umfang (Deutsch)

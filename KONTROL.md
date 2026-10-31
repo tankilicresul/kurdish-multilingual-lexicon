@@ -44,6 +44,9 @@ Bu depodaki veri **otomatik** derlendi. Kullanıma açılmadan önce anadil konu
 | data/learner/kmr-top3000.tsv | — | Başlanmadı |
 | data/games/kmr-5-harf.tsv | — | Başlanmadı |
 | data/alphabets/*.json | — | Başlanmadı |
+| data/kmr/db/lemmas.tsv (sözcük türü, cinsiyet) | — | Başlanmadı |
+| data/kmr/db/etymology.tsv | — | Başlanmadı (etimoloji uzmanı gerekir) |
+| data/kmr/db/proverbs-idioms.tsv | — | Başlanmadı |
 | data/core/kmr-tr.core.tsv | — | Başlanmadı |
 | data/core/kmr-en.core.tsv | — | Başlanmadı |
 | data/core/kmr-de.core.tsv | — | Başlanmadı |
