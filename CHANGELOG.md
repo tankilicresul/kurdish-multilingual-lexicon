@@ -1,5 +1,13 @@
 # Değişiklik Günlüğü / Changelog
 
+## v0.3.0 · 31.10.2026 · Dil bilgisi kitabı ve etimoloji (kontrol edilmedi)
+- `docs/dilbilgisi/`: Türkçe yazılmış Kurmancî dil bilgisi kitabı. 8 bölüm: ses ve yazım, isim/izafet/zamir, sıfat/sayı/edat, fiil (tüm zamanlar, ergatiflik), kelime yapımı, cümle ve soru, lehçe karşılaştırması, 30 soruluk YKS tarzı test ve cevap anahtarı. Örnekler Rastnivîs (mazdek) yazım denetiminden geçirildi.
+- `docs/dilbilgisi/paradigmalar.md`: isim ve fiil çekim tabloları (otomatik)
+- `data/kmr/db/etymology-class.tsv`: 156.692 madde için köken sınıfı (miras, iç türetme, alıntı, İran dillerinden alıntı, yansıma), kaynak dil, dil ailesi, köken yolu, kanıt türü, güven düzeyi
+- `data/kmr/db/verb-stems.tsv` ve `verb-paradigms.jsonl.gz`: 3.982 fiil için gövde ve tam çekim (254.848 biçim; 9.335'i veride de geçiyor)
+- `docs/etimoloji.md`: yöntem, sınıflar, istatistikler, tarihî ve akademik kaynaklar
+- `scripts/etymology_classify.py`, `scripts/paradigms.py`
+
 ## v0.2.0 · 31.10.2026 · Dilbilimsel veritabanı (kontrol edilmedi)
 - `data/<lehçe>/db/`: madde başları sözcük türü (UPOS), cinsiyet, Kurmancî ve İngilizce tanımlar, örnek cümleler, etimoloji (Kurmancî + İngilizce), ek-kök ayrımı, köken dili, IPA, heceleme, Arap/Kiril yazımları, eş/zıt/türetilmiş/ilgili kelimeler, çeviriler, sıklık sırasıyla
 - Kurmancî: 158.393 madde, 329.942 çekimli biçim (kök + hâl/sayı/kişi/zaman etiketleri), 86.916 etimoloji, 561 ek, 531 fiil gövdesi, 21.009 atasözü/deyim, 3.099 ses kaydı bağlantısı

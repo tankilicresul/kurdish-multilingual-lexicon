@@ -1,0 +1,56 @@
+{
+ "total": 156692,
+ "by_class": {
+  "unknown": 89775,
+  "internal": 62176,
+  "borrowed": 3214,
+  "inherited": 1180,
+  "borrowed-iranian": 216,
+  "onomatopoeic": 131
+ },
+ "with_known_etymology": 66917,
+ "top5000_by_class": {
+  "internal": 714,
+  "inherited": 406,
+  "borrowed": 211,
+  "borrowed-iranian": 47,
+  "onomatopoeic": 1
+ },
+ "loan_sources": {
+  "ar": 1658,
+  "fr": 608,
+  "en": 405,
+  "tr": 230,
+  "fa": 128,
+  "ckb": 84,
+  "el": 69,
+  "hy": 63,
+  "ota": 45,
+  "la": 29,
+  "arc": 24,
+  "it": 17,
+  "grc": 8,
+  "fa-cls": 7,
+  "aii": 6,
+  "trk": 5,
+  "de": 4,
+  "xcl": 4,
+  "es": 4,
+  "syc": 3
+ },
+ "loan_families": {
+  "Semitic / Sami": 1690,
+  "European / Avrupa": 1146,
+  "Turkic-Mongolic / Türk-Moğol": 279,
+  "Iranian / İrani": 218,
+  "Caucasian-Armenian / Kafkas-Ermeni": 68,
+  "": 23,
+  "Indic / Hint": 6
+ },
+ "by_confidence": {
+  "low": 89780,
+  "medium": 66442,
+  "high": 470
+ },
+ "with_regions": 3406
+}

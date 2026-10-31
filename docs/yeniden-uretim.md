@@ -27,6 +27,8 @@ python3 scripts/frequency.py raw/ckbwiki.xml.bz2 ckb data/frequency
 python3 scripts/frequency.py raw/diqwiki.xml.bz2 zza data/frequency
 python3 scripts/derive.py data               # multilingual, learner, themes, games
 python3 scripts/build_db.py raw data         # dilbilimsel veritabanı (data/*/db/)
+python3 scripts/etymology_classify.py        # köken sınıfları (data/kmr/db/etymology-class.tsv)
+python3 scripts/paradigms.py                 # fiil gövdeleri, çekimler, docs/dilbilgisi/paradigmalar.md
 
 # 4) Kontrol
 python3 scripts/validate.py data

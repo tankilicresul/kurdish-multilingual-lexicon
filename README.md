@@ -1,15 +1,15 @@
 # Ferhenga Pirzimanî · Kurdish Multilingual Lexicon
 
-**Kürtçe ↔ Türkçe · Kürtçe ↔ İngilizce · Kürtçe ↔ Almanca**
+**Sözlük + Dil Bilgisi + Etimoloji** · Kürtçe ↔ Türkçe · Kürtçe ↔ İngilizce · Kürtçe ↔ Almanca
 Kurmancî · Soranî · Güney Kürtçesi · Zazakî (+ Goranî/Hewramî)
 
 [English](README.en.md) · [Deutsch](README.de.md) · [Kurmancî](README.ku.md) · **Türkçe**
 
-> ⚠️ **DURUM: TASLAK (v0.2). İnsan kontrolünden geçmedi.**
+> ⚠️ **DURUM: TASLAK (v0.3). İnsan kontrolünden geçmedi.**
 > Verinin tamamı açık kaynaklardan (Vikisözlük, Vikipedi) otomatik derlendi. Her satırda `review_status = unverified` yazar.
 > Anadil konuşucularının katkısıyla kontrol edilecek: bkz. [KONTROL.md](KONTROL.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
-Kürtçe ile proje yapmak isteyen geliştiriciler, öğretmenler, çevirmenler ve araştırmacılar için **açık lisanslı, kaynağı her satırda izlenebilen**, dört dilli bir sözlük verisi ve araç seti. Amaç Kürtçe oyun, uygulama, eğitim materyali ve dil teknolojisi üretmeyi kolaylaştırmak.
+Kürtçe ile proje yapmak isteyen geliştiriciler, öğretmenler, çevirmenler ve araştırmacılar için **açık lisanslı, kaynağı her satırda izlenebilen**, dört dilli bir sözlük verisi, Türkçe yazılmış kapsamlı bir **Kurmancî dil bilgisi kitabı**, kelime kökeni (etimoloji) tablosu ve araç seti. Amaç Kürtçe oyun, uygulama, eğitim materyali ve dil teknolojisi üretmeyi kolaylaştırmak.
 
 ---
 
@@ -17,6 +17,9 @@ Kürtçe ile proje yapmak isteyen geliştiriciler, öğretmenler, çevirmenler v
 
 | İhtiyacın | Dosya |
 |---|---|
+| **Kurmancî'yi öğrenmek: dil bilgisi kitabı** (YKS tarzı, Türkçe, tablolar, 30 soruluk test ve cevap anahtarı) | [`docs/dilbilgisi/`](docs/dilbilgisi/README.md) |
+| **Bir kelime Kürtçe mi, nereden gelmiş?** Miras / iç türetme / alıntı (hangi dilden, hangi yoldan) / yansıma | [`data/kmr/db/etymology-class.tsv`](data/kmr/db/etymology-class.tsv) · [etimoloji rehberi](docs/etimoloji.md) |
+| Fiil çekimleri (9 zaman × 6 kişi, olumsuz, emir) | [`verb-paradigms.jsonl.gz`](data/kmr/db/verb-paradigms.jsonl.gz) (3.982 fiil) · [`verb-stems.tsv`](data/kmr/db/verb-stems.tsv) · [örnek tablolar](docs/dilbilgisi/paradigmalar.md) |
 | Kurmancî kelimenin Türkçe, İngilizce ve Almanca karşılığını tek satırda görmek | [`data/multilingual/kmr-tr-en-de.tsv`](data/multilingual/) (32 bin kelime, sıklık sırasıyla) |
 | En çok kullanılan kelimelerle başlamak (dil öğrenme, eğitim) | [`data/learner/kmr-top3000.tsv`](data/learner/) |
 | Kelime oyunu (Wordle tarzı) için 3-7 harfli kelimeler | [`data/games/kmr-5-harf.tsv`](data/games/) vb. |
@@ -59,6 +62,8 @@ Kürtçe ile proje yapmak isteyen geliştiriciler, öğretmenler, çevirmenler v
 | Ek / fiil gövdesi | 561 / 531 | 41 / 2 | 20 / 1 | 6 / – | 5 / – |
 | Atasözü ve deyim | 21.009 | 15 | 2 | 3 | 1 |
 | Ses kaydı | 3.099 | 3 | 35 | 4 | – |
+| Köken sınıfı (etimoloji) | 156.692 | – | – | – | – |
+| Fiil çekim tablosu | 3.982 fiil / 254.848 biçim | – | – | – | – |
 
 Ayrıca: 32.443 satırlık dört dilli tablo · 3.000 kelimelik öğrenici listesi · 6.686 oyun kelimesi (3-7 harf) · 17 konuda 263 kavram · 6.778 lehçeler arası eşleşme · 3 × 50.000 sıklık listesi.
 
@@ -109,9 +114,10 @@ data/
   lexicon.jsonl.gz                         tüm doğrudan çiftler tek dosyada
   kmr/db/ ckb/db/ zza/db/ sdh/db/ hac/db/  dilbilimsel veritabanı (madde, çekim, etimoloji, ek, kök, atasözü, ses)
   DB-STATS.json
-docs/            tarih · lehçeler · alfabeler · veritabanı · oyun geliştirici rehberi · sıklık yöntemi
+docs/dilbilgisi/ Kurmancî dil bilgisi kitabı (8 bölüm + paradigmalar + test)
+docs/            etimoloji · tarih · lehçeler · alfabeler · veritabanı · oyun geliştirici rehberi · sıklık yöntemi
 tools/           python/kurdi.py · js/kurdi.js · tests/
-scripts/         build · core · frequency · derive · validate · to_sqlite · filter_de
+scripts/         build · build_db · etymology_classify · paradigms · core · frequency · derive · validate · to_sqlite · filter_de
 ```
 
 ## Yeniden üretme
@@ -122,6 +128,9 @@ Bütün veri betiklerle baştan üretilebilir: [`docs/yeniden-uretim.md`](docs/y
 - Edat ve bağlaç gibi işlev sözcüklerinin çevirileri bağlama bağlıdır; öğrenici listesinde not düşülmüştür.
 - Güney Kürtçesi ve Goranî için açık kaynak çok azdır; dosyaları yalnızca türetmedir.
 - Sıklık listeleri ansiklopedi metninden çıkarıldı: günlük konuşma kelimeleri olduğundan daha nadir görünür.
+- Köken sınıflandırması otomatiktir: maddelerin %57'sinde kaynakta köken bilgisi yok (`unknown`). Bazı ortak İrani kelimeler yanlışlıkla Farsça alıntı görünür ([ayrıntı](docs/etimoloji.md#6-bilinen-sorunlar)).
+- Fiil çekimleri kuralla üretildi. Yalnızca kalın gösterilen biçimler veride de geçer. Düzensiz fiillerde hata olabilir.
+- Dil bilgisi kitabı standart yazı dilini anlatır. Ağız farkları yalnızca notlarla belirtildi.
 - Hiçbir satır henüz anadil konuşucusu tarafından kontrol edilmedi.
 
 ## Lisans

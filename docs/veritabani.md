@@ -99,6 +99,12 @@ for line in gzip.open('data/kmr/db/lemmas.jsonl.gz', 'rt', encoding='utf-8'):
 
 > Etimoloji tartışmalı bir alandır. Bu metinler Vikisözlük katkıcılarının yazdıklarıdır; akademik kaynakla doğrulanmadan kesin bilgi olarak sunulmamalıdır.
 
+### 4a. Köken sınıfı: `etymology-class.tsv`
+Her madde için tek satırlık özet: miras mı (`inherited`), Kürtçe içinde mi türetilmiş (`internal`), hangi dilden alınmış (`borrowed`, `borrowed-iranian`), yansıma mı (`onomatopoeic`). Ayrıca kaynak dil, dil ailesi, köken yolu (`ar > kmr`), kanıt türü ve güven düzeyi. Yöntem ve sınırlar: [etimoloji.md](etimoloji.md).
+
+### 4b. Fiil çekimleri: `verb-stems.tsv`, `verb-paradigms.jsonl.gz`
+3.982 fiil için şimdiki ve geçmiş gövde (kaynağıyla: `curated`, `data`, `rule-în`, `rule-andin`) ve 9 zamanın 6 kişideki biçimleri. `attested` alanı, kuralla üretilen biçimlerden hangilerinin `forms.tsv.gz` içinde de geçtiğini gösterir. Örnek tablolar: [dilbilgisi/paradigmalar.md](dilbilgisi/paradigmalar.md).
+
 ## 5. Ses: `audio.tsv`
 [Lingua Libre](https://lingualibre.org) projesinde anadil konuşucularının okuduğu kelimelerin Wikimedia Commons bağlantıları ve konuşucunun bölgesi (ör. Wan/Van, Bitlis, Amed/Diyarbakır). Ses dosyaları depoya **eklenmedi**, yalnızca bağlantıları var. Her dosyanın lisansı kendi Commons sayfasında yazar; çoğu CC BY-SA 4.0'dır. Uygulamada kullanırken konuşucuyu ve lisansı belirtin.
 

@@ -5,7 +5,7 @@ Kurmancî · Soranî · Kurdiya başûrî · Zazakî (+ Goranî/Hewramî)
 
 [Türkçe](README.md) · [English](README.en.md) · [Deutsch](README.de.md) · **Kurmancî**
 
-> ⚠️ **REWŞ: REŞNIVÎS (v0.1).** Hemû dane bi awayekî xweber ji çavkaniyên vekirî (Wîkîferheng, Wîkîpediya) hatine berhevkirin. Hîn ji aliyê axêverên zikmakî ve nehatine kontrolkirin.
+> ⚠️ **REWŞ: REŞNIVÎS (v0.3).** Hemû dane bi awayekî xweber ji çavkaniyên vekirî (Wîkîferheng, Wîkîpediya) hatine berhevkirin. Hîn ji aliyê axêverên zikmakî ve nehatine kontrolkirin.
 
 Ev depo ji bo hemû kesên ku dixwazin bi kurdî lîstik, sepan, materyalên perwerdeyê an teknolojiya ziman çêbikin, çavkaniyeke vekirî ye.
 
@@ -13,6 +13,9 @@ Ev depo ji bo hemû kesên ku dixwazin bi kurdî lîstik, sepan, materyalên per
 
 | Tu çi dixwazî? | Pel |
 |---|---|
+| Rêzimana kurmancî bi tirkî: 8 beş, tablo û ceribandin bi bersivan | `docs/dilbilgisi/` |
+| Gelo peyvek bi eslê xwe kurdî ye an deyn e? Çînên etîmolojiyê, zimanê çavkaniyê, rê, delîl û asta pêbaweriyê | `data/kmr/db/etymology-class.tsv` · `docs/etimoloji.md` |
+| Tewandina tevahî ya lêkeran ji bo 3.982 lêkeran | `data/kmr/db/verb-paradigms.jsonl.gz` |
 | Peyveke kurmancî bi wergera tirkî, îngilîzî û almanî | `data/multilingual/kmr-tr-en-de.tsv` |
 | 3.000 peyvên herî zêde tên bikaranîn | `data/learner/kmr-top3000.tsv` |
 | Peyv ji bo lîstikên peyvan (3–7 tîp) | `data/games/` |

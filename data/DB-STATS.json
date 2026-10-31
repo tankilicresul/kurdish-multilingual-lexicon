@@ -30,7 +30,17 @@
    "SYM": 4,
    "DET": 3,
    "PART": 2
-  }
+  },
+  "etymology_class": {
+   "unknown": 89775,
+   "internal": 62176,
+   "borrowed": 3214,
+   "inherited": 1180,
+   "borrowed-iranian": 216,
+   "onomatopoeic": 131
+  },
+  "verb_paradigms": 3982,
+  "verb_paradigm_forms": 254848
  },
  "ckb": {
   "lemmas": 7232,
