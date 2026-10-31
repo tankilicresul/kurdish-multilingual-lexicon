@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Peyv Doğrula · GameVan Kitle Kaynak Sözlük Denetimi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gv-turq: #3FA9A2;
+      --gv-turq-d: #2E847E;
+      --gv-orange: #F28A4E;
+      --gv-orange-d: #D46A2E;
+      --gv-amber: #F2C14E;
+      --gv-amber-d: #C99A2C;
+      --gv-coral: #E98A86;
+      --gv-coral-d: #C4615D;
+      --gv-cream: #FBF4EA;
+      --gv-card: #FFF9F1;
+      --gv-card-2: #F3E7D8;
+      --gv-ink: #3D2E3A;
+      --gv-ink-2: #7E6E7A;
+      --gv-white: #FFFDF9;
+      --gv-font: "Baloo 2", system-ui, -apple-system, sans-serif;
+      --gv-lift: inset 0 2px 0 #fff, 0 6px 0 rgba(61,46,58,0.14), 0 12px 20px -8px rgba(201,139,90,0.4);
+      --gv-lift-btn: inset 0 2px 0 rgba(255,255,255,0.7), 0 4px 0 rgba(61,46,58,0.18), 0 8px 14px -4px rgba(61,46,58,0.25);
+    }
+
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: var(--gv-font);
+      background: radial-gradient(60% 40% at 8% 0%, rgba(255,196,140,0.5) 0, transparent 70%),
+                  radial-gradient(50% 35% at 100% 18%, rgba(140,215,220,0.4) 0, transparent 70%),
+                  linear-gradient(180deg, #E8EDF2 0%, #EFE6DA 55%, #EBDDCB 100%);
+      color: var(--gv-ink);
+      user-select: none;
+      -webkit-user-select: none;
+      overflow-x: hidden;
+    }
+
+    .app-shell {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      max-width: 440px;
+      margin: 0 auto;
+      padding: 12px 16px;
+      position: relative;
+    }
+
+    /* Top Bar */
+    .top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .logo-badge {
+      background: var(--gv-orange);
+      color: var(--gv-white);
+      font-weight: 800;
+      font-size: 14px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      box-shadow: 0 3px 0 var(--gv-orange-d);
+      letter-spacing: 0.5px;
+    }
+
+    .title {
+      font-weight: 800;
+      font-size: 20px;
+      margin: 0;
+      color: var(--gv-ink);
+    }
+
+    .stats-pill {
+      background: var(--gv-white);
+      border-radius: 999px;
+      padding: 4px 12px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 700;
+      font-size: 15px;
+      box-shadow: 0 3px 0 rgba(61,46,58,0.1);
+    }
+
+    /* Progress & Streak Bar */
+    .progress-bar-container {
+      width: 100%;
+      height: 10px;
+      background: rgba(61,46,58,0.08);
+      border-radius: 999px;
+      margin: 6px 0 14px 0;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--gv-amber), var(--gv-turq));
+      border-radius: 999px;
+      transition: width 0.3s ease;
+    }
+
+    /* Card Arena */
+    .card-arena {
+      flex: 1;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      perspective: 1000px;
+      margin-bottom: 16px;
+    }
+
+    .word-card {
+      width: 100%;
+      height: 380px;
+      background: var(--gv-card);
+      border-radius: 28px;
+      padding: 24px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: var(--gv-lift);
+      border: 3px solid #FFF;
+      position: absolute;
+      touch-action: none;
+      cursor: grab;
+      transition: transform 0.25s cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 0.25s ease;
+      will-change: transform;
+    }
+
+    .word-card:active {
+      cursor: grabbing;
+    }
+
+    .card-stamp {
+      position: absolute;
+      top: 24px;
+      padding: 6px 14px;
+      border-radius: 12px;
+      font-size: 18px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s ease;
+    }
+
+    .stamp-ok {
+      right: 20px;
+      color: var(--gv-turq);
+      border: 3px solid var(--gv-turq);
+      transform: rotate(12deg);
+    }
+
+    .stamp-bad {
+      left: 20px;
+      color: var(--gv-coral);
+      border: 3px solid var(--gv-coral);
+      transform: rotate(-12deg);
+    }
+
+    .stamp-reg {
+      top: 15px;
+      left: 50%;
+      transform: translateX(-50%);
+      color: var(--gv-amber-d);
+      border: 3px solid var(--gv-amber-d);
+    }
+
+    .card-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .pos-tag {
+      background: var(--gv-card-2);
+      color: var(--gv-ink-2);
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    .rank-tag {
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--gv-ink-2);
+    }
+
+    .card-body {
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .kurdish-word {
+      font-size: 42px;
+      font-weight: 800;
+      color: var(--gv-ink);
+      margin: 0 0 6px 0;
+      line-height: 1.1;
+      letter-spacing: -0.5px;
+    }
+
+    .tr-meaning {
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--gv-orange-d);
+      margin: 4px 0 12px 0;
+    }
+
+    .en-de-container {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      padding: 10px 14px;
+      background: rgba(61,46,58,0.04);
+      border-radius: 16px;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    .other-lang {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--gv-ink-2);
+    }
+
+    .other-lang strong {
+      color: var(--gv-ink);
+    }
+
+    .card-footer {
+      font-size: 13px;
+      color: var(--gv-ink-2);
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    /* Action Buttons */
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px;
+      margin-bottom: 10px;
+    }
+
+    .btn-act {
+      border: none;
+      outline: none;
+      border-radius: 20px;
+      padding: 16px 8px;
+      font-family: var(--gv-font);
+      font-weight: 800;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+      cursor: pointer;
+      color: #FFF;
+      box-shadow: var(--gv-lift-btn);
+      transition: transform 0.1s ease, box-shadow 0.1s ease;
+    }
+
+    .btn-act:active {
+      transform: translateY(3px);
+      box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+    }
+
+    .btn-bad {
+      background: var(--gv-coral);
+      border-bottom: 4px solid var(--gv-coral-d);
+    }
+
+    .btn-reg {
+      background: var(--gv-amber);
+      color: var(--gv-ink);
+      border-bottom: 4px solid var(--gv-amber-d);
+    }
+
+    .btn-ok {
+      background: var(--gv-turq);
+      border-bottom: 4px solid var(--gv-turq-d);
+    }
+
+    .btn-icon {
+      font-size: 24px;
+      line-height: 1;
+    }
+
+    /* Bottom utilities */
+    .bottom-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 700;
+      color: var(--gv-ink-2);
+      padding: 0 4px;
+    }
+
+    .btn-link {
+      background: none;
+      border: none;
+      color: var(--gv-turq-d);
+      font-weight: 700;
+      font-family: var(--gv-font);
+      font-size: 14px;
+      cursor: pointer;
+      text-decoration: underline;
+      padding: 4px;
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(61,46,58,0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s ease;
+      z-index: 100;
+    }
+
+    .modal-overlay.is-active {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .modal-box {
+      background: var(--gv-white);
+      border-radius: 24px;
+      padding: 24px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    .modal-title {
+      font-weight: 800;
+      font-size: 22px;
+      margin: 0 0 12px 0;
+      color: var(--gv-ink);
+    }
+
+    .modal-content {
+      font-family: 'Nunito', sans-serif;
+      font-size: 15px;
+      color: var(--gv-ink-2);
+      line-height: 1.5;
+      margin-bottom: 16px;
+    }
+
+    .btn-primary {
+      width: 100%;
+      background: var(--gv-orange);
+      color: #FFF;
+      border: none;
+      border-radius: 16px;
+      padding: 12px;
+      font-family: var(--gv-font);
+      font-weight: 800;
+      font-size: 16px;
+      border-bottom: 3px solid var(--gv-orange-d);
+      cursor: pointer;
+    }
+
+    /* Keyboard hint */
+    .kb-hint {
+      text-align: center;
+      font-size: 12px;
+      color: var(--gv-ink-2);
+      margin-top: 4px;
+      font-family: 'Nunito', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-shell">
+    
+    <!-- Top Bar -->
+    <div class="top-bar">
+      <div class="brand">
+        <span class="logo-badge">GameVan</span>
+        <h1 class="title">Peyv Doğrula</h1>
+      </div>
+      <div class="stats-pill">
+        <span>🔥</span>
+        <span id="streakCount">0</span>
+        <span style="color:var(--gv-turq);margin-left:4px;">✓ <span id="verifiedCount">0</span></span>
+      </div>
+    </div>
+
+    <!-- Progress Bar -->
+    <div class="progress-bar-container">
+      <div class="progress-fill" id="progressBar"></div>
+    </div>
+
+    <!-- Card Arena -->
+    <div class="card-arena" id="cardArena">
+      <div class="word-card" id="wordCard">
+        <div class="card-stamp stamp-ok" id="stampOk">DOĞRU</div>
+        <div class="card-stamp stamp-bad" id="stampBad">YANLIŞ</div>
+        <div class="card-stamp stamp-reg" id="stampReg">BÖLGESEL</div>
+
+        <div class="card-meta">
+          <span class="pos-tag" id="cardPos">noun</span>
+          <span class="rank-tag" id="cardRank">#1 / 3000</span>
+        </div>
+
+        <div class="card-body">
+          <div class="kurdish-word" id="cardKmr">pisîk</div>
+          <div class="tr-meaning" id="cardTr">kedi</div>
+          <div class="en-de-container">
+            <div class="other-lang"><strong>EN:</strong> <span id="cardEn">cat</span></div>
+            <div class="other-lang"><strong>DE:</strong> <span id="cardDe">Katze</span></div>
+          </div>
+        </div>
+
+        <div class="card-footer" id="cardNote">
+          Kaydırmak için çekin veya aşağıdaki butonları kullanın.
+        </div>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button class="btn-act btn-bad" id="btnBad" title="Sol Ok / Swipe Left">
+        <span class="btn-icon">✕</span>
+        <span>Hatalı</span>
+      </button>
+      <button class="btn-act btn-reg" id="btnReg" title="Aşağı Ok / Swipe Down">
+        <span class="btn-icon">🔍</span>
+        <span>Bölgesel</span>
+      </button>
+      <button class="btn-act btn-ok" id="btnOk" title="Sağ Ok / Swipe Right">
+        <span class="btn-icon">✓</span>
+        <span>Doğru</span>
+      </button>
+    </div>
+
+    <div class="kb-hint">
+      Klavye: <strong>← Sol (Hatalı)</strong> · <strong>↓ Aşağı (Bölgesel)</strong> · <strong>→ Sağ (Doğru)</strong>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="bottom-bar">
+      <span id="levelBadge">Seviye: 🥉 Dil Gönüllüsü</span>
+      <button class="btn-link" id="btnExport">Raporu İndir</button>
+    </div>
+
+  </div>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="exportModal">
+    <div class="modal-box">
+      <h2 class="modal-title">Katkı Raporu 🏆</h2>
+      <div class="modal-content" id="modalText">
+        Bugün 0 kelime kontrol ettin.
+      </div>
+      <button class="btn-primary" id="btnDownloadTSV" style="margin-bottom:8px;">TSV Olarak İndir</button>
+      <button class="btn-primary" id="btnCloseModal" style="background:var(--gv-card-2);color:var(--gv-ink);border-color:var(--gv-ink-2);">Kapat</button>
+    </div>
+  </div>
+
+  <script src="sample_words.js"></script>
+  <script>
+    // Audio synthesizer for haptics/audio feedback
+    const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    function playBeep(freq, type='sine', dur=0.08) {
+      try {
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.type = type;
+        osc.frequency.setValueAtTime(freq, audioCtx.currentTime);
+        gain.gain.setValueAtTime(0.12, audioCtx.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + dur);
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        osc.start();
+        osc.stop(audioCtx.currentTime + dur);
+      } catch (e) {}
+    }
+
+    // Word Deck & LocalStorage
+    let words = window.DEFAULT_WORDS || [];
+    let currentIndex = 0;
+    let reviews = JSON.parse(localStorage.getItem('gv_reviews') || '[]');
+    let streak = parseInt(localStorage.getItem('gv_streak') || '0', 10);
+
+    // Filter already reviewed words
+    const reviewedSet = new Set(reviews.map(r => r.kmr));
+    words = words.filter(w => !reviewedSet.has(w.kmr));
+
+    // UI elements
+    const card = document.getElementById('wordCard');
+    const cardKmr = document.getElementById('cardKmr');
+    const cardTr = document.getElementById('cardTr');
+    const cardEn = document.getElementById('cardEn');
+    const cardDe = document.getElementById('cardDe');
+    const cardPos = document.getElementById('cardPos');
+    const cardRank = document.getElementById('cardRank');
+    const cardNote = document.getElementById('cardNote');
+    const stampOk = document.getElementById('stampOk');
+    const stampBad = document.getElementById('stampBad');
+    const stampReg = document.getElementById('stampReg');
+    const streakCount = document.getElementById('streakCount');
+    const verifiedCount = document.getElementById('verifiedCount');
+    const progressBar = document.getElementById('progressBar');
+    const levelBadge = document.getElementById('levelBadge');
+
+    function updateStats() {
+      streakCount.textContent = streak;
+      verifiedCount.textContent = reviews.length;
+      const pct = Math.min(100, (reviews.length % 50) * 2);
+      progressBar.style.width = pct + '%';
+
+      if (reviews.length >= 100) levelBadge.textContent = 'Seviye: 🥇 Ferheng Ustadı';
+      else if (reviews.length >= 30) levelBadge.textContent = 'Seviye: 🥈 Sözlük Savunucusu';
+      else levelBadge.textContent = 'Seviye: 🥉 Dil Gönüllüsü';
+    }
+
+    function renderCurrentWord() {
+      if (currentIndex >= words.length) {
+        cardKmr.textContent = 'Tebrikler! 🎉';
+        cardTr.textContent = 'Tüm kelimeleri kontrol ettin!';
+        cardEn.textContent = 'Harika bir katkı sağladın.';
+        cardDe.textContent = '';
+        cardPos.textContent = 'TAMAMLANDI';
+        cardRank.textContent = '';
+        cardNote.textContent = 'Raporu indir butonuna tıklayarak sonuçlarını paylaşabilirsin.';
+        return;
+      }
+      const item = words[currentIndex];
+      cardKmr.textContent = item.kmr;
+      cardTr.textContent = item.tr || '—';
+      cardEn.textContent = item.en || '—';
+      cardDe.textContent = item.de || '—';
+      cardPos.textContent = item.pos || 'sözcük';
+      cardRank.textContent = '#' + (item.rank || (currentIndex + 1));
+      cardNote.textContent = item.note || 'Hawar yazımı ve genel kullanım kontrolü.';
+      
+      stampOk.style.opacity = 0;
+      stampBad.style.opacity = 0;
+      stampReg.style.opacity = 0;
+      card.style.transform = 'none';
+      card.style.transition = 'none';
+    }
+
+    function recordDecision(decision) {
+      if (currentIndex >= words.length) return;
+      const item = words[currentIndex];
+      reviews.push({
+        kmr: item.kmr,
+        pos: item.pos,
+        tr: item.tr,
+        decision: decision, // 'ok', 'wrong', 'regional'
+        timestamp: new Date().toISOString()
+      });
+      localStorage.setItem('gv_reviews', JSON.stringify(reviews));
+
+      if (decision === 'ok') {
+        streak++;
+        playBeep(587, 'sine', 0.1); // High note
+      } else if (decision === 'regional') {
+        streak++;
+        playBeep(440, 'sine', 0.1);
+      } else {
+        streak = 0;
+        playBeep(220, 'triangle', 0.15); // Low note
+      }
+      localStorage.setItem('gv_streak', streak.toString());
+
+      currentIndex++;
+      updateStats();
+      renderCurrentWord();
+    }
+
+    // Swipe animations
+    function animateSwipe(direction) {
+      card.style.transition = 'transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1)';
+      if (direction === 'right') {
+        stampOk.style.opacity = 1;
+        card.style.transform = 'translateX(400px) rotate(25deg)';
+        setTimeout(() => recordDecision('ok'), 220);
+      } else if (direction === 'left') {
+        stampBad.style.opacity = 1;
+        card.style.transform = 'translateX(-400px) rotate(-25deg)';
+        setTimeout(() => recordDecision('wrong'), 220);
+      } else if (direction === 'down') {
+        stampReg.style.opacity = 1;
+        card.style.transform = 'translateY(400px)';
+        setTimeout(() => recordDecision('regional'), 220);
+      }
+    }
+
+    // Touch gesture events (Tinder swipe)
+    let startX = 0, startY = 0, moveX = 0, moveY = 0, isDragging = false;
+    card.addEventListener('touchstart', e => {
+      startX = e.touches[0].clientX;
+      startY = e.touches[0].clientY;
+      isDragging = true;
+      card.style.transition = 'none';
+    }, { passive: true });
+
+    card.addEventListener('touchmove', e => {
+      if (!isDragging) return;
+      moveX = e.touches[0].clientX - startX;
+      moveY = e.touches[0].clientY - startY;
+      const rot = moveX * 0.08;
+      card.style.transform = `translate(${moveX}px, ${moveY}px) rotate(${rot}deg)`;
+
+      if (moveX > 40) { stampOk.style.opacity = Math.min(1, (moveX - 40) / 60); stampBad.style.opacity = 0; }
+      else if (moveX < -40) { stampBad.style.opacity = Math.min(1, (-moveX - 40) / 60); stampOk.style.opacity = 0; }
+      else if (moveY > 40) { stampReg.style.opacity = Math.min(1, (moveY - 40) / 60); }
+      else { stampOk.style.opacity = 0; stampBad.style.opacity = 0; stampReg.style.opacity = 0; }
+    }, { passive: true });
+
+    card.addEventListener('touchend', () => {
+      if (!isDragging) return;
+      isDragging = false;
+      if (moveX > 90) animateSwipe('right');
+      else if (moveX < -90) animateSwipe('left');
+      else if (moveY > 90) animateSwipe('down');
+      else {
+        card.style.transition = 'transform 0.2s ease';
+        card.style.transform = 'none';
+        stampOk.style.opacity = 0;
+        stampBad.style.opacity = 0;
+        stampReg.style.opacity = 0;
+      }
+      moveX = 0; moveY = 0;
+    });
+
+    // Buttons
+    document.getElementById('btnOk').onclick = () => animateSwipe('right');
+    document.getElementById('btnBad').onclick = () => animateSwipe('left');
+    document.getElementById('btnReg').onclick = () => animateSwipe('down');
+
+    // Keyboard controls
+    window.addEventListener('keydown', e => {
+      if (e.key === 'ArrowRight' || e.key === 'd' || e.key === 'D') animateSwipe('right');
+      else if (e.key === 'ArrowLeft' || e.key === 'a' || e.key === 'A') animateSwipe('left');
+      else if (e.key === 'ArrowDown' || e.key === 's' || e.key === 'S') animateSwipe('down');
+    });
+
+    // Modal & Export
+    const modal = document.getElementById('exportModal');
+    document.getElementById('btnExport').onclick = () => {
+      modal.classList.add('is-active');
+      document.getElementById('modalText').innerHTML = `
+        Şimdiye kadar <strong>${reviews.length}</strong> kelime denetledin:<br>
+        • Doğru: ${reviews.filter(r => r.decision === 'ok').length}<br>
+        • Hatalı: ${reviews.filter(r => r.decision === 'wrong').length}<br>
+        • Bölgesel: ${reviews.filter(r => r.decision === 'regional').length}
+      `;
+    };
+    document.getElementById('btnCloseModal').onclick = () => modal.classList.remove('is-active');
+
+    document.getElementById('btnDownloadTSV').onclick = () => {
+      let tsv = 'kmr\tpos\ttr\tdecision\ttimestamp\n';
+      reviews.forEach(r => {
+        tsv += `${r.kmr}\t${r.pos}\t${r.tr}\t${r.decision}\t${r.timestamp}\n`;
+      });
+      const blob = new Blob([tsv], { type: 'text/tab-separated-values' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `gamevan-dogrulama-${new Date().toISOString().slice(0,10)}.tsv`;
+      a.click();
+    };
+
+    // Init
+    updateStats();
+    renderCurrentWord();
+  </script>
+</body>
+</html>

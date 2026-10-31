@@ -21,7 +21,7 @@ Bu depo, verinin başka araç ve projelerle doğrudan kullanılabilmesi için di
 | `kmr` | Kurmancî (Kuzey Kürtçesi) | kmr | nort2641 | |
 | `ckb` | Soranî (Orta Kürtçe) | ckb | cent1972 | |
 | `sdh` | Güney Kürtçesi | sdh | sout2640 | |
-| `zza` | Zazakî | zza | zaza1246 | `zza` bir makro dil kodudur. Alt kodları: `kiu` (Kirmancki), `diq` (Dimilî). Kaynak veri bu ayrımı yapmıyor. |
+| `zza` | Zazakî | zza | zaza1246 | `zza` bir makro dil kodudur. Alt kodları: `kiu` (Kuzey/Kırmanckî), `diq` (Güney/Dımıli). Veri kümesinde her satır morfolojik ve sözcüksel kurallarla `kiu` / `diq` / `shared` olarak etiketlenmiştir (bkz. `data/zza/DIALECTS.md`). |
 | `hac` | Goranî (Hewramî) | hac | gura1251 | Glottocode, Gurani alt grubunun tamamını kapsıyor. |
 
 ## Hâl etiketlerinin eşlemesi
