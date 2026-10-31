@@ -166,6 +166,8 @@ Bütün veri betiklerle baştan üretilebilir: [`docs/yeniden-uretim.md`](docs/y
 - Atıf: [CITATION.cff](CITATION.cff) (GitHub'da "Cite this repository" düğmesi). Kaynakça: [docs/kaynakca.bib](docs/kaynakca.bib)
 
 ## Katkı
+Geliştirme geçmişi ve devir notu: [GELISTIRME-GUNLUGU.md](GELISTIRME-GUNLUGU.md)
+
 Kürtçenin herhangi bir kolunun anadil konuşucusuysanız en değerli katkı **kontroldür**. Bkz. [CONTRIBUTING.md](CONTRIBUTING.md). Hata bildirmek için *Issues → Düzeltme* şablonunu kullanın.
 
 Bu depo [GameVan Studio](https://github.com/tankilicresul) tarafından, Kürtçe oyun ve eğitim projelerine açık bir temel sağlamak amacıyla başlatıldı. İlk derleme bir yapay zekâ asistanı (Claude) ile yapıldı.
