@@ -193,8 +193,8 @@ for v in VAR:
                 lang=r['lang'], translation=r['translation'], source='pivot:' + c['source'] + '>' + r['source'],
                 review_status='unverified'))
     for l, d in out.items():
-        os.makedirs(os.path.join(OUT, v), exist_ok=True)
-        with open(os.path.join(OUT, v, f'{v}-{l}.pivot.tsv'), 'w', encoding='utf-8', newline='') as f:
+        os.makedirs(os.path.join(OUT, 'experimental', 'pivots'), exist_ok=True)
+        with open(os.path.join(OUT, 'experimental', 'pivots', f'{v}-{l}.pivot.tsv'), 'w', encoding='utf-8', newline='') as f:
             wr = csv.DictWriter(f, fieldnames=['kurdish', 'variety', 'script', 'via_kmr', 'lang', 'translation', 'source', 'review_status'], delimiter='\t')
             wr.writeheader(); wr.writerows(sorted(d.values(), key=lambda x: x['kurdish'].lower()))
         pivot[(v, l)] = len(d)

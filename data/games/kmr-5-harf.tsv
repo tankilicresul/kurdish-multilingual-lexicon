@@ -4,7 +4,7 @@ kirin	verb	37	yapmak | etmek	to do, to make | do	tun | machen	unverified
 mezin	adj	45	büyük | oylumlu	adult | large, big	groß | überwiegend	unverified
 heman	adj	62	aynı	same	selbe | derselbe	unverified
 yekem	adj	64	birinci | evvel	first | prima	erste | erster	unverified
-caran	adj	92	çarpma | dört işlem	times | at times		unverified
+caran	adv	92	bazen | zaman zaman	sometimes | at times	manchmal	ok
 kurdî	noun	93	Kürtçe | kürdi	Kurdish | Kurd	Kurdisch | kurdische Sprache	unverified
 hatin	verb	98	gelmek | gelinmek	to come | come	kommen | Ankunft	unverified
 gotin	verb	103	söylemek | güfte	to say | say	sagen | äußern	unverified
@@ -23,7 +23,7 @@ başûr	noun	203	güney | cenup	south | the south wind	Süden | Süd	unverified
 bakur	noun	212	kuzey | şimal	north | the north wind	Norden | Nord	unverified
 peyda	adj	213	var | mevcut	available | obtainable	verfügbar | disponibel	unverified
 belav	adj	215	yaygın | serpilmiş	scattered, dispersed | rampant	zerstreut | verteilt	unverified
-paşîn	adj	223	cumartesi | nihai	last | final	zuletzt | zurück	unverified
+paşîn	adj	223	son | nihai	last | final	letzte	ok
 hebûn	verb	235	var olmak | varlık	to have | to exist	existieren | haben	unverified
 ziman	noun	236	dil | lisan	tongue | language	Zunge | Sprache	unverified
 dayik	noun	243	anne | ana	mother | old lady	Mutter	unverified

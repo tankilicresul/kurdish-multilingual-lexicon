@@ -20,7 +20,7 @@ def load(table, files):
     db.executemany(f'INSERT INTO {table} VALUES ({",".join("?" * len(cols))})', rows)
     print(table, len(rows))
 load('pairs', sorted(glob.glob(os.path.join(D, '*', '*-??.tsv'))))
-load('pivot', sorted(glob.glob(os.path.join(D, '*', '*.pivot.tsv'))))
+load('pivot', sorted(glob.glob(os.path.join(D, '**', '*.pivot.tsv'), recursive=True)))
 load('cross_dialect', [os.path.join(D, 'cross-dialect.tsv')])
 load('multilingual', [os.path.join(D, 'multilingual', 'kmr-tr-en-de.tsv')])
 for v in ('kmr', 'ckb', 'zza'):

@@ -1,5 +1,11 @@
 # Değişiklik Günlüğü / Changelog
 
+## v0.5.0 · 01.11.2026 · Kademeli Mimari ve Kalite İyileştirmesi (Tier-1 Core & Pivot İzolasyonu)
+- **Kademeli Mimari (Tiered Architecture):** Proje iki ana seviyeye ayrıldı: Tier-1 (Oyunlar ve temel öğrenim için doğrulanmış çekirdek) ve Tier-2 (Araştırmacılar için ham Vikisözlük arşivi).
+- **Tier-1 Temizliği (`data/learner/kmr-top3000.tsv`):** En sık 3.000 kelime sıfırdan filtrelendi. 406 adet boş çeviri giderildi, Vikisözlük kaynaklı bozuk girdiler (alümin, telliir, yallah, hodri, ciro vb.) ayıklandı. Temel işlev sözcükleri (edat, bağlaç, zamir) standartlaştırıldı.
+- **Deneysel Pivot İzolasyonu (`data/experimental/pivots/`):** Soranî, Zazakî, Güney Kürtçesi ve Goranî için Kurmancî üzerinden iki adımlı türetilmiş tüm `.pivot.tsv` dosyaları doğrudan sözlük klasörlerinden çıkarılıp `data/experimental/pivots/` dizininde izole edildi.
+- **Oyun Sözlükleri Düzeltmeleri (`data/games/`):** Wordle ve bulmaca listelerindeki hatalı veya uygunsuz tanımlar (caran, paşîn, bêguman, dike, kir, tê) düzeltildi.
+
 ## v0.4.0 · 31.10.2026 · Akademik standartlar ve değerlendirme (kontrol edilmedi)
 - **CLDF Dictionary** dışa aktarımı (`cldf/`): 169.925 madde, 190.232 anlam, 14.416 örnek; ISO 639-3 ve Glottolog kodlarıyla; `cldf validate` ile doğrulandı
 - `forms.tsv.gz` dosyasına **UD** (`ud_feats`) ve **UniMorph** (`unimorph`) sütunları; `data/<v>/unimorph/` dosyaları (veride geçen 293.013 + kuralla üretilen 143.352 satır)

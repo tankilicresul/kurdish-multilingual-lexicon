@@ -4,8 +4,8 @@ ber	noun	22	ürün | ön	before | fruit	vor | Stein	unverified
 nav	noun	32	ad | ara	name | inside	Name | Bauch	unverified
 yek	num	36	bir | birisi	one | someone	eins | ein	unverified
 din	adj	38	başka | özge	other	anderweitig | andere	unverified
-kir	adj	46	sessiz | kısa kulaklı hayvan	cock, penis | silent		unverified
-pêk	noun	54	paça | pati	peduncled | pawprint	Fußtritt	unverified
+kir	verb	46	yaptı | etti	did | made	machte	ok
+pêk	noun	54	oluşum | meydana gelme	formation | realization	Bildung	ok
 bin	noun	57	abaşo | alt	foundation, bottom | below, under, beneath	Boden | Grund	unverified
 bûn	verb	71	olmak | olma	be | become, get	sein | werden	unverified
 pir	noun	82	köprü | çok	bridge | very	Brücke | sehr	unverified
@@ -224,7 +224,7 @@ ruh	noun	5270	tin | ervah	spirit | soul	Geist | Seele	unverified
 xêr	noun	5280	sadaka | ak	benefaction | alms	Bonus | Almosen	unverified
 don	noun	5351	yağ | don yağı	fat, grease | fat	Fett | Öl	unverified
 wer	adv	5403	hakeza | öyle	so | perplexity		unverified
-kêr	noun	5442	bıçak	knife | benefit, use	Messer | brauchbar	unverified
+kêr	noun	5442	bıçak	knife	Messer	ok
 şiî	noun	5498	şi			unverified
 hew	adv	5524	sadece | yalnızca	just | only	ausreichend | schon	unverified
 kêf	noun	5532	eğlence | keyif	alacrity | diversion	Begehren | Freude	unverified

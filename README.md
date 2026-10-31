@@ -5,8 +5,11 @@ Kurmancî · Soranî · Güney Kürtçesi · Zazakî (+ Goranî/Hewramî)
 
 [English](README.en.md) · [Deutsch](README.de.md) · [Kurmancî](README.ku.md) · **Türkçe**
 
-> ⚠️ **DURUM: TASLAK (v0.4). İnsan kontrolünden geçmedi.**
-> Verinin tamamı açık kaynaklardan (Vikisözlük, Vikipedi) otomatik derlendi. Her satırda `review_status = unverified` yazar.
+> 🛡️ **MİMARİ: KADEMELİ MODEL (v0.5)**
+> Bu veri kümesi iki amaca yönelik olarak katmanlandırılmıştır:
+> 1. **Tier-1 (Doğrulanmış Çekirdek · Verified Core):** GameVan Studio oyunları (Peyv vb.) ve dil öğrenicileri için filtrelenmiş, boşluksuz, temizlenmiş çekirdek sözlük ([`data/learner/kmr-top3000.tsv`](data/learner/kmr-top3000.tsv) ve [`data/games/`](data/games/)).
+> 2. **Tier-2 (Araştırma Arşivi · Research Archive):** Vikisözlük ve Vikipedi'den derlenmiş geniş çaplı ham leksikon (158 bin madde, araştırmacılar için açık kaynak havuzu).
+> 3. **Deneysel Pivot Arşivi (Experimental Pivots):** İki adımlı aktarımlar doğrudan sözlüklerden ayrılarak [`data/experimental/pivots/`](data/experimental/pivots/) altında izole edilmiştir.
 > Anadil konuşucularının katkısıyla kontrol edilecek: bkz. [KONTROL.md](KONTROL.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 
 Kürtçe ile çalışan araştırmacılar, geliştiriciler, öğretmenler ve çevirmenler için açık lisanslı bir kaynak. Kaynağı her satırda izlenebilir. Uluslararası standartlara bağlıdır:
@@ -72,7 +75,7 @@ Kürtçe ile çalışan araştırmacılar, geliştiriciler, öğretmenler ve çe
 | Güney Kürtçesi `sdh` | Arap kökenli | 358* | 323* | 371* |
 | Goranî/Hewramî `hac` | Arap kökenli | 160* | 148* | 181* |
 
-\* Kurmancî üzerinden türetilmiş (`.pivot.tsv`), en düşük güven. Ayrıntı: [`data/STATS.md`](data/STATS.md)
+\* Kurmancî üzerinden türetilmiş pivot dosyaları (`data/experimental/pivots/`), en düşük güven. Ayrıntı: [`data/STATS.md`](data/STATS.md)
 
 **Dilbilimsel veritabanı** ([ayrıntı](docs/veritabani.md)):
 
