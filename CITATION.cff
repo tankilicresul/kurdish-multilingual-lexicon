@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below and credit the Wiktionary contributors (CC BY-SA 4.0)."
+title: "Ferhenga Pirzimanî – Kurdish Multilingual Lexicon (Kurmanji, Sorani, Southern Kurdish, Zazaki ↔ Turkish, English, German)"
+version: 0.1.0
+date-released: 2026-10-31
+type: dataset
+authors:
+  - family-names: "Tankılıç"
+    given-names: "Resul"
+    affiliation: "GameVan Studio"
+license: CC-BY-SA-4.0
+repository-code: "https://github.com/tankilicresul/kurdish-multilingual-lexicon"
+keywords:
+  - Kurdish
+  - Kurmanji
+  - Sorani
+  - Zazaki
+  - Southern Kurdish
+  - lexicon
+  - dictionary
+  - Turkish
+  - German
+  - English
+references:
+  - type: data
+    title: "Wiktionary (ku, en, tr, de editions)"
+    authors:
+      - name: "Wiktionary contributors"
+    license: CC-BY-SA-4.0
+  - type: software
+    title: "Wiktextract"
+    authors:
+      - family-names: "Ylonen"
+        given-names: "Tatu"

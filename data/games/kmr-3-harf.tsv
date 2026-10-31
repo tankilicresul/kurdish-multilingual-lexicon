@@ -1,0 +1,653 @@
+word	pos	freq_rank	tr	en	de	review_status
+ser	noun	13	baş | kafa	head | point, tip	Kopf | Haupt	unverified
+ber	noun	22	ürün | ön	before | fruit	vor | Stein	unverified
+nav	noun	32	ad | ara	name | inside	Name | Bauch	unverified
+yek	num	36	bir | birisi	one | someone	eins | ein	unverified
+din	adj	38	başka | özge	other	anderweitig | andere	unverified
+kir	adj	46	sessiz | kısa kulaklı hayvan	cock, penis | silent		unverified
+pêk	noun	54	paça | pati	peduncled | pawprint	Fußtritt	unverified
+bin	noun	57	abaşo | alt	foundation, bottom | below, under, beneath	Boden | Grund	unverified
+bûn	verb	71	olmak | olma	be | become, get	sein | werden	unverified
+pir	noun	82	köprü | çok	bridge | very	Brücke | sehr	unverified
+tên	noun	89	ısı | nüfuz	heat | thirl		unverified
+cih	noun	94	yer | mekân	place | spot	Ort | Platz	unverified
+kar	noun	97	kâr | iş	work, labor | work	Arbeit	unverified
+ava	adj	99	abat | bayındır	built, built up | setting		unverified
+wir	adv	115	şuraya | oraya	there | thither	dorthin | dahin	unverified
+gel	noun	120	halk | cumhur	people | ethnicity	Volk | das Volk	unverified
+yan	adv	124	veya | ya da	or	oder	unverified
+kêm	adv	129	az | noksan	a little | pus	wenig | wenig, spärlich, nicht viel	unverified
+îro	adv	142	bugün	today | hodiernally	heute	unverified
+vir	adv	144	buraya	here | lie	hierher | Lüge	unverified
+çar	num	150	dört | yelken	four | quadri-	vier | Zar	unverified
+sal	noun	155	yıl | sene	year	Jahr	unverified
+baş	adj	170	iyi | dolgun	good | well	gut	unverified
+şer	noun	181	savaş | harp	fight | war	Krieg | Kampf	unverified
+dûr	adj	216	uzak | ırak	distant | far off	fern | weit	unverified
+êdî	adv	218	artık	any more | any longer	nie mehr | nicht mehr	unverified
+pêş	adv	219	kucak | ön	before | skirt	vor | bevor	unverified
+hem	adv	245	taş | hap	and	auch | ebenfalls	unverified
+gor	noun	254	mezar | göre	grave | according to	Grab | laut	unverified
+der	adv	289	dış | dışarı	door | out, outside, outdoors	Ort | äußerlich	unverified
+nas	adj	301	bildik | aşina	acquainted, familiar | acquainted	bekannt | Bekannte	unverified
+ket	noun	307	yonca	clover | odd	Klee	unverified
+car	noun	335	kez | kere	time	Mal	unverified
+axa	noun	348	ağa	tribal chief | agha	Aga | Agha	unverified
+anî	noun	368	alın			unverified
+reş	adj	394	kara | siyah	black | black bile	schwarz	unverified
+roj	noun	397	güneş | gündüz	sun | day	Tag | Sonne	unverified
+dan	verb	403	vermek | hediye	give | gift	geben | verabreichen	unverified
+hîn	adv	406	daha | henüz	still | yet		unverified
+sor	adj	428	kırmızı | al	red | rubicund	rot | ohne Augenlicht	unverified
+jin	noun	438	kadın | avrat	woman | wife	Frau | Weib	unverified
+kom	noun	458	anüs | topluluk	group | community	Gruppe	unverified
+şeş	num	480	altı	six | hexa-	sechs	unverified
+dem	noun	482	zaman | vakit	time	Zeitform | Zeit	unverified
+pey	adv	509	aleyhte konuşma | arka	after, behind | in earnest		unverified
+deh	num	512	on | aşır	ten | deca-	zehn	unverified
+bar	noun	563	yük | bar	burden | load	Last | Bar	unverified
+dev	noun	569	ağız | yanında	mouth | lid	Mund | Maul	unverified
+şêx	noun	581	şeyh	sheikh | sheik	Scheich	unverified
+alî	noun	603	taraf | doğrultu	side, direction | side	Seite	unverified
+olî	adj	612	dinsel | dinî	religious | dogmatical	religiös | heilig	unverified
+hêz	noun	615	kuvvet | güç	power | force	Macht | Kraft	unverified
+spî	adj	620	ak | beyaz	white	weiß | weiss	unverified
+mir	adj	632	tavuk | acımsı	fowls		unverified
+red	adj	639	ret	to disappear | disaffirm	Ablehnung | Absage	unverified
+sar	adj	647	soğuk | don yağı	cold	kalt	unverified
+jêr	noun	684	abaşo | zir	bottom | under, down	runter | herunter	unverified
+bav	noun	692	baba | ata	father	Vater	unverified
+kûr	adj	710	derin | kur	deep | recondite	tief	unverified
+dûv	noun	735	arka | art	tail | caudo-	Schwanz | Sterz	unverified
+man	verb	739	kalmak | kalınmak	to stay | to remain	bleiben | verbleiben	unverified
+dar	noun	749	ağaç | odun	tree | branch	Baum | Holz	unverified
+jor	adv	793	yukarı | yukarıya	top | up	oben | nach oben	unverified
+dil	noun	799	yürek | kalp	heart	Herz	unverified
+ger	noun	834	seyahat | polen		Blütenstaub | Pollen	unverified
+hêj	adv	836	daha | hâlâ	yet | still	noch | überdies	unverified
+kin	adj	842	kısa | güdük	short	kurz	unverified
+nîv	noun	844	yarım | yarı	half | bi-	Hälfte | halb	unverified
+laş	noun	855	vücut | gövde		Körper	unverified
+sed	num	883	yüz	hundred, 100, C | hundred	hundert | hundert, 100	unverified
+paş	adv	887	arka | geri	back | retro-	zurück	unverified
+mal	noun	892	ev | mülk	home | family, dynasty, house	Haus | Heim	unverified
+bir	noun	894	aksam | bölüm	flock | herd	Abschnitt	unverified
+hez	noun	917	arzu | güç		Begehr | Genuss	unverified
+çûn	verb	931	merdiven dayamak | gitmek	to go | go	Abfahrt | Verlassen	unverified
+lez	noun	959	hız | acele	hurry | promptness	Eile | Geschwindigkeit	unverified
+saz	noun	961	bağlama | saz	saz | baglama	Saz	unverified
+bîr	noun	972	hafıza | bellek	memory | well	Gedächtnis | Brunnen	unverified
+tim	adv	981	daim | mütemadî	omni | always	ständig | seit jeher	unverified
+mêr	noun	985	erkek | adam	man | husband	Mann | Herr	unverified
+rêz	noun	989	çizgi | satır	order, line, file, row | unit	Zeile | Reihe	unverified
+him	adv	1023	hem | güm		sowohl	unverified
+şîn	adj	1025	mavi | yeşil	blue | green	Blau | grün	unverified
+mîr	noun	1061	prens | şehzade	prince | emir	Fürst	unverified
+çap	noun	1063	bası | basmak	publish | print		unverified
+gav	noun	1089	adım | zaman	step | time	Schritt | Augenblick	unverified
+meh	noun	1092	ay | şarap	month | wine	Monat	unverified
+beş	noun	1099	kısım | bölüm	part | wide open	Abschnitt | Folge	unverified
+top	noun	1139	top | savaş topu	cannon | ball	Kanone | ball	unverified
+dîn	noun	1185	din | inanç	religion | crazy	Religion | verrückt	unverified
+beg	noun	1203	bey | efendi	lord | patron	Herr | Aristokrat	unverified
+dor	noun	1209	dolay | dolayı	around, about | ambit	Runde | Umfang	unverified
+nîn	adj	1220	değil | sıfır	negative | negation	keine	unverified
+zer	adj	1258	sarı	yellow | xantho-	gelb	unverified
+neh	num	1278	dokuz	nine	neun	unverified
+erd	noun	1310	yer | zemin	earth | earth, land, world, territory		unverified
+key	noun	1313	kağan | kral	king | president		unverified
+sax	adj	1339	sağ | diri	alive | healthy	lebendig | gesund	unverified
+şah	noun	1401	ana | kral	monarch | potentate	König	unverified
+bal	noun	1438	dikkat | endam	attention | caution	Achtung | Aufmerksamkeit	unverified
+cor	noun	1455	çeşit			unverified
+gir	noun	1492	tepe | yokuş	hill | despite, notwithstanding	Hügel | Unruhen	unverified
+fêr	adj	1514	ders | öğretim	cognizant | knowledgeability	Lektion | Unterricht	unverified
+zêr	noun	1525	altın | zer	gold | aurum	Gold | das chemische Element Gold	unverified
+geş	adj	1529	aydınlık | parlak	bright | lively	glänzend | hell	unverified
+şev	noun	1553	gece | şeb	night, evening | night	Nacht	unverified
+zor	noun	1569	baskı | basınç		sehr | erbittert	unverified
+xan	noun	1600	eğlek | hakan	khan | tavern	Adel | Fürst	unverified
+çav	noun	1630	göz | ayn	eye | oculo-	Auge	unverified
+keç	noun	1643	kız | kız evlat	girl, daughter | girl	Mädchen | Tochter	unverified
+dom	noun	1715	devam | süre	continuity | pinfold	Andauern | Fortdauern	unverified
+pîr	adj	1716	yaşlı | babaanne	old | old man	alt | Alte	unverified
+cil	noun	1721	giyim | giysi	dress, garment, clothes | clothes	Kleider | Kleidung	unverified
+şil	adj	1787	ıslak	wet	nass | feucht	unverified
+guh	noun	1797	kulak | sayvan	ear | aur-	Ohr	unverified
+çîn	name	1814	Çin	China | Chine	China | Reich der Mitte	unverified
+tam	noun	1839	tat | çeşni	taste | precisely, exactly	Geschmack | exakt	unverified
+têr	adj	1848	tok | harar	full | saddlebag	satt | voll	unverified
+sûd	noun	1863	avantaj | fayda	acquirement | advantage	Nutzen | Gewinn	unverified
+kur	noun	1875	oğlan | oğul	boy, son | boy	Sohn | Junge	unverified
+los	noun	1877	hile | lös	deceit | fraud		unverified
+rêk	noun	1893	tarik | yol	articulated | regulable		unverified
+koç	noun	1909	hicret | huruç	transmigration | emigrating	Exodus | Einwanderung	unverified
+nêr	adj	1938	eril | müzekker	male, masculine | male	männlich | Männchen	unverified
+çep	noun	1947	sol | kuytu	left | left-hand	link | linker	unverified
+xwê	noun	1956	tuz	salt | bay-salt	Salz | Kochsalz	unverified
+rûs	adj	1962	çıplak | keskin	nude | naked	bloß | nackt	unverified
+çek	noun	1982	silah | yarak	weapon | dress, garment, uniform	Waffe | Bankanweisung	unverified
+nêz	adv	2017	yakın	near | juxta-	eng | nah	unverified
+rol	noun	2082	rol | erk	role | function	Rolle	unverified
+ala	noun	2099	bayrak | sancak	flag, banner, standard | flag	Flagge | Fahne	unverified
+qat	noun	2154	tabak | bürüm	floor | storey	Etage | Geschoss	unverified
+avî	adj	2167	sulu | sulak	fluid, liquid, watery | aquatic, water-dwelling	wässerig | wässrig	unverified
+soz	noun	2179	söz | vaat	promise | vow	Versprechen	unverified
+pez	noun	2201	koyun | küçük baş hayvan	sheep	Schaf | Kleinvieh	unverified
+qas	noun	2209	eşitlik | kadar	amount, quantity | amount	Augenblick | Ausmass	unverified
+şûn	noun	2225	iz | mekân		Schatten | Sitz	unverified
+doz	noun	2371	dava | girift	case | cause	Prozess | Verfahren	unverified
+qut	adj	2378	kısa | boysuz	blocky | short	kurz | gedrungen	unverified
+asê	adj	2400	muhkem | müstahkem	difficult | caught, stuck	unzugänglich | verlassen	unverified
+heb	noun	2404	tane | hap	seed, kernel, grain | small quantity or amount	Tablette | Stück	unverified
+can	noun	2420	ruh | can	spirit | dear	Seele	unverified
+dîl	noun	2458	esir	prisoner, captive | captive	Gefangener | Gefangene	unverified
+maf	noun	2470	hak	right | entitlement	Recht	unverified
+şîr	noun	2499	süt	milk	Milch	unverified
+şaş	adj	2516	galat | yanlış		falsch | irrig	unverified
+bes	adv	2572	fakat | kâfi	ample | any more	aber | ausreichend	unverified
+kal	adj	2595	cet | ağababa	old | old man	Greis | bejahrt	unverified
+med	noun	2611	menzil	eagre		unverified
+pop	noun	2613	posa	papa- | crest	Popmusik | Schlager	unverified
+kor	adj	2638	kör | âmâ	blind | sightless	blind | verblendet	unverified
+cot	noun	2664	ikişer | çift	pair | couple	Paar | Doppel	unverified
+tûj	adj	2726	sivri | acılı	sharp | hot, spicy	spitz | scharf	unverified
+hîs	noun	2763	duygu | kayrak	feeling | indigo	Empfindung	unverified
+hêk	noun	2773	yumurta	egg | ovum	Ei	unverified
+bez	noun	2806	koşu | içyağı	running | run	Lauf | Fett	unverified
+çil	num	2825	yarasa | kırk	forty	vierzig	unverified
+pan	adj	2848	yassı | düz	wide | broad		unverified
+rûn	noun	2900	yağ	grease | oleum	Fett	unverified
+gol	noun	2976	gol | göl	flower | lake	See | Tor	unverified
+mar	noun	2977	yılan | nikah	snake | marriage	Schlange | Wurm	unverified
+mîn	noun	3080	mayın			unverified
+erê	adv	3179	evet | hı	yes | yah	ja	unverified
+dêr	noun	3217	kilise	church | monastery	Kirche	unverified
+hûr	adj	3221	ince | küçük		Kutteln | zerkleinert	unverified
+gef	noun	3289	tehdit	threat	Bedrohung | Drohung	unverified
+gur	noun	3321	kurt | börü	wolf | powerful	Wolf | Wölfin	unverified
+baz	noun	3355	doğan | gökdoğan	falcon | hawk	Falke	unverified
+erk	noun	3376	görev | misyon	bar | duty	Angelegenheit | Beschäftigung	unverified
+sûc	noun	3391	suç | zeval	crime | offence	Fehler | Schuld	unverified
+şam	name	3421	Şam | Dimaşk	Damascus	Damaskus	unverified
+par	adv	3447	seksiyon | geçen yıl	last year | share, part	Anteil | letztes Jahr	unverified
+tîr	name	3484	Merkür | Utarit	Mercury	Merkur | der Planet Merkur	unverified
+ceh	noun	3507	arpa	barley	Gerste	unverified
+jîr	adj	3548	akıllı | zeki	intelligent | smart	intelligent | klug	unverified
+dad	noun	3553	adalet | türe	justice | law	Recht | Gerechtigkeit	unverified
+nan	noun	3633	ekmek | banak	bread | food	Brot	unverified
+xav	adj	3644	ham | çiğ	raw | immature	roh	unverified
+jîn	verb	3680	yaşamak | oturmak	to live, be alive | to dwell, reside	leben | wohnen	unverified
+zîv	noun	3692	gümüş | sim	silver | argent	Silber | das chemische Element Silber	unverified
+şêr	noun	3820	aslan | arslan	lion	Löwe | Leu	unverified
+ton	noun	3886	titrem | tonilâto	tonne | pungent	Stimmung	unverified
+nin	adj	3922	değil			unverified
+sir	noun	3923	sır | giz	secret | chill	Geheimnis | Kälte	unverified
+com	noun	3967	arena | meydan	field		unverified
+law	noun	4006	oğul | kızan		Sohn | Bub	unverified
+mil	noun	4023	omuz | çiyin	shoulder | arm	Arm | Nebenfluss	unverified
+jan	noun	4043	zecir | ıstırap	pain	Schmerz	unverified
+rex	noun	4057	seksiyon | bitişik	side | front		unverified
+req	noun	4092	kaplumbağa | katı	hard | turtle	hart | fest	unverified
+ben	noun	4105	düğüm | dümen	string, rope | rope	Hochseil | Leine	unverified
+hiş	noun	4125	akıl | zihin	mind | silent	Verstand | Geist	unverified
+zîn	noun	4184	eyer	saddle	sattel	unverified
+bac	noun	4193	vergi | salma	tax | tained	Steuer | Gebühr	unverified
+xew	noun	4199	uyku	sleep | hypno-	Schlaf | schlafen	unverified
+tov	noun	4256	tohum | tane	seed	Samen | Saat	unverified
+max	noun	4273	mertek	beam	Balken	unverified
+xêz	noun	4308	cızık | çizgi	line | row	Linie | Strich	unverified
+mêj	adv	4387	ezel | geçmiş	long ago | anterior	früher	unverified
+gul	noun	4456	gül | çiçek	flower	Blume | Blüte	unverified
+şax	noun	4475	boynuz | departman	horn	Abgrund | Horn	unverified
+çûk	noun	4523	kuş	house sparrow | small bird	Vogel | Vögelchen	unverified
+şor	adj	4531	tuzlu | çorak	salty | dangling	gesalzen | salzig	unverified
+tek	adv	4539	biricik | tek	azygous | only	bloß | einzig	unverified
+hay	noun	4633	bal | bilgi	aviso | attention	Kenntnis | Bescheid	unverified
+sêv	noun	4642	elma | alma	apple	Apfel	unverified
+zal	adj	4690	egemen | hükümran		souverän	unverified
+por	noun	4820	saç | duraç	hair | francolin	Haar | Haare	unverified
+xal	noun	4831	dayı | enişte	uncle | point, dot	Onkel | Punkt	unverified
+kok	noun	4845	kök | menşe	root | log	Wurzel | Wurzeln	unverified
+pak	adj	4852	temiz | iyice		rein | reinlich	unverified
+hîç	adv	4885	hiç | bir şey	naturopathy | ever	keine | keinesfalls	unverified
+pel	noun	4892	yaprak | belge	leaf | covey	Blatt | Laubblatt	unverified
+kod	noun	4918	kod | kot	code | container	Code | Kode	unverified
+arî	noun	4920	kül | ateş külü	ash | cinder	arisch | Asche	unverified
+qey	adv	4934	galiba | mı	perhaps, maybe | maxwell	als ob | vielleicht	unverified
+nok	noun	5067	nohut	chickpea | chick pea	Kichererbse	unverified
+hov	adj	5086	barbar | ilkel		brutal | barbarisch	unverified
+ron	adj	5107	ince | saydam		glänzend | hell	unverified
+pêl	noun	5110	dalga | eğik	wave	Welle | Woge	unverified
+mor	noun	5219	damga | kaşe	violet, purple | inscription	Siegel | Stempel	unverified
+ruh	noun	5270	tin | ervah	spirit | soul	Geist | Seele	unverified
+xêr	noun	5280	sadaka | ak	benefaction | alms	Bonus | Almosen	unverified
+don	noun	5351	yağ | don yağı	fat, grease | fat	Fett | Öl	unverified
+wer	adv	5403	hakeza | öyle	so | perplexity		unverified
+kêr	noun	5442	bıçak	knife | benefit, use	Messer | brauchbar	unverified
+şiî	noun	5498	şi			unverified
+hew	adv	5524	sadece | yalnızca	just | only	ausreichend | schon	unverified
+kêf	noun	5532	eğlence | keyif	alacrity | diversion	Begehren | Freude	unverified
+şûr	noun	5649	kılıç | tığ	sword | salty	Schwert | Säbel	unverified
+tav	noun	5661	güneş | güneş ışığı	sunshine, sun, sunlight | sunshine	Sonne | Sonnenschein	unverified
+xem	noun	5684	ıstırap | kaygı	grief, sorrow, distress, worry, concern | sorrow	Kummer | Traurigkeit	unverified
+gen	noun	5744	gen | çentik	gene | castor oil	Gen	unverified
+ker	noun	5787	eşek | seksiyon	donkey | slice	Esel | Grauchen	unverified
+gaz	noun	5830	gaz | Tal	gas	Gas | Zange	unverified
+ked	noun	5831	iş | alın teri	drudgery | exertion	Anstrengung | Arbeit	unverified
+hal	noun	5983	durum | hâl	situation | condition	Situation | Lage	unverified
+bab	noun	6037	baba | ata	father | papa	Vater	unverified
+ard	noun	6175	un	flour	Mehl	unverified
+rez	noun	6202	üzüm | bağı	vineyard | grove	Weinberg | Weingarten	unverified
+den	noun	6285	küp	jug | vat		unverified
+pal	noun	6351	bayır | dal	side | back	Flanke	unverified
+efû	noun	6362	af | pardon	pardon, forgiveness | pardon	Vergebung | Verzeihung	unverified
+gun	noun	6393	testis | haya	testicle | nut	Hoden | Testikel	unverified
+poz	noun	6446	burun	nose | bum	Nase	unverified
+çol	noun	6477	çöl | kır	desert, wilderness, prairie, steppe | pasture	Einöde | Landschaft	unverified
+dua	noun	6625	dua | namaz	prayer	Gebet	unverified
+net	adj	6650	net | safi			unverified
+heq	noun	6720	haklı | hak	right, justice | lawfulness, entitlement, remuneration	Recht | Gebühr	unverified
+kew	noun	6721	keklik | tan	partridge | dawn	Rebhuhn | Blau	unverified
+stû	noun	6784	boyun	neck | kerchief	Hals | Nacken	unverified
+tîp	noun	6821	harf | tip	brigade | regiment	Buchstabe | Brigade	unverified
+per	noun	6872	kâğıt | çönge	paper | feather	Papier | Feder	unverified
+mêş	noun	6888	sinek	fly	Fliege | Mücke	unverified
+sîr	noun	6927	sarımsak | sarmısak	garlic	Knoblauch | Knofel	unverified
+ema	adv	6966	ama | fakat	but	allerdings | doch	unverified
+xet	noun	6984	çizgi | çizi	line | Furrow	Strich | Trennungslinie	unverified
+ten	noun	6993	beden | cilt	threat	Gestalt | Körper	unverified
+lûs	noun	7177	düz | tünek	perch		unverified
+zik	noun	7239	göbek | karın	stomach | belly	Bauch | Magen	unverified
+gûz	noun	7283	ceviz	walnut	Walnuss | Walnussbaum	unverified
+qad	noun	7285	alan | arena	square | scope	Auftritt | Bereich	unverified
+das	noun	7398	orak | tahra	sickle | billhook	Hippe | Sichel	unverified
+mam	noun	7413	amca	paternal uncle | uncle	Onkel	unverified
+mîl	noun	7489	dingil | kayır	pointer | hand	Zeiger | Sumpf	unverified
+tax	noun	7514	mahalle	district, neighborhood, quarter | district, region	Stadtteil | Stadtviertel	unverified
+men	noun	7525	yasak | birim	prohibition		unverified
+tac	noun	7529	taç | çelenk	crown	Krone | Diadem	unverified
+abc	noun	7654	alfabe | abc	alphabet		unverified
+kul	adj	7749	ıstırap | iltihap	sore | blister	Entzündung | Blessur	unverified
+qal	noun	7776	bahis | kavga	speak | say	Erwähnung	unverified
+not	num	7796	doksan	ninety | note	neunzig | Ankündigung	unverified
+bûk	noun	7899	gelin | arpacık	bride | daughter-in-law	Braut | Schwiegertochter	unverified
+tal	adj	7904	kof | tekin	sour | bitter	abscheulich | bitter	unverified
+pûç	adj	8016	çürük | dejenere			unverified
+boz	adj	8218	gri | demirî	fair | greyish	silbergrau	unverified
+lal	adj	8264	dilsiz | kırmızı cevher	mute | dumb	stumm | Granat	unverified
+kêş	noun	8318	taşıyan | cezp	wagon | carriage		unverified
+tor	noun	8324	boğa | balık ağı	network | reticulum	Netz | Ärger	unverified
+ode	noun	8394	oda	room | diwan	Raum | Zimmer	unverified
+çax	noun	8404	zaman | devir	time	Zeit	unverified
+bax	noun	8406	bahçe | bağ	orchard	Garten | Anlage	unverified
+diz	noun	8413	hırsız | uğru	thief | burglar	Dieb | Stehler	unverified
+xas	adj	8450	özel | has	special, particular | precious, high-quality	spezial | speziell	unverified
+may	noun	8576	karışmak | müdahale	intervention | intervene		unverified
+nûr	noun	8577	nur			unverified
+ken	noun	8606	gag	laugh | smile	Lachen | Lache	unverified
+zar	noun	8613	lisan | zeban	language | word	Dialekt | Sprache	unverified
+ban	noun	8615	çatı | örtü	roof | housetop	Dach	unverified
+pîs	adj	8645	hakir | kirli	dirty | geung	schmutzig | dreckig	unverified
+ray	noun	8647	ray | görüş	opinion | viewpoint	Anschauung | Ansicht	unverified
+har	adj	8654	azgın | azılı		tollwütig | aufbrausend	unverified
+lêv	noun	8818	dudak	lip | labio-	Lippe | Lefze	unverified
+mad	noun	8843	iştah | surat	mettle | frame of mind	Appetit	unverified
+tîm	noun	8903	takım | öğür	team | caboodle	Mannschaft	unverified
+hec	noun	8927	hac	pilgrimage | hadj	Wallfahrt | Pilgerfahrt	unverified
+mat	adj	8961	dona kalmak | hayran kalmak	agape | aghast	matt | sprachlos	unverified
+yar	noun	8966	aftos | dost	dear | beloved	Abgrund | Liebhaber	unverified
+riz	noun	9007	pirinç	rice	Reis	unverified
+ast	noun	9102	seviye | düzey	level | rank	Level | Niveau	unverified
+zîl	noun	9207	bızır | cücük	aculeus | bell	Ausläufer | Läutwerk	unverified
+şik	noun	9287	şüphe | kuşku	doubt | uncertainty	Zweifel | Bedenken	unverified
+art	noun	9317	münezzah | senet			unverified
+dew	noun	9355	ayran | ballık	ayran | yoghurt drink	Buttermilch | Ayran	unverified
+seh	noun	9402	duyum | duyu	perception		unverified
+meş	noun	9425	yürüyüş | marş	course | march	Marsch | Wanderung	unverified
+şop	noun	9472	iz | cızık	footstep | trace	Eindruck | Fährte	unverified
+cam	noun	9629	cam | sırça	glass | emery	Glas | Glasscheibe	unverified
+tan	noun	9660	çeper | itekleme	fence | hedge	Zaun | Sarkasmus	unverified
+coş	noun	9813	coşku | galeyan	enthusiasm | fun	Enthusiasmus | Eifer	unverified
+dep	name	9814	Kovancılar			unverified
+liv	noun	9831	hareket | devinim	movement	Bewegung	unverified
+çal	noun	10000	çukur | havuz	pit | cavernous	Grube | Loch	unverified
+mîz	noun	10016	idrar | sidik	urine | piss	Urin | Harn	unverified
+def	noun	10033	tef | davul	tambourine | naker		unverified
+pol	noun	10170	omuz | şiş	classroom | grade	Klasse | Schulklasse	unverified
+hop	adv	10255	hop | hoppa			unverified
+mit	adj	10259	höyük | mit		Buckel | Anhöhe	unverified
+jar	adj	10291	argın | cılız	doddering | miserable	ausgemergelt | dünn	unverified
+çay	noun	10318	çay	tea	Tee	unverified
+sûr	adj	10366	tuzlu	salty | citywall, rampart	salzig	unverified
+qul	noun	10418	delik | kovuk	hole | aperture	Loch | Bohrer	unverified
+kîn	noun	10525	nefret | garazlık		Haß | Hass	unverified
+dêw	noun	10588	dev	demon, ogre | giant	Riese | Riesin	unverified
+rih	noun	10595	sakal	beard	Bart | Sprit	unverified
+sol	noun	10603	ayakkabı | pabuç	shoe	Schuh | Lackschuh	unverified
+kaş	noun	10687	kayak | akak	acclivity | burlap	Hügel | Abhang	unverified
+zaf	adv	10743	çıldırasıya | fazla	exuberant | lavish	viel | sehr	unverified
+toz	noun	10822	toz	dust | powder	Staub	unverified
+gil	noun	10960	çamur | göt	mud | ooze	Schlamm | Letten	unverified
+org	noun	10983	org | organ	organ	Orgel	unverified
+tir	adj	11003	kalın			unverified
+mey	noun	11047	şarap | sücü	wine | booze	Wein	unverified
+sîh	num	11060	otuz | güderi	thirty | roan	dreißig | Schatten	unverified
+cin	noun	11229	cins | ecini	djinn | djinni	Dschinn | Phantasiegestalt	unverified
+ewr	noun	11255	bulut	cloud	Wolke | Gewölk	unverified
+ure	noun	11279	üre	urea		unverified
+beq	noun	11342	kurbağa | kuyruksuzlar	frog | pipa	Frosch | Kröte	unverified
+xar	noun	11430	bilye | diken	marble | agate	murmel | kügelchen	unverified
+bas	noun	11536	bas	bus		unverified
+qaz	noun	11577	kaz	goose	Gans	unverified
+zad	noun	11595	tahıl | aşlık	food | crop	Ausbeute | Getreide	unverified
+şên	adj	11605	cıvıl cıvıl | abat	flourishing | inhabited	fidel | frisch	unverified
+bêr	noun	11623	kürek | sağım	shovel | spade	Schaufel | Schüppe	unverified
+şal	noun	11801	şal | pantolon	shawl | kerchief	Shawl | Umschlagetuch	unverified
+geh	noun	11803	boğum | eklem	finger joint | sometimes, at times	Gelenk	unverified
+kon	noun	11840	çadır | çadır kurmak	tent | encampment	Zelt | Camping	unverified
+laz	noun	11883	Laz	Laz		unverified
+rus	noun	11887	rus			unverified
+til	noun	11888	parmak | ayak parmağı	finger | toe	Finger | Zeh	unverified
+kun	noun	11947	delik | çukur		Loch | Lücke	unverified
+hêl	noun	11988	cihet | etraf		Kardamom | Richtung	unverified
+tîn	noun	12004	ısı | sıcaklık	heat | caloric	Hitze	unverified
+kum	noun	12031	külah | şapka	hat	Kopfbedeckung | Kappe	unverified
+bel	adj	12175	dikik | kabarık	bulging | sticking out		unverified
+dam	noun	12182	dam | dekametre	maam | mealy		unverified
+têl	noun	12340	tel	wire | string	Draht | Saite	unverified
+xof	noun	12348	haşyet | korku	apprehension | dread	Angst | Entsetzen	unverified
+qir	noun	12418	afet | gak	crow | rural	Landschaft | Massaker	unverified
+qûm	noun	12419	kum	sand	Sand	unverified
+ran	noun	12455	but | oyluk	thigh | leg	Keule | Oberschenkel	unverified
+rûm	noun	12471	rom			unverified
+mît	noun	12501	mit | mitos	myth | whist	Mythus	unverified
+reh	noun	12526	kök | damar	root | vein	Wurzel | Wurzeln	unverified
+kûp	noun	12633	kup | fincan	cup | vat	Tasse | Behältnis	unverified
+eşq	noun	12726	aşk	love, passion | happiness	Liebe	unverified
+xam	adj	12803	bakir | ham	undercooked | unprocessed		unverified
+bil	noun	12898	hariç | kabarcık	apart | wee-wee		unverified
+esl	noun	12913	köken			unverified
+gêj	adj	12918	ahmak	dizzy | fool	schwindelig | schwindlig	unverified
+lat	noun	13049	evlek | kanyon		Felsen | Fels	unverified
+rev	noun	13082	fertik | firar	run | escape	Flucht | Ablauf	unverified
+set	noun	13086	set			unverified
+dur	noun	13140	inci	jewel | gem	Perle	unverified
+fîl	noun	13144	fil	elephant	Elefant | Elefantenbulle	unverified
+mih	noun	13164	koyun | marya	sheep | ewe	Schaf | Hammel	unverified
+mak	noun	13353	ana arı | anaç	mother | dam		unverified
+aha	adv	13419	aha | ıhı	this is | these are	also | auch	unverified
+dîk	noun	13426	horoz	rooster | cock	Hahn	unverified
+maç	noun	13496	öpücük | buse	kiss | match	Kuss | Busserl	unverified
+ter	adj	13514	taze	fresh	frisch	unverified
+rût	adj	13626	cascavlak | kabak gibi		unbehaart | bloß	unverified
+tar	noun	13633	tahra | çalma	tambourine	Rübe	unverified
+çîp	noun	13646	bacak | baldır	calf | shank	Unterschenkel | Wade	unverified
+sos	noun	13837	sos | salça	sauce | liquorice	Brühe | Sauce	unverified
+gap	noun	14055	imece	communion | voluntary work		unverified
+qût	noun	14100	yiyecek | aşlık	food | provision	Vorräte | Proviant	unverified
+rûv	noun	14231	döl yolu | kasık	pubes		unverified
+sîn	noun	14233	taş	stone | rock	Stein	unverified
+adî	adj	14254	adi | aşağı	hackneyed | ordinary	Untergebener | mittelmäßig	unverified
+asa	noun	14381	norm | olağan	habit | perspirable		unverified
+rim	noun	14451	mızrak | cıda	spear, lance, javelin | spear	Lanze | Speer	unverified
+xox	noun	14466	şeftali | alıç	peach	Pfirsichbaum | Pfirsich	unverified
+çêj	noun	14468	tat | çeşni	taste | flavor	Geschmack	unverified
+bed	adj	14473	kötü | yavuz	bad | miserable	böse | schlecht	unverified
+hîv	noun	14549	ay	moon	Mond	unverified
+tûr	noun	14590	torba | sineklik	bag | sack	Beutel | Tasche	unverified
+sur	noun	14686	sör			unverified
+hil	adj	14758	öz | yukarı	up | upward		unverified
+mij	noun	14779	sis	mist | fog	Nebel	unverified
+viz	adj	15013	fır | vız	eddy | vortex		unverified
+xak	noun	15018	arazi | bez	soil | territory	Erde | Erdreich	unverified
+lek	noun	15284	melamin | leke	melamine | bough		unverified
+pil	noun	15392	lop | fiske	pinch | flick		unverified
+kem	noun	15480	tevek | burunsuz			unverified
+jet	noun	15559	tepkili uçak			unverified
+bet	noun	15597	toy	great bustard		unverified
+mûz	noun	15701	muz	banana	Banane	unverified
+qîr	noun	15714	katran | çığlık	tar | asphalt	Teer | Bitumen	unverified
+lîs	noun	15795	tünek	roost | perch	Hühnerstange	unverified
+xaç	noun	15842	çarmıh | haç	cross | rood	Kreuz | Crux	unverified
+ilm	noun	15927	bilgi | bilim	knowledge | science		unverified
+fen	noun	16081	delk | desise	juggler | trick	Kunstgriff | Schwindel	unverified
+fon	noun	16086	fon	fund | phon	Fond | Fund	unverified
+çok	noun	16210	diz	knee	Knie	unverified
+box	noun	16256	cücük	ox | bull	os | titanisch	unverified
+mûr	adj	16369	sessiz | suskun	unsociable	bärbeißig | unfreundlich	unverified
+rêç	noun	16427	cızık | çığır	vestige | kenning	Fährte | Fußstapfen	unverified
+kêl	noun	16727	mezar taşı | dikili taş	gravestone | tombstone	Naht | Grabstein	unverified
+kop	name	16866	Bulanık	peak		unverified
+hel	noun	16941	çözüm | çözelti	solution | nêdano	Lösung	unverified
+hîm	noun	16945	asıl | çizgi	keystone | foundation	Basis | Grundlage	unverified
+liq	noun	17075	dal | seksiyon		Division | Kompanie	unverified
+pot	noun	17093	pot | gaf	cloth | blunder		unverified
+tin	noun	17121	ısı			unverified
+dûz	adj	17181	düz | gergin	flat	eben | flach	unverified
+pas	noun	17257	pas	pass | bus	Autobus | Rost	unverified
+pêz	noun	17267	glüten	gluten		unverified
+wax	noun	17303	ey | of	alack | phew		unverified
+şîv	noun	17325	akşam yemeği | yatsı	dinner, supper | dinner	Abendessen | Abendmahlzeit	unverified
+let	noun	17453	güç | pus	fragment	Bruchstück | Bruchteil	unverified
+tat	noun	17550	alık | uçurum	boulder, large rock, cliff, crag, precipice | stone slab	Fels | Felsplateau	unverified
+tîk	adj	17563	dikili | tik	upstanding | teak	aufrecht | kerzengerade	unverified
+xîz	noun	17586	kum	sand | gravel, pebble	Sand	unverified
+gan	verb	17712	sikmek | becermek	sex | fuck	ficken | bumsen	unverified
+kat	noun	17758	zaman | filiz	sprout | time	Trieb | Schössling	unverified
+kîr	noun	17774	penis | zeker	penis | ding-dong	Penis | Glied	unverified
+qîz	noun	18036	kız	girl | dot	Mädchen	unverified
+met	noun	18153	hala | yenge	maternal aunt | aunt	Tante | väterlicherseits	unverified
+hoz	noun	18248	boy | kabile	tribe	Stamm | Volksstamm	unverified
+ref	noun	18407	sürü | koşun	flock | consecution	Schwarm | Folge	unverified
+aya	adv	18583	acaba | acep	doubt whether | exclamation mark		unverified
+dir	noun	18791	yırtmaç | rot		Perle	unverified
+şad	adj	18987	mutlu | bahtiyar		glücklich | erfreulich	unverified
+caz	noun	19045	caz	jazz	Jazz	unverified
+lib	noun	19175	adet | fer	pellet | trochi		unverified
+rik	noun	19266	hınç | inat	steep | dogged	Eigensinn | Feindschaftsgefühl	unverified
+sac	noun	19276	sac	baking pan | griddle		unverified
+çam	noun	19345	çam	pine | Cham	Kiefer | Pinie	unverified
+şok	noun	19374	alınlık | dişeği	fishing rod | fishing pole	Angelrute | Fischangel	unverified
+duh	adv	19503	dün	yesterday, one day before present | yesterday	gestern | gestriger Tag	unverified
+enî	noun	19516	alın	forehead	Stirn | Vorderseite	unverified
+kiz	adj	19593	meyus | sönük	dander | fractional		unverified
+kiş	noun	19594	kışkırtma | teşvik	chessboard | chessman		unverified
+mer	noun	19623	bel | küreği	spade | shovel	spaten | Schaufel	unverified
+mis	noun	19632	bakır	copper | coppes	Kupfer	unverified
+gal	noun	20067	hamle | ses	wales | nyl		unverified
+rep	adj	20160	dik | dikik	perpendicular | upright	kerzengerade | schroff	unverified
+aso	noun	20319	çevren | ufuk	horizon	Horizont | Gesichtskreis	unverified
+jam	noun	20356	ga			unverified
+dîz	noun	20441	çömezlik | güveç	clay pot, earthenware pot | clay pot		unverified
+kap	noun	20467	aşık | bacak	rope	Astragalus	unverified
+qaf	noun	20508	kafa | ser	nut | basin	Kopf | Haupt	unverified
+lod	noun	20646	dokurcun | küme	pile | clump	Haufen | Klumpen	unverified
+pîl	noun	20679	kalay | dalak	cell | pile	Achsel | Batterie	unverified
+dol	noun	20820	dere | koyak	valley | canyon	Tal | Engpass	unverified
+lor	noun	20907	lor			unverified
+mod	noun	20923	mod | kip	mode | mood		unverified
+say	noun	20988	gölge | kerem	benefaction | alms		unverified
+tûk	noun	21019	tükürük | budak	saliva | film	Feder | Speichel	unverified
+asî	noun	21082	asi	insurgent | rebel	rebellisch | Insurgent	unverified
+aza	adj	21088	azade | erkin	free, unrestrained, at large | empty, vacant, free	selbständig | unabhängig	unverified
+deq	noun	21148	dövme | alaca	tattoo | paragraph	Tätowierung | Tattoo	unverified
+yol	noun	21513	yol	road | way	Straße	unverified
+çak	adj	21528	iyi | ihtimam	friendly | good	gut	unverified
+kef	noun	21906	köpük | aya	foam | palm	Schaum | Handfläche	unverified
+nod	adj	22055	doksan	ninety | knotty		unverified
+pis	noun	22100	oğul	son	Sohn	unverified
+tol	noun	22242	intikam | öç	revenge	Rache	unverified
+vîn	verb	22272	gerektirmek | istemek	will | want	sollen | Wille	unverified
+tem	noun	22450	sis	fog | mist	Nebel	unverified
+lîk	noun	22649	tükürük | sümük	slimy | spittle		unverified
+zen	noun	22807	sanı | zan	zen	Mutmaßung | Zen	unverified
+kan	verb	23161	çalkalamak | yayık yaymak	agitating | jerking	Lagerstätte | Grube	unverified
+lûr	noun	23184	alerji | fitil	quail | hives		unverified
+ney	noun	23208	kaval | ince saz	ney | flute	Flöte	unverified
+île	adv	23303	herhalda | illâ	anyway | verily	jedenfalls | auf jeden Fall	unverified
+hur	adj	23467	hür | öz			unverified
+leş	noun	23509	vücut | beden	body	Körper	unverified
+qum	noun	23608	bidon | fırt			unverified
+pax	noun	24130	aldırış | dikkat	regard | care	Beachtung | Achtgeben	unverified
+pêt	adj	24162	şut | tekme	tightened | determined	eng | dicht	unverified
+tas	noun	24236	tas | fincan	cup | goblet	Schale | Metallschüssel	unverified
+tif	noun	24252	tükürük	spit | saliva	Speichel | Spucke	unverified
+şen	noun	24342	canlı | harbi	ado		unverified
+şêt	adj	24351	deli | kaçık	crazy | mad	irrsinnig | wahnsinnig	unverified
+dih	name	24593	Eruh			unverified
+duo	noun	24632	duo | ikili			unverified
+gez	noun	24741	ılgın | ısırık	cubit | snap	Bissen | Biss	unverified
+gêr	noun	24760	gear | vites	car | spur gear		unverified
+pût	noun	25183	fetiş | heykel	idol | statue	Bildsäule | Standbild	unverified
+xor	noun	25474	güneş | jant	sun | hedonic		unverified
+yom	adj	25486	uğur			unverified
+çêl	noun	25513	inek	calve	Kuh	unverified
+dot	noun	25777	kız | bikir	daughter | girl	Tochter | Mädchen	unverified
+kêz	noun	25931	böcek	bug	Wanze | Schnabelkerf	unverified
+gom	noun	26240	arena | meydan	sty, fold, pen | field	Gehege | Schafstall	unverified
+kek	noun	26262	ağabey | abi	buddy | elder	Bruder	unverified
+qop	adj	26316	aksak | dış bükey	onelegged | lambrequin		unverified
+arp	noun	26381	arp	harp	Harfe	unverified
+duk	noun	26729	dük | duka	duke	Herzog	unverified
+fer	noun	26758	fer | harlaklık	priority | azygous		unverified
+hej	noun	26790	salınım | sallantı			unverified
+saw	noun	26978	birsam | fobi	terror | horror	Angst | Entsetzen	unverified
+sil	adj	26996	gergin | küskün	alienation | driving apart		unverified
+çel	name	27076	Çukurca			unverified
+çer	adv	27078	ne | nasıl	meadow | pasture	Trift | Weide	unverified
+êlî	noun	27082	âli	gentile | tribalism		unverified
+hes	noun	27425	duyum | duyu	voice	Stimme	unverified
+hub	noun	27444	sevim | kara baş			unverified
+lem	noun	27536	nem | tevek	humidity | wet		unverified
+mot	noun	27600	dondurma | pekmez			unverified
+nal	noun	27617	nal	horseshoe | horse shoe	Hufeisen | Beschlag	unverified
+pûl	noun	27731	para | tıngır	money | stamp	Briefmarke | Geld	unverified
+çik	adj	27969	amudî | mum direk	upstanding | vertical	Stich	unverified
+arû	noun	28064	salatalık | hıyar	cucumber | cucumis	Gurke	unverified
+boş	adj	28229	gümrah | gani	plentiful | great		unverified
+caw	noun	28258	kumaş | bez	fabric | textile	Gewebe | Absage	unverified
+col	adj	28280	katıntı | karışık	mutt | mixture	Kette	unverified
+dêl	noun	28464	kancık | sürtük	bitch | stead, position	Fähe | Hündin	unverified
+elb	noun	28499	kova | bakraç	bucket | pail	Eimer | Schaff	unverified
+kak	noun	28764	ağabey	older | brother		unverified
+lav	noun	28890	lav | püskürtü		Lava	unverified
+nem	noun	29062	nem	humid | soaked	Feuchte | Feuchtigkeit	unverified
+noq	adj	29111	dalma | batma	dive | plunge	tauchen | Taucher	unverified
+raz	noun	29321	sır | giz	secret	Geheimnis	unverified
+sûk	noun	29488	pazar | çarşı	market, marketplace | market	Markt | Geschäftsviertel	unverified
+tib	noun	29546	tıp	medicine | diagnosis	Medizin	unverified
+tîş	noun	29573	lime | yırtmaç	crack, split, fissure | sleek		unverified
+xiş	adj	29686	ebe bulguru | dolu			unverified
+zîz	adj	29754	buruk | duyarlı	grumpy | stirred	empfindlich | barmherzig	unverified
+çît	noun	29786	kumaş | bez	curtain, drape, cloth | fabric	Gewebe | Binde	unverified
+îde	noun	29795	fikir			unverified
+pep	noun	29926	papa | pati			unverified
+çîr	noun	30422	yalan | çir	lie | falsehood	Rebhuhn | lüge	unverified
+fir	noun	30637	uçma | uçum	flight | flying	Flug | Abflug	unverified
+lac	noun	30686	oğul | kızan		Sohn | Bub	unverified
+tûş	noun	30775	çarpışma | çarpma	encounter		unverified
+şid	noun	30801	sert | hız			unverified
+dek	noun	31256	entrika | tuzak	pitfall | booby-trap	Falle | Kunstgriff	unverified
+gog	noun	31357	top | meşin yuvarlak	ball | hockey	Ball | Kugel	unverified
+kox	noun	31455	dağ | folluk	roost, henhouse | cottage		unverified
+kîl	noun	31469	kil	argil | clay		unverified
+mêw	noun	31523	asma | üzüm	grapevine | grape	Weinstock | Rebe	unverified
+xûn	noun	31741	kan			unverified
+bot	noun	31941	potin | bot	boot | wiregrass	Stiefel | Boot	unverified
+esp	noun	32149	at | beygir			unverified
+hêt	noun	32312	but | köşe taşı	thigh | leg	Oberschenkel | Schenkel	unverified
+koc	noun	32397	asma kilit	cranium		unverified
+koz	noun	32414	grup | sınıf	group | band	Abteilung | Gruppe	unverified
+lîr	noun	32465	egzama | lir	skin effect | id		unverified
+pit	adj	32664	yağlı | bebe	chunky | fat		unverified
+sîs	adj	32863	kelek | beyaz	withered | white		unverified
+yat	noun	33017	yat	yacht | sailing boat	Jacht | Yacht	unverified
+apa	noun	33207	hala | bibi			unverified
+ask	noun	33236	geyik | ceylan	deer | gazelle	Reh | Hirsch	unverified
+aşt	adj	33286	teskin	reconciled, at peace, on good terms | chilled		unverified
+bor	noun	33522	geçit | geçek	grey | horse	Durchgang | Engpass	unverified
+dal	noun	33696	dekalitre			unverified
+dav	noun	33709	tire | tuzak	thread | string	Faden | Garn	unverified
+dik	noun	33848	sahne | gezinti	stage | platform	Bühne | Rednerpult	unverified
+eba	noun	33979	aba | cüppe	aba | robe		unverified
+eda	noun	33989	eda | eda etmek	performance		unverified
+ere	noun	34045	el testeresi | beli			unverified
+erz	noun	34051	sunu	face | earth		unverified
+kil	noun	34548	sürme | rastık	mascara | kohl	Antimonpulver | Wimperntusche	unverified
+kip	noun	34551	berk | dimdik	rigidly | deaf		unverified
+kut	noun	34638	hoşt	biff | dull	Schlag | Stoß	unverified
+kût	adj	34665	topal | felçli	bedridden	gelähmt | Lähmung	unverified
+kûz	noun	34666	ağaç sansarı	pestle | trough		unverified
+mûm	noun	34961	mum	candle	Kerze | Wachskerze	unverified
+nig	noun	35082	bacak | ayak	leg | paw	Bein | Pfote	unverified
+rib	noun	35525	çeyrek	quarter-		unverified
+ris	noun	35532	katma			unverified
+rîs	noun	35601	kıl | örmek	fibre | stripped	Faden | Garn	unverified
+sim	noun	35741	toynak | tırnak	hoof | pes	Huf | Draht	unverified
+sîm	noun	35840	tel | gümüş	wire | barbed wire	Silber | Draht	unverified
+tez	noun	35946	tez | sav	thesis | disprove	Dissertation	unverified
+waz	noun	36099	vaaz	sermon | liturgy		unverified
+xij	noun	36176	sürç			unverified
+xîç	noun	36232	akma | çizgi	rubble stone | line	Linie | Kiesel	unverified
+zil	noun	36274	hasır otu | kamış	speck | splinter		unverified
+çir	adj	36352	damla | akın	intensive | sticky	zähflüssig | viskos	unverified
+şiv	noun	36475	çelik | çubuk	cudgel, stick, club | branch, bough	Ast | Grashalm	unverified
+hût	noun	36600	balina | dev	whale	Wal	unverified
+teq	noun	36626	küt | tak	bang	Bersten	unverified
+lep	noun	36729	pati | ayak	paw	Pfote	unverified
+sik	adj	37256	çirkin | gudubet	disgusting | nefarious	hässlich	unverified
+vac	noun	37289	fonem | mantık			unverified
+wez	noun	37294	esim | nefha			unverified
+dox	noun	37374	belâ | kıyıntı	shaft | drawbar	Deichsel | Stiel	unverified
+hol	adj	37418	çardak | hol		Halle | Hausflur	unverified
+kuş	noun	37446	osuruk | yellenme	fart	Furz | Fürze	unverified
+rêv	noun	37914	kasık kılı | kasık kılları	pubic hair | crotch hair	Schamhaar	unverified
+çûr	adj	38024	kıvırcık | kumral	auburn | angora goat	blond | dunkelblond	unverified
+bum	noun	38143	baykuş	owl	Eule | Schleiereule	unverified
+bêş	noun	38152	baç | bide	gift | donation		unverified
+fin	noun	38291	yavru			unverified
+gut	noun	38339	damla hastalığı			unverified
+loq	noun	38466	topak | yumru	dollop | lump	Brotschnitte	unverified
+haj	noun	39636	bilgi | haber	watch out | care		unverified
+kaf	noun	39793	kafa			unverified
+kot	adj	39885	kör | kemiklerin yuvarlak ucu	dull		unverified
+nam	noun	40125	nam			unverified
+nox	adv	40187	gece			unverified
+qer	noun	40380	kara | adósság	debt | microloan	Schuld | Darlehen	unverified
+tik	noun	40726	tik			unverified
+axû	noun	41357	zehir | ağı	poison	Gift | Giftstoff	unverified
+baq	noun	41434	tutam | bacak	bunch | cluster	Strauß | Garbe	unverified
+caş	noun	42020	kulun | yavru	hireling | mercenariness		unverified
+ehl	noun	42835	ehil		Angehörige	unverified
+elk	name	42865	Beytüşebap			unverified
+eyb	noun	42992	ayıp | özür	shame | reproach	Scham | anrüchig	unverified
+gûn	noun	43396	bet | beniz			unverified
+hoy	noun	43703	koşul | saik	reason | factor	Bedingung	unverified
+hut	noun	43736	höt | yeti	gum		unverified
+hêm	noun	43751	rutubet | nem	humidity | dampness	Luftfeuchte | Luftfeuchtigkeit	unverified
+kam	noun	43945	dilek | düven	threshing sledge, threshing board | aspiration		unverified
+lam	noun	44376	çene | pençe	mandible | jawbone	Kinn	unverified
+lec	noun	44402	rekabet | yarışma	rivalry | antagonism	Rivalität | Konkurrenz	unverified
+lûf	noun	44544	sünger | lif	cleaning | sponge		unverified
+mes	noun	44723	edik			unverified
+pes	adj	45526	pes | pest	bass		unverified
+pêr	adv	45721	dünden önceki gün | önceki gün	day before yesterday | ereyesterday	Vorgestern | vor zwei Tagen	unverified
+pêç	noun	45747	bağ | bandaj	aponeurosis | bandage	Weilchen | kêlî)	unverified
+qar	noun	45849	defne | kakalama	remaining | settling		unverified
+raq	noun	46017	kola			unverified
+taq	noun	46775	çatı | kat	crevasse	Nische	unverified
+zên	noun	47705	bellem | dimağ	mind	Geist	unverified
+çim	noun	47761	uç	curb	Ableger | Ast	unverified
+çîl	adj	47797	semer sapı | dal	white		unverified
+êpê	adj	47811	bir hayli			unverified
+îma	noun	47844	ima | işaretleme	allusion | hint	Allusion | Andeutung	unverified
+şat	noun	47956	felç	paralysed		unverified
+şeq	noun	47976	ağ | dokuma tezgahı	crotch | prong	gabelung | Bein	unverified
+lak	noun	48202	köpek maması | vıcık	dog food	Hundefutter	unverified
+mox	noun	48323	ilik	bone | marrow		unverified
+feq	noun	48363	tuzak | kapan	pitfall | booby-trap	Falle | Netz	unverified
+tok	noun	48400	gerdanlık | kolye	necklace | tomentose	Halskette	unverified
+dax	noun	48428	esef | en	brand | cauterization	Brandmal | Ätzen	unverified
+gam	noun	48861	ıskala			unverified
+ido	noun	49650	ido	ido	ido	unverified

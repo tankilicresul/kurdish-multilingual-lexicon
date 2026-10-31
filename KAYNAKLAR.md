@@ -8,6 +8,7 @@
 | İngilizce Wiktionary, en.wiktionary.org, kaikki.org üzerinden | Northern Kurdish, Central Kurdish, Zazaki maddelerinin İngilizce anlamları | CC BY-SA 4.0 / GFDL |
 | Türkçe Vikisözlük, tr.wiktionary.org, kaikki.org üzerinden | Kürtçe/Zazaca maddelerin Türkçe anlamları; Türkçe maddelerin Kürtçe çevirileri | CC BY-SA 4.0 / GFDL |
 | Almanca Vikisözlük, de.wiktionary.org, kaikki.org üzerinden | Almanca maddelerin Kurmandschi/Sorani/Zazaki/Dimli çevirileri; Kürtçe maddelerin Almanca anlamları | CC BY-SA 4.0 / GFDL |
+| Vikipedi dökümleri: ku, ckb, diq (dumps.wikimedia.org, 1 Ekim 2026) | Kelime sıklığı (yalnızca sayımlar, metin dağıtılmaz) | CC BY-SA 4.0 |
 | Wiktextract (Tatu Ylonen) | Vikisözlük dökümlerini yapılandırılmış veriye çeviren araç | Kod MIT; veri kaynağın lisansında |
 
 kaikki.org: https://kaikki.org/dictionary/rawdata.html

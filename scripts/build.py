@@ -34,6 +34,10 @@ BAD = re.compile(r'[\[\]{}<>|=#]|https?:')
 # grammatical-form explanations are not translations
 FORM = re.compile(r'çekimi|sözcüğünün|form of|plural of|Form von|Plural von|rewşa |formeke ', re.I)
 
+# Kurdish-language definitions that are not words ("a boy's name", "a surname", ...)
+NOTWORD = re.compile(r'\b(Nav[eê]k[îi]?|Paşnav|Navê|Nav[eê]\s)|\s(e|ye)$|,')
+def is_word(w): return ok_word(w) and not NOTWORD.search(w)
+
 def script_of(w): return 'arab' if ARABIC.search(w) else 'latn'
 def norm(s):
     s = re.sub(r'\s+', ' ', (s or '').strip()).strip(' ,;:.')
@@ -57,7 +61,7 @@ cross = []     # kmr <-> other varieties
 
 def add(var, ku, pos, tgt_lang, tgt, note, src, url):
     ku, tgt = norm(ku), norm(tgt)
-    if not (var in VAR and tgt_lang in TARGETS and ok_word(ku) and ok_word(tgt, 6)):
+    if not (var in VAR and tgt_lang in TARGETS and is_word(ku) and ok_word(tgt, 6)):
         return
     rows.append(dict(kurdish=ku, variety=var, script=script_of(ku), pos=pos or '', lang=tgt_lang,
                      translation=tgt, sense=norm(note)[:120], source=src, source_url=url,
@@ -153,7 +157,7 @@ xs = collections.OrderedDict()
 for c in cross:
     k = (c['kmr'].lower(), c['variety'], c['word'].lower())
     xs.setdefault(k, c)
-cross = list(xs.values())
+cross = [c for c in xs.values() if is_word(c['kmr']) and is_word(c['word'])]
 
 # ---- write ----
 cols = ['kurdish', 'variety', 'script', 'pos', 'lang', 'translation', 'sense', 'sources_agree', 'source', 'source_url', 'review_status']

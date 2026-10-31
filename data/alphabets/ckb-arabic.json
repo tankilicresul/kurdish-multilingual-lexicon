@@ -1,0 +1,150 @@
+{
+ "variety": "ckb",
+ "name": "Soranî – Kurdish Arabic-based alphabet",
+ "script": "Arab",
+ "direction": "rtl",
+ "note": "Draft. IPA values are approximate and must be reviewed by a linguist. / Taslak: IPA değerleri yaklaşıktır, dilbilimci kontrolü gerekir. Latin column shows a common transliteration (Hawar-like), not an official standard.",
+ "letters": [
+  {
+   "letter": "ئ",
+   "latin": "glottal onset (vowel carrier)"
+  },
+  {
+   "letter": "ا",
+   "latin": "a"
+  },
+  {
+   "letter": "ب",
+   "latin": "b"
+  },
+  {
+   "letter": "پ",
+   "latin": "p"
+  },
+  {
+   "letter": "ت",
+   "latin": "t"
+  },
+  {
+   "letter": "ج",
+   "latin": "c"
+  },
+  {
+   "letter": "چ",
+   "latin": "ç"
+  },
+  {
+   "letter": "ح",
+   "latin": "ḧ"
+  },
+  {
+   "letter": "خ",
+   "latin": "x"
+  },
+  {
+   "letter": "د",
+   "latin": "d"
+  },
+  {
+   "letter": "ر",
+   "latin": "r"
+  },
+  {
+   "letter": "ڕ",
+   "latin": "ř"
+  },
+  {
+   "letter": "ز",
+   "latin": "z"
+  },
+  {
+   "letter": "ژ",
+   "latin": "j"
+  },
+  {
+   "letter": "س",
+   "latin": "s"
+  },
+  {
+   "letter": "ش",
+   "latin": "ş"
+  },
+  {
+   "letter": "ع",
+   "latin": "'"
+  },
+  {
+   "letter": "غ",
+   "latin": "ẍ"
+  },
+  {
+   "letter": "ف",
+   "latin": "f"
+  },
+  {
+   "letter": "ڤ",
+   "latin": "v"
+  },
+  {
+   "letter": "ق",
+   "latin": "q"
+  },
+  {
+   "letter": "ک",
+   "latin": "k"
+  },
+  {
+   "letter": "گ",
+   "latin": "g"
+  },
+  {
+   "letter": "ل",
+   "latin": "l"
+  },
+  {
+   "letter": "ڵ",
+   "latin": "ł"
+  },
+  {
+   "letter": "م",
+   "latin": "m"
+  },
+  {
+   "letter": "ن",
+   "latin": "n"
+  },
+  {
+   "letter": "ھ",
+   "latin": "h"
+  },
+  {
+   "letter": "ە",
+   "latin": "e"
+  },
+  {
+   "letter": "و",
+   "latin": "w / u"
+  },
+  {
+   "letter": "وو",
+   "latin": "û"
+  },
+  {
+   "letter": "ۆ",
+   "latin": "o"
+  },
+  {
+   "letter": "ی",
+   "latin": "y / î"
+  },
+  {
+   "letter": "ێ",
+   "latin": "ê"
+  }
+ ],
+ "tips": [
+  "Use dir=\"rtl\" and a font with Kurdish letters (e.g. Noto Naskh Arabic, Noto Sans Arabic, Vazirmatn).",
+  "Vowels are written (unlike Arabic).",
+  "Different code points look alike: ک (U+06A9) vs ك (U+0643), ی (U+06CC) vs ي (U+064A), ھ (U+06BE) vs ه (U+0647). Normalize before comparing."
+ ]
+}

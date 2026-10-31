@@ -1,0 +1,15 @@
+name: "Yeni kaynak önerisi / New source"
+description: "Açık lisanslı bir sözlük, derlem ya da kelime listesi öner"
+labels: ["kaynak", "source"]
+body:
+  - type: input
+    id: url
+    attributes: { label: "Bağlantı / URL" }
+    validations: { required: true }
+  - type: input
+    id: license
+    attributes: { label: "Lisans / License", placeholder: "CC BY-SA 4.0, CC0, MIT ..." }
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes: { label: "Ne içeriyor? / What does it contain?" }

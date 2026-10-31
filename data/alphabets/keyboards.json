@@ -1,0 +1,147 @@
+{
+ "note": "On-screen keyboard layouts for games/apps. Draft – test with native speakers.",
+ "kmr": {
+  "direction": "ltr",
+  "rows": [
+   [
+    "q",
+    "w",
+    "e",
+    "r",
+    "t",
+    "y",
+    "u",
+    "i",
+    "o",
+    "p",
+    "ê",
+    "î",
+    "û"
+   ],
+   [
+    "a",
+    "s",
+    "d",
+    "f",
+    "g",
+    "h",
+    "j",
+    "k",
+    "l",
+    "ş"
+   ],
+   [
+    "z",
+    "x",
+    "c",
+    "v",
+    "b",
+    "n",
+    "m",
+    "ç"
+   ]
+  ],
+  "special": [
+   "⌫",
+   "↵"
+  ],
+  "note": "QWERTY-based; all 31 Hawar letters reachable without long-press."
+ },
+ "zza": {
+  "direction": "ltr",
+  "rows": [
+   [
+    "q",
+    "w",
+    "e",
+    "r",
+    "t",
+    "y",
+    "u",
+    "ı",
+    "i",
+    "o",
+    "p",
+    "ê",
+    "î",
+    "û"
+   ],
+   [
+    "a",
+    "s",
+    "d",
+    "f",
+    "g",
+    "ğ",
+    "h",
+    "j",
+    "k",
+    "l",
+    "ş"
+   ],
+   [
+    "z",
+    "x",
+    "c",
+    "v",
+    "b",
+    "n",
+    "m",
+    "ç"
+   ]
+  ],
+  "special": [
+   "⌫",
+   "↵"
+  ]
+ },
+ "ckb": {
+  "direction": "rtl",
+  "rows": [
+   [
+    "ق",
+    "و",
+    "ە",
+    "ر",
+    "ت",
+    "ی",
+    "ئ",
+    "ح",
+    "ۆ",
+    "پ"
+   ],
+   [
+    "ا",
+    "س",
+    "د",
+    "ف",
+    "گ",
+    "ھ",
+    "ژ",
+    "ک",
+    "ل",
+    "ڵ"
+   ],
+   [
+    "ز",
+    "خ",
+    "ج",
+    "ڤ",
+    "ب",
+    "ن",
+    "م",
+    "چ",
+    "ش",
+    "ێ",
+    "ڕ",
+    "ع",
+    "غ"
+   ]
+  ],
+  "special": [
+   "⌫",
+   "↵"
+  ],
+  "note": "Simplified layout for games; does not follow an official standard."
+ }
+}

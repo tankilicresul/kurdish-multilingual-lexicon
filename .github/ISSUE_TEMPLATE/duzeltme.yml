@@ -1,0 +1,30 @@
+name: "Düzeltme / Correction / Rastkirin"
+description: "Yanlış ya da eksik bir kelime çiftini bildir"
+labels: ["düzeltme", "correction"]
+body:
+  - type: input
+    id: file
+    attributes: { label: "Dosya / File", placeholder: "data/core/kmr-tr.core.tsv" }
+    validations: { required: true }
+  - type: input
+    id: kurdish
+    attributes: { label: "Kürtçe kelime / Kurdish word / Peyva kurdî", placeholder: "pisîk" }
+    validations: { required: true }
+  - type: dropdown
+    id: variety
+    attributes:
+      label: "Lehçe / Variety / Zarava"
+      options: ["Kurmancî (kmr)", "Soranî (ckb)", "Güney Kürtçesi (sdh)", "Zazakî (zza)", "Goranî/Hewramî (hac)"]
+    validations: { required: true }
+  - type: textarea
+    id: problem
+    attributes: { label: "Sorun ne? / What is wrong?", placeholder: "pisîk → 'şeytan arabası' yanlış; doğrusu 'kedi'" }
+    validations: { required: true }
+  - type: dropdown
+    id: native
+    attributes:
+      label: "Bu lehçenin anadil konuşucusu musunuz? / Native speaker?"
+      options: ["Evet / Yes / Erê", "Hayır / No / Na"]
+  - type: input
+    id: source
+    attributes: { label: "Kaynak (varsa) / Source (optional)", placeholder: "Sözlük adı, sayfa ya da bağlantı" }

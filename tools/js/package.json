@@ -1,0 +1,8 @@
+{
+  "name": "kurdi",
+  "version": "0.1.0",
+  "description": "Kurdish (Kurmanci) text helpers: case mapping, typing fixes, Hawar alphabet sorting",
+  "type": "module",
+  "main": "kurdi.js",
+  "license": "MIT"
+}

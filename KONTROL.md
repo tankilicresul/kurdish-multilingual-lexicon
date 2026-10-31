@@ -7,11 +7,13 @@ Bu depodaki veri **otomatik** derlendi. Kullanıma açılmadan önce anadil konu
 - Hedef dil (Türkçe / İngilizce / Almanca) için o dili iyi bilen biri.
 - Tarih belgeleri için Kürt dili ve edebiyatı alanında akademik geçmişi olan biri.
 
-## Nereden başlanır?
-1. `data/core/kmr-tr.core.tsv` (5.523 satır, iki kaynağın onayladığı çiftler)
-2. `data/core/kmr-en.core.tsv` ve `kmr-de.core.tsv`
-3. `data/cross-dialect.tsv` (lehçeler arası eşleşmeler)
-4. Diğer dosyalar
+## Nereden başlanır? (önem sırasıyla)
+1. `data/themes/` (263 temel kavram, 4 lehçe): en çok kullanılacak, en hızlı kontrol edilecek liste
+2. `data/learner/kmr-top3000.tsv` (en sık 3.000 kelime)
+3. `data/games/kmr-5-harf.tsv` (kelime oyunları)
+4. `data/core/kmr-tr.core.tsv` (5.519 satır, iki kaynağın onayladığı çiftler), ardından `-en` ve `-de`
+5. `data/cross-dialect.tsv` (lehçeler arası eşleşmeler)
+6. Diğer dosyalar
 
 ## Nasıl işaretlenir?
 `review_status` sütunu şu değerlerden birini alır:
@@ -38,6 +40,10 @@ Bu depodaki veri **otomatik** derlendi. Kullanıma açılmadan önce anadil konu
 
 | Dosya | Kontrol eden | Durum |
 |---|---|---|
+| data/themes/*.tsv | — | Başlanmadı |
+| data/learner/kmr-top3000.tsv | — | Başlanmadı |
+| data/games/kmr-5-harf.tsv | — | Başlanmadı |
+| data/alphabets/*.json | — | Başlanmadı |
 | data/core/kmr-tr.core.tsv | — | Başlanmadı |
 | data/core/kmr-en.core.tsv | — | Başlanmadı |
 | data/core/kmr-de.core.tsv | — | Başlanmadı |
@@ -45,3 +51,5 @@ Bu depodaki veri **otomatik** derlendi. Kullanıma açılmadan önce anadil konu
 | docs/tarih.md | — | Başlanmadı |
 | docs/lehceler.md | — | Başlanmadı |
 | docs/alfabeler.md | — | Başlanmadı |
+| docs/oyun-gelistirici-rehberi.md | — | Başlanmadı |
+| README.ku.md, README.de.md | — | Başlanmadı (çeviriler anadil kontrolü bekliyor) |

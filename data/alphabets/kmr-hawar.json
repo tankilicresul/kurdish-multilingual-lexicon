@@ -1,0 +1,172 @@
+{
+ "variety": "kmr",
+ "name": "Kurmancî – Hawar alphabet",
+ "script": "Latn",
+ "direction": "ltr",
+ "note": "Draft. IPA values are approximate and must be reviewed by a linguist. / Taslak: IPA değerleri yaklaşıktır, dilbilimci kontrolü gerekir.",
+ "letters": [
+  {
+   "lower": "a",
+   "upper": "A",
+   "ipa": "aː"
+  },
+  {
+   "lower": "b",
+   "upper": "B",
+   "ipa": "b"
+  },
+  {
+   "lower": "c",
+   "upper": "C",
+   "ipa": "d͡ʒ"
+  },
+  {
+   "lower": "ç",
+   "upper": "Ç",
+   "ipa": "t͡ʃ"
+  },
+  {
+   "lower": "d",
+   "upper": "D",
+   "ipa": "d"
+  },
+  {
+   "lower": "e",
+   "upper": "E",
+   "ipa": "ɛ"
+  },
+  {
+   "lower": "ê",
+   "upper": "Ê",
+   "ipa": "eː"
+  },
+  {
+   "lower": "f",
+   "upper": "F",
+   "ipa": "f"
+  },
+  {
+   "lower": "g",
+   "upper": "G",
+   "ipa": "ɡ"
+  },
+  {
+   "lower": "h",
+   "upper": "H",
+   "ipa": "h"
+  },
+  {
+   "lower": "i",
+   "upper": "I",
+   "ipa": "ɪ"
+  },
+  {
+   "lower": "î",
+   "upper": "Î",
+   "ipa": "iː"
+  },
+  {
+   "lower": "j",
+   "upper": "J",
+   "ipa": "ʒ"
+  },
+  {
+   "lower": "k",
+   "upper": "K",
+   "ipa": "k"
+  },
+  {
+   "lower": "l",
+   "upper": "L",
+   "ipa": "l"
+  },
+  {
+   "lower": "m",
+   "upper": "M",
+   "ipa": "m"
+  },
+  {
+   "lower": "n",
+   "upper": "N",
+   "ipa": "n"
+  },
+  {
+   "lower": "o",
+   "upper": "O",
+   "ipa": "oː"
+  },
+  {
+   "lower": "p",
+   "upper": "P",
+   "ipa": "p"
+  },
+  {
+   "lower": "q",
+   "upper": "Q",
+   "ipa": "q"
+  },
+  {
+   "lower": "r",
+   "upper": "R",
+   "ipa": "ɾ"
+  },
+  {
+   "lower": "s",
+   "upper": "S",
+   "ipa": "s"
+  },
+  {
+   "lower": "ş",
+   "upper": "Ş",
+   "ipa": "ʃ"
+  },
+  {
+   "lower": "t",
+   "upper": "T",
+   "ipa": "t"
+  },
+  {
+   "lower": "u",
+   "upper": "U",
+   "ipa": "ʊ"
+  },
+  {
+   "lower": "û",
+   "upper": "Û",
+   "ipa": "uː"
+  },
+  {
+   "lower": "v",
+   "upper": "V",
+   "ipa": "v"
+  },
+  {
+   "lower": "w",
+   "upper": "W",
+   "ipa": "w"
+  },
+  {
+   "lower": "x",
+   "upper": "X",
+   "ipa": "x"
+  },
+  {
+   "lower": "y",
+   "upper": "Y",
+   "ipa": "j"
+  },
+  {
+   "lower": "z",
+   "upper": "Z",
+   "ipa": "z"
+  }
+ ],
+ "casing_rule": "i <-> I and î <-> Î (never Turkish İ/ı)",
+ "not_in_alphabet": [
+  "ğ",
+  "ı",
+  "ö",
+  "ü",
+  "é"
+ ]
+}
